@@ -6,8 +6,7 @@ var rename = require('gulp-rename');
 var rimraf = require('gulp-rimraf');
 var imagemin = require('gulp-imagemin');
 var header = require('gulp-header');
-var exec = require('child_process').exec;
-
+var resume = require('gulp-resume');
 
 var paths = {
   JS: [
@@ -45,17 +44,15 @@ gulp.task('images', function() {
     .pipe(gulp.dest('assets/images'));
 });
 
-gulp.task('resume', function(cb) {
-  exec('resume export -t elegant -f html resume', function(err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
-
-    gulp.src('resume.html')
-      .pipe(header('---\n---\n'))
-      .pipe(gulp.dest('.'));
-
-    cb(err);
-  });
+gulp.task('resume', function() {
+  return gulp.src('resume.json')
+    .pipe(resume({
+      format: 'html',
+      theme: 'elegant'
+    }))
+    .pipe(header('---\n---\n'))
+    .pipe(rename('resume.html'))
+    .pipe(gulp.dest('.'));
 });
 
 gulp.task('clean', function() {
