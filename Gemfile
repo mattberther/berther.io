@@ -9,3 +9,5 @@ gem 's3_website'
 gem 'redcarpet'
 gem 'google-api-client'
 gem 'dotenv'
+
+gem 'thor', group: :development

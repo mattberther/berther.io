@@ -125,6 +125,7 @@ DEPENDENCIES
   octopress (~> 3.0.0.rc.12)
   redcarpet
   s3_website
+  thor
 
 BUNDLED WITH
    1.11.2
