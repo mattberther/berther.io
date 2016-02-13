@@ -1,0 +1,17 @@
+# Site navigation links
+
+- title: Home
+  url: /
+
+- title: Archives
+  url: /archives
+
+- title: Most Popular
+  url: /most_popular
+
+- title: About
+  url: /about
+
+- title: Resumé
+  url: /resume
+  new_window: true

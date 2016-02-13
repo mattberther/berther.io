@@ -1,0 +1,231 @@
+<%@ CodeTemplate Language="C#" TargetLanguage="Text" Description="Template description here." %>
+<%@ Property Name="ClassNamespace" Type="System.String" Optional="True" Category="Context" Description="The namespace that the generated class will be a member of." %>
+<%@ Property Name="ItemType" Type="System.String" Category="Context" Description="The type to use as an item in the collection." %>
+<%@ Property Name="ClassName" Type="System.String" Category="Context" Description="The name of the class to be generated." %>
+<%@ Property Name="Accessibility" Type="AccessibilityEnum" Category="Options" Description="The accessibility of the class to be generated." %>
+<%@ Property Name="GenerateDocumentation" Type="System.Boolean" Default="True" Category="Options" Description="Wether or not to include class documentation." %>
+using System;
+using System.Collections;
+
+<% if (ClassNamespace != null && ClassNamespace.Length > 0) { %>
+namespace <%= ClassNamespace %>
+{
+<% } %>
+    <% if (GenerateDocumentation) { %>
+    /// <summary>
+    ///     A strongly-typed collection of <see cref="<%= ItemType %>"/> objects.
+    /// </summary>
+    <% } %>
+    [Serializable]
+    <%=GetAccessModifier(Accessibility)%> class <%= ClassName %> : CollectionBase
+    {
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Initializes a new instance of the <c><%= ClassName %></c> class
+        ///     that is empty and has the default initial capacity.
+        /// </summary>
+        <% } %>    
+        public <%= ClassName %>()
+        {
+        }
+        
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Initializes a new instance of the <c><%= ClassName %></c> class
+        ///     that contains elements copied from the specified <c><%= ClassName %></c>.
+        /// </summary>
+        /// <param name="c">The <c><%= ClassName %></c> whose elements are copied to the new collection.</param>
+        <% } %>        
+        public <%= ClassName %>(<%= ClassName %> c)
+        {
+          this.InnerList.AddRange(c);
+        }
+ 
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Gets or sets the <see cref="<%= ItemType %>"/> at the specified index.
+        /// </summary>
+        /// <param name="index">The zero-based index of the element to get or set.</param>
+        /// <exception cref="ArgumentOutOfRangeException">
+        ///     <para><paramref name="index"/> is less than zero</para>
+        ///     <para>-or-</para>
+        ///     <para><paramref name="index"/> is equal to or greater than <see cref="CollectionBase.Count"/>.</para>
+        /// </exception>
+        <% } %> 
+        public <%= ItemType %> this[int index]
+        {
+            get { return (<%= ItemType %>)List[index]; }
+            set { List[index] = value; }
+        }
+ 
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Adds a <see cref="<%= ItemType %>"/> to the end of the <c><%= ClassName %></c>.
+        /// </summary>
+        /// <param name="item">The <see cref="<%= ItemType %>"/> to be added to the end of the <c><%= ClassName %></c>.</param>
+        /// <returns>The index at which the value has been added.</returns>
+        <% } %> 
+        public virtual int Add(<%= ItemType %> item)
+        {
+            return List.Add(item);
+        }
+        
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Inserts an element into the <c><%= ClassName %></c> at the specified index.
+        /// </summary>
+        /// <param name="index">The zero-based index at which <paramref name="item"/> should be inserted.</param>
+        /// <param name="item">The <see cref="<%= ItemType %>"/> to insert.</param>
+        /// <exception cref="ArgumentOutOfRangeException">
+        ///     <para><paramref name="index"/> is less than zero</para>
+        ///     <para>-or-</para>
+        ///     <para><paramref name="index"/> is equal to or greater than <see cref="CollectionBase.Count"/>.</para>
+        /// </exception>
+        <% } %>        
+        public virtual void Insert(int index, <%= ItemType %> item)
+        {
+            List.Insert(index, item);
+        }
+        
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Removes the first occurrence of a specific <see cref="<%= ItemType %>"/> from the <c><%= ClassName %></c>.
+        /// </summary>
+        /// <param name="item">The <see cref="<%= ItemType %>"/> to remove from the <c><%= ClassName %></c>.</param>
+        /// <exception cref="ArgumentException">
+        ///     The specified <see cref="<%= ItemType %>"/> was not found in the <c><%= ClassName %></c>.
+        /// </exception>
+        <% } %> 
+        public virtual void Remove(<%= ItemType %> item)
+        {
+            List.Remove(item);
+        }
+
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Determines whether a given <see cref="<%= ItemType %>"/> is in the <c><%= ClassName %></c>.
+        /// </summary>
+        /// <param name="item">The <see cref="<%= ItemType %>"/> to check for.</param>
+        /// <returns><c>true</c> if <paramref name="item"/> is found in the <c><%= ClassName %></c>; otherwise, <c>false</c>.</returns>
+        <% } %>     
+        public bool Contains(<%= ItemType %> item)
+        {
+            return List.Contains(item);
+        }
+
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Returns the zero-based index of the first occurrence of a <see cref="<%= ItemType %>"/>
+        ///     in the <c><%= ClassName %></c>.
+        /// </summary>
+        /// <param name="item">The <see cref="<%= ItemType %>"/> to locate in the <c><%= ClassName %></c>.</param>
+        /// <returns>
+        ///     The zero-based index of the first occurrence of <paramref name="item"/> 
+        ///     in the entire <c><%= ClassName %></c>, if found; otherwise, -1.
+        /// </returns>
+        <% } %>
+        public int IndexOf(<%= ItemType %> item)
+        {
+            return List.IndexOf(item);
+        }
+ 
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Copies the entire <c><%= ClassName %></c> to a one-dimensional
+        ///     <see cref="<%= ItemType %>"/> array.
+        /// </summary>
+        /// <param name="array">The one-dimensional <see cref="<%= ItemType %>"/> array to copy to.</param>
+        /// <param name="index">The index in <paramref name="array"/> at which copying begins.</param>
+        <% } %>
+        public void CopyTo(<%= ItemType %>[] array, int index)
+        {
+            List.CopyTo(array, index);  
+        }
+        
+        <% if (GenerateDocumentation) { %>
+        /// <summary>
+        ///     Creates a read-only wrapper for a 
+        ///     <c><%= ClassName %></c> instance.
+        /// </summary>
+        /// <returns>
+        ///     An <c><%= ClassName %></c> wrapper that is read-only.
+        /// </returns>
+        <% } %> 
+        public static <%= ClassName %> ReadOnly(<%= ClassName %> coll)
+        {
+            return new <%= ClassName %>.ReadOnly<%= ClassName %>(coll);
+        }
+ 
+        protected override void OnValidate(object value)
+        {
+            base.OnValidate(value);
+            if (!(value is <%= ItemType %>))
+            {
+                throw new ArgumentException("Collection only supports <%= ItemType %> objects.");
+            }
+        }
+ 
+        #region ReadOnly<%= ClassName %>
+        private sealed class ReadOnly<%= ClassName %> : <%= ClassName %>
+        {
+            private const string ERROR_STRING = "Collection is read-only.";
+            
+            internal ReadOnly<%= ClassName %>(<%= ClassName %> coll) : base(coll)
+            {
+            }
+            
+            public override int Add(<%= ItemType %> value)
+            {
+                throw new NotSupportedException(ERROR_STRING);
+            }
+            
+            public override void Remove(<%= ItemType %> value)
+            {
+                throw new NotSupportedException(ERROR_STRING);
+            }
+            
+            protected override void OnClear()
+            {
+                throw new NotSupportedException(ERROR_STRING);
+            }
+            
+            protected override void OnInsert(int index, object value)
+            {
+                throw new NotSupportedException(ERROR_STRING);
+            }
+            
+            protected override void OnRemove(int index, object value)
+            {
+                throw new NotSupportedException(ERROR_STRING);
+            }
+            
+            protected override void OnSet(int index, object oldValue, object newValue)
+            {
+                throw new NotSupportedException(ERROR_STRING);
+            }
+        }
+        #endregion
+    }
+<% if (ClassNamespace != null && ClassNamespace.Length > 0) { %>
+}
+<% } %>
+<script runat="template">
+public enum AccessibilityEnum {
+    Public,
+    Protected,
+    Internal,
+    ProtectedInternal,
+    Private
+}
+
+public string GetAccessModifier(AccessibilityEnum accessibility) {
+    switch (accessibility) {
+        case AccessibilityEnum.Public:            return "public";
+        case AccessibilityEnum.Protected:         return "protected";
+        case AccessibilityEnum.Internal:          return "internal";
+        case AccessibilityEnum.ProtectedInternal: return "protected internal";
+        case AccessibilityEnum.Private:           return "private";
+        default:                                  return "public";
+    }
+}
+</script>

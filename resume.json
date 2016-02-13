@@ -1,0 +1,89 @@
+{
+  "basics": {
+    "name": "Matt Berther",
+    "label": "Director, Software Engineering",
+    "picture": "",
+    "email": "matt@berther.io",
+    "phone": "208.863.3287",
+    "website": "https://matt.berther.io",
+    "summary": "Matt hails from Boise by way of Truckee, CA. He has been working in health information technology for 15 years. His work focuses leading and building successful software development teams. He has a strong passion for technology and lifelong learning. Though his work focuses on building successful teams, when Matt is not at work, he prefers the solitude of fishing a mountain stream.",
+    "location": {
+      "address": "4769 S Corbari Pl",
+      "postalCode": "83709",
+      "city": "Boise",
+      "countryCode": "US",
+      "region": "Idaho"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "mattberther",
+        "url": "http://twitter.com/mattberther"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mattberther",
+        "url": "http://www.linkedin.com/in/mattberther"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Healthwise",
+      "position": "Director, Software Engineering",
+      "website": "http://www.healthwise.org",
+      "startDate": "2003-02-24",
+      "summary": "Healthwise is a content and technology organtization that endeavors to deliver health information that people use to make better health decisions - at the moment that they need that information.",
+      "highlights": [
+        "Created a culture of software craftsmanship",
+        "Led cloud migration strategy resulting in 99.99% uptime SLA",
+        "Guided team towards more frequent deployments that helped clients realize new functionality sooner",
+        "Built partnership with near-shore firm to augment development capacity"
+      ]
+    },
+    {
+      "company": "HealthCast, LLC",
+      "position": "Senior Software Engineer",
+      "website": "http://www.gohealthcast.com",
+      "startDate": "1999-04-01",
+      "endDate": "2003-02-24",
+      "summary": "HealthCast provides secure access and unparalleled speed to EHRs, virtual, and clinical desktops to allow users immediate re-access to their work at any computer – all critical for successful clinician adoption of EHRs, CPOE, and electronic patient documentation.",
+      "highlights": [
+        "Led custom development team devoted to organization's largest client, increasing revenue by 30% to $1.2 million annually",
+        "Taught several \"brown bag\" lunch courses attended by members of both development and management teams, covering Java programming, the .NET framework, and design patterns",
+        "Implemented team code review processes, improving team members' understanding of the entire system and expanding their knowledge to include new or unfamiliar technologies"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Agile Development Techniques",
+      "level": "master",
+      "keywords": [
+        "Continuous Delivery",
+        "Kanban",
+        "Team Building"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "advanced",
+      "keywords": [
+        "Microsoft ASP.NET",
+        "Ruby/Ruby on Rails",
+        "TDD"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Phoenix",
+      "area": "Business/Information Systems",
+      "studyType": "Bachelor",
+      "startDate": "2007-04-08",
+      "endDate": "2011-07-02",
+      "gpa": "3.99",
+      "courses": []
+    }
+  ]
+}

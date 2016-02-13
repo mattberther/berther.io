@@ -1,0 +1,293 @@
+<%@ CodeTemplate Language="VB" TargetLanguage="VB" Description="Template description here." %>
+<%@ Property Name="ClassNamespace" Type="System.String" Optional="True" Category="Context" Description="The namespace that the generated class will be a member of." %>
+<%@ Property Name="ItemType" Type="System.String" Category="Context" Description="The type to use as an item in the collection." %>
+<%@ Property Name="ClassName" Type="System.String" Category="Context" Description="The name of the class to be generated." %>
+<%@ Property Name="Accessibility" Type="AccessibilityEnum" Category="Options" Description="The accessibility of the class to be generated." %>
+<%@ Property Name="GenerateDocumentation" Type="System.Boolean" Default="True" Category="Options" Description="Wether or not to include class documentation." %>
+Option Strict On
+Option Explicit On
+Imports System
+Imports System.Collections
+
+<% 
+	If Not ClassNamespace Is Nothing AndAlso ClassNamespace.Length > 0 Then
+%>
+	Namespace <%=ClassNamespace%>
+<%
+End If
+%>
+	
+<% 
+	If GenerateDocumentation  Then
+%>
+    	''' <summary>
+    	'''     A strongly-typed collection of <see cref="<%= ItemType %>"/> objects.
+    	''' </summary>
+<%
+    	End If 
+%>
+	<Serializable()><%=GetAccessModifier(Accessibility)%> Class <%= ClassName %> 
+	Inherits CollectionBase
+    
+      <% 
+		If GenerateDocumentation Then
+	%>
+        ''' <summary>
+        '''     Initializes a new instance of the <c><%= ClassName %></c> class
+        '''     that is empty and has the default initial capacity.
+        ''' </summary>
+      <%
+		End If
+	%>    
+      Public Sub New()
+	
+	End Sub
+      <% 
+		If GenerateDocumentation Then
+	%>
+        ''' <summary>
+        '''     Initializes a new instance of the <c><%= ClassName %></c> class
+        '''     that contains elements copied from the specified <c><%= ClassName %></c>.
+        ''' </summary>
+        ''' <param name="c">The <c><%= ClassName %></c> whose elements are copied to the new collection.</param>
+      <%
+		End If
+	%>  
+      
+	Public Sub New(ByVal c As <%= ClassName %>)
+      	Me.InnerList.AddRange(c)
+      End Sub
+ 
+      <%
+		If GenerateDocumentation 
+	%>
+        ''' <summary>
+        '''     Gets or sets the <see cref="<%= ItemType %>"/> at the specified index.
+        ''' </summary>
+        ''' <param name="index">The zero-based index of the element to get or set.</param>
+        ''' <exception cref="ArgumentOutOfRangeException">
+        '''     <para><paramref name="index"/> is less than zero</para>
+        '''     <para>-or-</para>
+        '''     <para><paramref name="index"/> is equal to or greater than <see cref="<%= ClassName %>.Count"/>.</para>
+        ''' </exception>
+	<%
+		End If
+	%> 
+        
+	Default Public Property <%= ItemType %> (ByVal index As Integer) As <%= ItemType %> 
+	    	Get
+                Return CType(List(index), <%= ItemType %>)
+       	End Get
+            Set(ByVal Value As <%= ItemType %>)
+                List(index) = Value
+            End Set
+      End Property
+
+      <% 
+		If GenerateDocumentation
+	%>
+        ''' <summary>
+        '''     Adds a <see cref="<%= ItemType %>"/> to the end of the <c><%= ClassName %></c>.
+        ''' </summary>
+        ''' <param name="item">The <see cref="<%= ItemType %>"/> to be added to the end of the <c><%= ClassName %></c>.</param>
+        ''' <returns>The index at which the value has been added.</returns>
+      <%
+		End If
+	%> 
+       
+	Public Overridable Function Add(ByVal item As <%= ItemType %>) As Integer
+      	Return List.Add(item)
+      End Function 
+      <%
+		If GenerateDocumentation Then 
+	%>
+        ''' <summary>
+        '''     Inserts an element into the <c><%= ClassName %></c> at the specified index.
+        ''' </summary>
+        ''' <param name="index">The zero-based index at which <paramref name="item"/> should be inserted.</param>
+        ''' <param name="item">The <see cref="<%= ItemType %>"/> to insert.</param>
+        ''' <exception cref="ArgumentOutOfRangeException">
+        '''     <para><paramref name="index"/> is less than zero</para>
+        '''     <para>-or-</para>
+        '''     <para><paramref name="index"/> is equal to or greater than <see cref="<%= ClassName %>.Count"/>.</para>
+        ''' </exception>
+      <%
+		End If
+	%>        
+	
+	Public Overridable Sub Insert(ByVal index As Integer, ByVal item As <%= ItemType %> )
+            List.Insert(index, Item)
+      End Sub
+      <%
+		If GenerateDocumentation Then
+	%>
+        ''' <summary>
+        '''     Removes the first occurrence of a specific <see cref="<%= ItemType %>"/> from the <c><%= ClassName %></c>.
+        ''' </summary>
+        ''' <param name="item">The <see cref="<%= ItemType %>"/> to remove from the <c><%= ClassName %></c>.</param>
+        ''' <exception cref="ArgumentException">
+        '''     The specified <see cref="<%= ItemType %>"/> was not found in the <c><%= ClassName %></c>.
+        ''' </exception>
+      <%
+		End If
+ 	%> 
+
+      Public Overridable Sub Remove(ByVal item As <%= ItemType %>)
+            List.Remove(Item)
+      End Sub  
+	<%
+		If GenerateDocumentation Then
+	%>
+        ''' <summary>
+        '''     Determines whether a given <see cref="<%= ItemType %>"/> is in the <c><%= ClassName %></c>.
+        ''' </summary>
+        ''' <param name="item">The <see cref="<%= ItemType %>"/> to check for.</param>
+        ''' <returns><c>true</c> if <paramref name="item"/> is found in the <c><%= ClassName %></c>; otherwise, <c>false</c>.</returns>
+      <%
+		End If
+	%>     
+      Public Function Contains(ByVal item As <%= ItemType %>) As Boolean
+      	Return List.Contains(Item)
+      End Function
+      <% 
+		If GenerateDocumentation Then 
+	 %>
+        ''' <summary>
+        '''     Returns the zero-based index of the first occurrence of a <see cref="<%= ItemType %>"/>
+        '''     in the <c><%= ClassName %></c>.
+        ''' </summary>
+        ''' <param name="item">The <see cref="<%= ItemType %>"/> to locate in the <c><%= ClassName %></c>.</param>
+        ''' <returns>
+        '''     The zero-based index of the first occurrence of <paramref name="item"/> 
+        '''     in the entire <c><%= ClassName %></c>, if found; otherwise, -1.
+        ''' </returns>
+      <% 
+		End If
+	%>
+     
+	Public Function IndexOf(ByVal item As <%= ItemType %>) As Integer
+            Return List.IndexOf(Item)
+      End Function
+     	<% 
+		If GenerateDocumentation 
+	%>
+        ''' <summary>
+        '''     Copies the entire <c><%= ClassName %></c> to a one-dimensional
+        '''     <see cref="<%= ItemType %>"/> array.
+        ''' </summary>
+        ''' <param name="array">The one-dimensional <see cref="<%= ItemType %>"/> array to copy to.</param>
+	<%
+		End If
+	%>
+
+      Public Sub CopyTo(ByVal Array As <%= ItemType %>(), ByVal index As Integer)
+      	List.CopyTo(Array, index)
+      End Sub
+	
+	<% 
+		If GenerateDocumentation Then
+	%>
+        ''' <summary>
+        '''     Creates a read-only wrapper for a 
+        '''     <c><%= ClassName %></c> instance.
+        ''' </summary>
+        ''' <returns>
+        '''     An <c><%= ClassName %></c> wrapper that is read-only.
+        ''' </returns>
+      <%
+		End If
+	%> 
+	
+      Public Shared Function  ReadOnlyCollection<%= ClassName %>(ByVal coll As <%= ClassName %>) As <%= ClassName %>
+            Return New <%= ClassName %>.ReadOnly<%= ClassName %>(coll)
+      End Sub
+	
+ 	Protected Overrides Sub OnValidate(ByVal value As Object)
+            
+		MyBase.OnValidate(value)
+            If Not (TypeOf(value) Is <%= ItemType %>) Then
+                Throw New ArgumentException("Collection only supports <%= ItemType %> objects.")
+            End If
+
+     	End Sub	
+        
+	#REGION "ReadOnly<%= ClassName %>"
+        
+	Private NotInheritable Class ReadOnly<%= ClassName %>
+      Inherits <%= ClassName %>
+           
+		Private Const ERROR_STRING As String = "Collection is read-only."
+            
+		Friend Sub New(ByVal col1 As <%= ClassName %>)
+			MyBase.New(col1)
+		End Sub
+      	
+		Public Overrides Function Add(ByVal value As <%= ItemType %>) As Integer
+            	Throw New NotSupportedException(ERROR_STRING)
+            End Function
+		    
+            Public Overrides  Sub Remove(ByVal value As <%= ItemType %>)
+            	Throw New NotSupportedException(ERROR_STRING)
+		End Sub
+
+        	Protected Overrides Sub OnClear()
+	          	Throw New NotSupportedException(ERROR_STRING)
+	      End Sub
+
+        	Protected Overrides Sub OnInsert(ByVal index As Integer, ByVal value As Object)
+            	Throw New NotSupportedException(ERROR_STRING)
+        	End Sub
+
+        	Protected Overrides Sub OnRemove(ByVal index As Integer, ByVal value As Object)
+            	Throw New NotSupportedException(ERROR_STRING)
+        	End Sub
+
+        	Protected Overrides Sub OnSet(ByVal index As Integer, ByVal oldValue As Object, ByVal NewValue As Object)
+            	Throw New NotSupportedException(ERROR_STRING)
+        	End Sub
+              
+    
+        End Class
+
+#End Region
+
+    End Class
+<%
+If Not ClassNamespace Is Nothing AndAlso ClassNamespace.Length > 0 Then
+%>
+End NameSpace
+<%
+End If
+%>
+
+<script runat="template">
+Public Enum AccessibilityEnum
+	[Public]
+	[Protected]
+	[Friend]
+	[ProtectedFriend]
+	[Private]
+End Enum
+
+Public Function GetAccessModifier(ByVal Accessibility As AccessibilityEnum) As String
+
+
+            Select Case Accessibility
+
+                Case AccessibilityEnum.Public
+                    Return "Public"
+                Case AccessibilityEnum.Protected
+                    Return "Protected"
+                Case AccessibilityEnum.Friend
+                    Return "Friend"
+                Case AccessibilityEnum.ProtectedFriend
+                    Return "Protected Friend"
+                Case AccessibilityEnum.Private
+                    Return "Private"
+                Case Else
+                    Return "Public"
+
+            End Select
+
+End Function
+</script>

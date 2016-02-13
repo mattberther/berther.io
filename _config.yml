@@ -1,0 +1,55 @@
+# Site wide configuration
+
+title: Matt Berther
+locale: en_US
+description: Musings of an agile development manager and occasional code monkey
+logo: site-logo.png
+search: true
+url: https://matt.berther.io
+
+# Jekyll configuration
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+permalink:   pretty
+markdown:    redcarpet
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+redcarpet:
+  extensions: ['no_intra_emphasis', 'space_after_headers']
+
+include: [".htaccess"]
+exclude: ["*.rb", "*.yml", "lib", "Capfile", "config", "log", "Rakefile", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor", "assets/site-logo.pxm", "keyfile.p12", "analytics-v3.cache", "resume.json"]
+
+
+# Site owner
+owner:
+  name: Matt Berther
+  avatar: avatar.png
+  email: matt@berther.io
+  disqus-shortname: mattberther
+  twitter: mattberther
+  facebook:
+  github: mattberther
+  stackexchange: http://stackoverflow.com/users/3802812/mattberther
+  linkedin: mattberther
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  keybase: mattberther
+  google:
+    plus: MattBerther
+    analytics: UA-44086841-1
+    verify: CxDTL79fUhDFRymu4PbBvR7kyL4lMUvMstxYH3Zj1eQ
+    ad-client:
+    ad-slot:
+  bing-verify: 64C176A9AD2C4795A89181A62F31EB7F
