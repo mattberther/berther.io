@@ -32,7 +32,7 @@ class Post < Thor
       puts "a post was created for you at #{path}."
     end
 
-    system("#{ENV['EDITOR']} #{path}")
+    system("#{config.editor} #{path}")
 
   end
 
@@ -55,7 +55,8 @@ class Post < Thor
   def config
     @config ||= {
       author: 'Matt Berther',
-      remote: 'origin'
+      remote: 'origin',
+      editor: 'subl'
     }
   end
 end
