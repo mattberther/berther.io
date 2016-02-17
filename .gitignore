@@ -7,3 +7,4 @@ vendor/bundle
 .env
 *.cache
 .jekyll-metadata
+_drafts/*
