@@ -34,7 +34,7 @@ Expanding the size of an EBS volume is a bit easier, since we dont have to execu
 4. Power on your existing instance and wait for it to come online
 5. SSH into the instance and run the following commands
 6. To ensure that the file system is in order, run `sudo e2fsck -f /dev/xvda1`. If you're resizing a different partition on the drive, change the number 1 to the partition number you wish to resize.
-7. If the e2fsck command ran without errors, now run `sudo resize2fs -M -p /dev/xvda1`. Again, change the 1 to the partition number you wish to resize if you're not resizing the first one.
+7. If the e2fsck command ran without errors, now run `sudo resize2fs -p /dev/xvda1`. Again, change the 1 to the partition number you wish to resize if you're not resizing the first one.
 8. Save the previous, smaller volume and the snapshot until you've validated that everything is working properly. When you've verified things are working well, feel free to delete the original volume and snapshot.
 
 I hope these instructions were able to help you. If you need some extra help, please feel free to shout out in the comments.
