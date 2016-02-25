@@ -22,13 +22,14 @@ title: #{title}
 disqus_identifier: #{slug}
 comments: false
 ---
+
 EOS
       end
 
       puts "a post was created for you at #{path}."
     end
 
-    system("#{config.editor} #{path}")
+    system("#{config[:editor]} #{path}")
 
   end
 
