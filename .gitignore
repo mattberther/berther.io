@@ -8,3 +8,5 @@ vendor/bundle
 *.cache
 .jekyll-metadata
 _drafts/*
+*.sublime-workspace
+bin

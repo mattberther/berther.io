@@ -1,0 +1,29 @@
+{
+  "folders": [{
+    "path": ".",
+    "folder_exclude_patterns": [
+      ".bundle",
+      "node_modules",
+      "vendor",
+      "bin"
+    ],
+    "file_exclude_patterns": [
+      ".jekyll-metadata"
+    ]
+  }],
+  "build_systems": [{
+    "name": "Jekyll Build",
+    "cmd": ["bundle exec jekyll build --drafts --incremental --watch"],
+    "shell": true,
+    "working_dir": "${project_path:${folder}}",
+    "selector": "source.markdown",
+
+    "variants": [{
+      "name": "Jekyll Build and Serve",
+      "cmd": ["bundle exec jekyll serve --incremental --drafts"],
+      "shell": true,
+      "working_dir": "${project_path:${folder}}",
+      "selector": "source.markdown"
+    }]
+  }]
+}
