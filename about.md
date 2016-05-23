@@ -12,7 +12,7 @@ Im <a href='https://twitter.com/mattberther' target='_blank'>@mattberther</a>: a
 Matt has been involved with technology since the mid-1980s. He's worked in  healthcare information technology for more than 15 years and sees how technology can positively impact people's health. Most recently, Matt is focusing on building and delivering better software faster. When he's not working, you might find him on a Brazilian Jiu Jitsu mat or outside camping, rafting, or fishing.
 
 ## Full Bio
-Matt Berther is the Director of Software Development at Healthwise where he leads teams that build software to help people make better health decisions. He is a techologist with a passion for leadership. He studied Business at the University of Phoenix. Since 1999, Matt focused his career on enhancing the craft of software development, specializing in building teams that deliver results. Matt currently lives in the Boise area where he continues to be passionate about contributing to his work, his family, and his community. When he's not working, he enjoys spending time with his family in the beautiful Idaho outdoors.
+Matt Berther is the Director of Software Development at Healthwise where he leads teams that build software to help people make better health decisions. He is a technologist with a passion for leadership. He studied Business at the University of Phoenix. Since 1999, Matt focused his career on enhancing the craft of software development, specializing in building teams that deliver results. Matt currently lives in the Boise area where he continues to be passionate about contributing to his work, his family, and his community. When he's not working, he enjoys spending time with his family in the beautiful Idaho outdoors.
 
 ## Funny Bio
 
