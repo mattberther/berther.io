@@ -54,3 +54,11 @@ owner:
     ad-client:
     ad-slot:
   bing-verify: 64C176A9AD2C4795A89181A62F31EB7F
+
+google_fonts:
+  - name: "Source Sans Pro"
+    weight: "200i,300i,400i,600i,700i,900i,200,300,400,600,700,900"
+    weights: "100,300,400,600"
+  - name: "Source Code Pro"
+    weights: "400,700"
+  - name: "Volkhov"
