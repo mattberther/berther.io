@@ -13,15 +13,19 @@ var resume = require('gulp-resume');
 var paths = {
     JS: [
         'Gulpfile.js',
-        'assets/js/plugins/*.js',
-        '!assets/js/vendor/*.js',
-        '!assets/js/scripts*.js',
-        'assets/js/**/*.js'
+        'assets/js/vendor/jquery-1.9.1.min.js',
+        'assets/js/vendor/modernizr-2.7.1.custom.min.js',
+        'assets/js/plugins/jquery.fitvids.js',
+        'assets/js/plugins/jquery.magnific-popup.js',
+        'assets/js/plugins/responsive-nav.js',
+        'assets/js/plugins/simpleJekyllSearch.js',
+        'assets/js/_main.js',
+        'assets/js/_redirects.js',
     ]
 };
 
 function lint(cb) {
-    return src(paths.JS)
+    return src('assets/js/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'));
 }
