@@ -1,3 +1,5 @@
+const { src, series, dest, parallel, watch } = require('gulp');
+
 var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var concat = require('gulp-concat');
@@ -9,61 +11,61 @@ var header = require('gulp-header');
 var resume = require('gulp-resume');
 
 var paths = {
-  JS: [
+    JS: [
         'Gulpfile.js',
-        'assets/js/plugins/*.js',
+        'assets/js/**/*.js',
+        '!assets/js/plugins/*.js',
         '!assets/js/vendor/*.js',
         '!assets/js/scripts*.js',
-        'assets/js/**/*.js'
-      ]
+    ]
 };
 
-gulp.task('lint', function() {
-  return gulp.src(paths.JS)
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
+function lint(cb) {
+    return src(paths.JS)
+        .pipe(jshint())
+        .pipe(jshint.reporter('default'));
+}
 
-gulp.task('scripts', function() {
-  return gulp.src(paths.JS.slice(1))
-    .pipe(concat('scripts.js'))
-    .pipe(gulp.dest('assets/js'))
-    .pipe(uglify())
-    .pipe(rename({
-      suffix: '.min'
-    }))
-    .pipe(gulp.dest('assets/js'));
-});
+function clean(cb) {
+    return src(['assets/js/scripts*.js', 'resume.html'], {read: false, allowEmpty: true})
+        .pipe(rimraf());
+}
 
-gulp.task('images', function() {
-  return gulp.src('assets/images/**/*.{png,jpg,jpeg}')
-    .pipe(imagemin({
-      optimizationLevel: 7,
-      progressive: true
-    }))
-    .pipe(gulp.dest('assets/images'));
-});
+function scripts(cb) {
+    return src(paths.JS.slice(1))
+        .pipe(concat('scripts.js'))
+        .pipe(dest('assets/js'))
+        .pipe(uglify())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(dest('assets/js'));
+}
 
-gulp.task('resume', function() {
-  return gulp.src('resume.json')
-    .pipe(resume({
-      format: 'html',
-      theme: 'elegant'
-    }))
-    .pipe(header('---\n---\n'))
-    .pipe(rename('resume.html'))
-    .pipe(gulp.dest('.'));
-});
+function images(cb) {
+    return src('assets/images/**/*.{png,jpg,jpeg}')
+        .pipe(imagemin({
+            optimizationLevel: 7,
+            progressive: true
+        }))
+        .pipe(dest('assets/images'));
+}
 
-gulp.task('clean', function() {
-  return gulp.src(['assets/js/scripts*.js', 'resume.html'], {read: false})
-    .pipe(rimraf());
-});
+function buildResume() {
+    return src('resume.json')
+        .pipe(resume({
+            format: 'html',
+            theme: 'elegant'
+        }))
+        .pipe(header('---\n---\n'))
+        .pipe(rename('resume.html'))
+        .pipe(dest('.'));
+}
 
-gulp.task('watch', function() {
-  gulp.watch(paths.JS, ['lint', 'scripts']);
-  gulp.watch('resume.json', ['resume']);
-});
+function startWatch() {
+    watch(paths.JS, parallel(lint, scripts));
+    watch('resume.json', buildResume);
+}
 
-gulp.task('default', ['clean', 'lint', 'scripts', 'images', 'resume']);
-gulp.task('dev', ['default', 'watch']);
+exports.default = series(clean, parallel(lint, scripts, images));
+exports.dev = series(exports.default, startWatch);
