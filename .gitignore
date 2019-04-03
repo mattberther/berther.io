@@ -10,3 +10,4 @@ vendor/bundle
 _drafts/*
 *.sublime-workspace
 bin
+assets/js/scripts*.js

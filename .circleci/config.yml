@@ -7,6 +7,7 @@ jobs:
       - checkout
       - run: npm install
       - run: bundle install
+      - run: npx gulp prod
       - run: bundle exec jekyll build
       - deploy:
           name: Deploy release to AWS

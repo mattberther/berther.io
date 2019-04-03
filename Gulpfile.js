@@ -13,10 +13,10 @@ var resume = require('gulp-resume');
 var paths = {
     JS: [
         'Gulpfile.js',
-        'assets/js/**/*.js',
-        '!assets/js/plugins/*.js',
+        'assets/js/plugins/*.js',
         '!assets/js/vendor/*.js',
         '!assets/js/scripts*.js',
+        'assets/js/**/*.js'
     ]
 };
 
@@ -68,4 +68,5 @@ function startWatch() {
 }
 
 exports.default = series(clean, parallel(lint, scripts, images));
+exports.prod = parallel(scripts, images);
 exports.dev = series(exports.default, startWatch);

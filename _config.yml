@@ -29,9 +29,9 @@ redcarpet:
 
 include: [".htaccess"]
 exclude: ["*.rb", "*.yml", "lib", "Capfile", "config", "log", "Rakefile", "tmp", "less", 
-    "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", 
+    "test", "spec", "package.json", "package-lock.json",
     "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor", "assets/site-logo.pxm", 
-    "keyfile.p12", "analytics-v3.cache", "resume.json", "routing-rules.xml", "Gulpfile.js", "Thorfile", "bin"]
+    "resume.json", "routing-rules.xml", "Gulpfile.js", "Thorfile", "bin"]
 
 # Site owner
 owner:
