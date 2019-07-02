@@ -71,6 +71,6 @@ function startWatch() {
     watch('resume.json', buildResume);
 }
 
-exports.default = series(clean, parallel(lint, scripts, images));
-exports.prod = parallel(scripts, images);
+exports.default = series(clean, parallel(lint, scripts, images, buildResume));
+exports.prod = parallel(lint, scripts, images, buildResume);
 exports.dev = series(exports.default, startWatch);
