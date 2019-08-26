@@ -17,20 +17,15 @@ defaults:
       layout: "post"
 
 permalink:   pretty
-markdown:    redcarpet
 sass:
   sass_dir: _sass
   style: compressed
 plugins:
   - jekyll-sitemap
 
-redcarpet:
-  extensions: ['no_intra_emphasis', 'space_after_headers']
-
 include: [".htaccess"]
-exclude: ["*.rb", "*.yml", "lib", "Capfile", "config", "log", "Rakefile", "tmp", "less", 
-    "test", "spec", "package.json", "package-lock.json",
-    "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor", "assets/site-logo.pxm", 
+exclude: ["*.yml", "Rakefile", "package.json", "package-lock.json",
+    "LICENSE", "README.md", "assets/site-logo.pxm",
     "resume.json", "routing-rules.xml", "Gulpfile.js", "Thorfile", "bin"]
 
 # Site owner

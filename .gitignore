@@ -7,7 +7,8 @@ vendor/bundle
 .env
 *.cache
 .jekyll-metadata
+.jekyll-cache
 _drafts/*
-*.sublime-workspace
 bin
 assets/js/scripts*.js
+resume.html
