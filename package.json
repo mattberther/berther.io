@@ -13,16 +13,16 @@
     "node": ">= 10.15"
   },
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-cli": "^2.1.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-header": "^1.7.1",
-    "gulp-imagemin": "^5.0.3",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.9",
+    "gulp-imagemin": "^7.1.0",
     "gulp-jshint": "^2.1.0",
-    "gulp-rename": "^1.2.2",
+    "gulp-rename": "^2.0.0",
     "gulp-resume": "^0.4.1",
-    "gulp-rimraf": "^0.2.0",
-    "gulp-uglify": "^1.5.2",
-    "jshint": "^2.10.2"
+    "gulp-rimraf": "^1.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.11.0"
   }
 }
