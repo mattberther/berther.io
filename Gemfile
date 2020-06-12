@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.6.2'
-
 gem 'jekyll', '~> 4'
 gem 'jekyll-sitemap', '~> 1.3'
 gem 's3_website', '~> 3.4'
