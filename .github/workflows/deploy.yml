@@ -1,0 +1,101 @@
+on:
+  push:
+    branches:
+      - master
+
+    tags:
+      - v*
+
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node 10.15
+        uses: actions/setup-node@v1
+        with:
+          node-version: ^10.15
+
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+
+      - run: gem install bundler:1.17.2
+      - run: npm install
+
+      - name: Cache gems
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-build-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+
+      - name: Install gems
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3 --without deploy
+
+      - run: npx gulp prod
+      - run: bundle exec jekyll build
+        env:
+          PROFILE_ID: 76727885
+          GOOGLE_ACCOUNT_TYPE: service_account
+          GOOGLE_CLIENT_ID: 93183446580-lm9uc9f5kmhmn0mf1u7845nngoce55h1.apps.googleusercontent.com
+          GOOGLE_CLIENT_EMAIL: 93183446580-lm9uc9f5kmhmn0mf1u7845nngoce55h1@developer.gserviceaccount.com
+          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+
+      - name: Upload build artifacts
+        if: github.event_name == 'push'
+        uses: actions/upload-artifact@v2
+        with:
+          name: site
+          path: _site/
+
+  deploy:
+    needs: build
+
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+
+      - run: gem install bundler:1.17.2
+
+      - name: Cache gems
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-deploy-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-deploy-
+
+      - name: Install gems
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3 --without build
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: site
+          path: _site/
+
+      - name: Deploy release to AWS
+        run: bundle exec s3_website push
+        env:
+          S3_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          S3_SECRET_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_CLOUDFRONT_ID: ${{ secrets.AWS_CLOUDFRONT_ID }}
+
