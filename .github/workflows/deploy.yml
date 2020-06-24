@@ -49,6 +49,7 @@ jobs:
           GOOGLE_CLIENT_ID: 93183446580-lm9uc9f5kmhmn0mf1u7845nngoce55h1.apps.googleusercontent.com
           GOOGLE_CLIENT_EMAIL: 93183446580-lm9uc9f5kmhmn0mf1u7845nngoce55h1@developer.gserviceaccount.com
           GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+          JEKYLL_ENV: production
 
       - name: Upload build artifacts
         if: github.event_name == 'push'
