@@ -23,6 +23,6 @@
     "gulp-resume": "^0.4.4",
     "gulp-rimraf": "^1.0.0",
     "gulp-uglify": "^3.0.2",
-    "jshint": "^2.12.0"
+    "jshint": "^2.13.6"
   }
 }
