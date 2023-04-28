@@ -10,7 +10,7 @@
     "url": "https://github.com/mattberther/berther.io/issues"
   },
   "engines": {
-    "node": ">= 10.15"
+    "node": ">= 16.12"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
