@@ -1,16 +1,17 @@
-const { src, series, dest, parallel, watch } = require('gulp');
 
-var gulp = require('gulp');
-var jshint = require('gulp-jshint');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
-var rimraf = require('gulp-rimraf');
-var imagemin = require('gulp-imagemin');
-var header = require('gulp-header');
-var resume = require('gulp-resume');
+import gulp from 'gulp';
+const { src, series, dest, parallel, watch, task } = gulp;
 
-var paths = {
+import jshint from 'gulp-jshint';
+import concat from 'gulp-concat';
+import uglify from 'gulp-uglify';
+import rename from 'gulp-rename';
+import rimraf from 'gulp-rimraf';
+import header from 'gulp-header';
+import resume from 'gulp-resume';
+import imagemin from 'gulp-imagemin';
+
+const paths = {
     JS: [
         'Gulpfile.js',
         'assets/js/vendor/jquery-1.9.1.min.js',
@@ -71,6 +72,9 @@ function startWatch() {
     watch('resume.json', buildResume);
 }
 
-exports.default = series(clean, parallel(lint, scripts, images, buildResume));
-exports.prod = parallel(lint, scripts, images, buildResume);
-exports.dev = series(exports.default, startWatch);
+task('default', series(clean, parallel(lint, scripts, images, buildResume)));
+task('prod', parallel(
+    lint, scripts, images,
+    // buildResume
+));
+task('dev', series(clean, parallel(lint, scripts, images, buildResume), startWatch));

@@ -38,7 +38,7 @@ cloudfront_distribution_config:
 # cloudfront_invalidate_root: true
 
 index_document: index.html
-error_document: /404/index.html
+error_document: 404/index.html
 
 # concurrency_level: 5
 
