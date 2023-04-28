@@ -72,5 +72,5 @@ function startWatch() {
 }
 
 exports.default = series(clean, parallel(lint, scripts, images, buildResume));
-exports.prod = parallel(lint, scripts, images)); //, buildResume);
+exports.prod = parallel(lint, scripts, images); //, buildResume);
 exports.dev = series(exports.default, startWatch);
