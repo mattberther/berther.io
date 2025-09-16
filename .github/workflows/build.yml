@@ -31,7 +31,7 @@ jobs:
 
       - name: Upload build artifacts
         if: github.event_name == 'push'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: site
           path: _site/
@@ -55,7 +55,7 @@ jobs:
           ruby-version: '2.6.2'
           bundler-cache: true
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: site
           path: _site/
