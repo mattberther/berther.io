@@ -43,10 +43,7 @@ owner:
   flickr: #username
   tumblr: #username
   google:
-    analytics: G-PFDYZBTEPF
     verify: CxDTL79fUhDFRymu4PbBvR7kyL4lMUvMstxYH3Zj1eQ
-    ad-client:
-    ad-slot:
   bing-verify: 64C176A9AD2C4795A89181A62F31EB7F
 
 google_fonts:
