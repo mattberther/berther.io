@@ -3,12 +3,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { watch as fsWatch } from 'node:fs';
 
 const jsSources = [
-  'assets/js/vendor/jquery-1.9.1.min.js',
-  'assets/js/vendor/modernizr-2.7.1.custom.min.js',
-  'assets/js/plugins/jquery.fitvids.js',
-  'assets/js/plugins/jquery.magnific-popup.js',
-  'assets/js/plugins/responsive-nav.js',
-  'assets/js/plugins/simpleJekyllSearch.js',
+  'assets/js/plugins/simple-jekyll-search.min.js',
   'assets/js/_main.js',
   'assets/js/_redirects.js',
 ];

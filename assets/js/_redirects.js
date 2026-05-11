@@ -1,11 +1,5 @@
-function getParameterByName(name) {
-    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-        results = regex.exec(location.search);
-    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-}
-
-var url_map = {
+(function legacyRedirects() {
+  const urlMap = {
     '8': '/2003/04/04/teachers-vs-educators',
     '10': '/2003/04/04/time-management',
     '12': '/2003/04/04/an-elite-athlete',
@@ -349,9 +343,10 @@ var url_map = {
     '1078': '/2009/09/24/problems-running-cucumber-with-nokogiri',
     '1086': '/2010/01/04/the-swappablefile',
     '1088': '/2010/01/20/listextensions'
-};
+  };
 
-var id = getParameterByName('p');
-if (id !== "" && url_map[id]) {
-    window.location.href = url_map[id];
-}
+  const id = new URLSearchParams(location.search).get('p');
+  if (id && urlMap[id]) {
+    window.location.href = urlMap[id];
+  }
+})();

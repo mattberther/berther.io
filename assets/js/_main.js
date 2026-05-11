@@ -1,54 +1,83 @@
-/*! Plugin options and other jQuery stuff */
+/* Vanilla site JS — nav toggle, search overlay wiring */
 
-// Responsive Nav
-var navigation = responsiveNav("#site-nav", { // Selector: The ID of the wrapper
-  animate: true, // Boolean: Use CSS3 transitions, true or false
-  transition: 200, // Integer: Speed of the transition, in milliseconds
-  label: "<i class='fa fa-bars'></i> Menu", // String: Label for the navigation toggle
-  insert: "before", // String: Insert the toggle before or after the navigation
-  customToggle: "", // Selector: Specify the ID of a custom toggle
-  openPos: "relative", // String: Position of the opened nav, relative or static
-  jsClass: "js", // String: 'JS enabled' class which is added to <html> el
-  init: function(){}, // Function: Init callback
-  open: function(){}, // Function: Open callback
-  close: function(){} // Function: Close callback
-});
+function initNav() {
+  const nav = document.getElementById('site-nav');
+  if (!nav) return;
 
-$('html').click(function() {
-  //Hide the menus if visible
-  if ($(navigation.wrapper).hasClass('opened')) {
-  	navigation.toggle();
-  }
-});
+  document.documentElement.classList.remove('no-js');
+  document.documentElement.classList.add('js');
+  nav.classList.add('closed');
 
-$('#site-nav').click(function(event){
-    event.stopPropagation();
-});
+  const toggle = document.createElement('button');
+  toggle.id = 'nav-toggle';
+  toggle.type = 'button';
+  toggle.setAttribute('aria-label', 'Toggle navigation');
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.innerHTML = '<i class="fa fa-bars"></i> Menu';
+  nav.parentNode.insertBefore(toggle, nav);
 
-// FitVids options
-$(function() {
-	$("article").fitVids();
-});
-
-// Add lightbox class to all image links
-$("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
-
-// Magnific-Popup options
-$(document).ready(function() {
-  $('.image-popup').magnificPopup({
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-    },
-    image: {
-      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
-    },
-    removalDelay: 300, // Delay in milliseconds before popup is removed
-    // Class that is added to body when popup is open.
-    // make it unique to apply your CSS animations just to this exact popup
-    mainClass: 'mfp-fade'
+  toggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const opening = nav.classList.contains('closed');
+    nav.classList.toggle('opened');
+    nav.classList.toggle('closed');
+    toggle.setAttribute('aria-expanded', opening ? 'true' : 'false');
   });
-});
+
+  nav.addEventListener('click', (e) => e.stopPropagation());
+
+  document.documentElement.addEventListener('click', () => {
+    if (nav.classList.contains('opened')) {
+      nav.classList.remove('opened');
+      nav.classList.add('closed');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
+
+function initSearch() {
+  const searchField = document.querySelector('.search-field');
+  if (!searchField || typeof SimpleJekyllSearch === 'undefined') return;
+
+  SimpleJekyllSearch({
+    searchInput: searchField,
+    resultsContainer: document.querySelector('.search-results'),
+    json: '/search.json',
+    searchResultTemplate: '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+    noResultsText: '<p>Nothing found.</p>',
+    fuzzy: true,
+  });
+
+  const wrapper = document.querySelector('.search-wrapper');
+  const form    = document.querySelector('.search-form');
+  const canvas  = document.querySelector('.js-menu-screen');
+  const openBtn = document.querySelector('.dosearch');
+  const closeBtn = document.querySelector('.close-btn');
+
+  openBtn?.addEventListener('click', () => {
+    if (wrapper) wrapper.style.display = 'block';
+    document.body.classList.toggle('no-scroll');
+    form?.classList.toggle('active');
+    canvas?.classList.toggle('is-visible');
+    form?.querySelector('input')?.focus();
+  });
+
+  closeBtn?.addEventListener('click', () => {
+    wrapper?.removeAttribute('style');
+    document.body.classList.toggle('no-scroll');
+    form?.classList.toggle('active');
+    canvas?.classList.remove('is-visible');
+  });
+}
+
+function init() {
+  initNav();
+  initSearch();
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
+
