@@ -1,13 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'dotenv', '~> 1.0', '>= 1.0.2'
-
-group :build do
-  gem 'jekyll', '~> 4.2'
-  gem 'jekyll-sitemap', '~> 1.4'
-end
-
-group :deploy do
-  gem 's3_website', '~> 3.4'
-end
+gem 'jekyll', '~> 4.4'
+gem 'jekyll-sitemap', '~> 1.4'
+gem 'webrick', '~> 1.8'
 
