@@ -4,6 +4,7 @@ import { watch as fsWatch } from 'node:fs';
 
 const jsSources = [
   'assets/js/plugins/simple-jekyll-search.min.js',
+  'assets/js/plugins/glightbox.min.js',
   'assets/js/_main.js',
   'assets/js/_redirects.js',
 ];

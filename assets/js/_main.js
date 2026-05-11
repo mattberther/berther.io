@@ -70,9 +70,25 @@ function initSearch() {
   });
 }
 
+function initLightbox() {
+  if (typeof GLightbox === 'undefined') return;
+
+  const imageLinks = document.querySelectorAll(
+    'a[href$=".jpg"], a[href$=".jpeg"], a[href$=".JPG"], a[href$=".png"], a[href$=".gif"]'
+  );
+  imageLinks.forEach((link) => link.classList.add('image-popup'));
+
+  GLightbox({
+    selector: '.image-popup',
+    loop: true,
+    touchNavigation: true,
+  });
+}
+
 function init() {
   initNav();
   initSearch();
+  initLightbox();
 }
 
 if (document.readyState === 'loading') {
