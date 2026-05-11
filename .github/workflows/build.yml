@@ -1,69 +1,65 @@
-on: [push, pull_request]
+name: Build and Deploy
+
+on:
+  push:
+  pull_request:
+
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '16.12'
-          cache: 'npm'
+      - uses: actions/checkout@v6
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6.2'
           bundler-cache: true
 
-      - run: npm install
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: '.node-version'
+          cache: 'npm'
 
-      - run: npx gulp prod
+      - run: npm ci
+      - run: npm run build
       - run: bundle exec jekyll build
         env:
-          PROFILE_ID: 76727885
-          GOOGLE_ACCOUNT_TYPE: service_account
-          GOOGLE_CLIENT_ID: 93183446580-lm9uc9f5kmhmn0mf1u7845nngoce55h1.apps.googleusercontent.com
-          GOOGLE_CLIENT_EMAIL: 93183446580-lm9uc9f5kmhmn0mf1u7845nngoce55h1@developer.gserviceaccount.com
-          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
           JEKYLL_ENV: production
 
-      - name: Upload build artifacts
-        if: github.event_name == 'push'
-        uses: actions/upload-artifact@v4
+      - if: github.event_name == 'push'
+        uses: actions/upload-artifact@v7
         with:
           name: site
           path: _site/
 
   deploy:
     needs: build
-
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
 
     steps:
-      - uses: actions/checkout@v3
-
-      - uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '8'
-
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '2.6.2'
-          bundler-cache: true
-
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: site
           path: _site/
 
-      - name: Deploy release to AWS
-        run: bundle exec s3_website push
-        env:
-          S3_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          S3_SECRET_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_CLOUDFRONT_ID: ${{ secrets.AWS_CLOUDFRONT_ID }}
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Sync to S3
+        run: |
+          aws s3 sync _site/ s3://matt.berther.io/ \
+            --delete \
+            --exclude ".DS_Store" \
+            --cache-control "public, max-age=86400"
+
+      - name: Invalidate CloudFront
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.AWS_CLOUDFRONT_ID }} \
+            --paths "/*"
 
