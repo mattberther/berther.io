@@ -4,14 +4,18 @@
       {% for link in site.data.navigation %}
 		    <li><a href="{{ link.url }}" {% if link.url contains 'http' or link.new_window %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 		  {% endfor %}
-        {% if site.search %}<li class="dosearch"><span><i class="fa fa-search"></i> Search</span></li>{% endif %}
+        <li class="dosearch"><span><i class="fa fa-search"></i> Search</span></li>
 	    </ul>
 	</nav>
 </div><!-- /.navigation-wrapper -->
 
-{% include browser-upgrade.html %}
-
-{% if site.search %}{% include site-search.html %}{% endif %}
+<div class="search-wrapper">
+  <div class="search-form">
+    <input type="text" class="search-field" placeholder="Search...">
+    <button class="close-btn"><i class="fa fa-times-circle fa-2x"></i></button>
+    <ul class="search-results post-list"></ul><!-- /.search-results -->
+  </div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
 
 {% if page.image.feature %}<header class="masthead">
 	{% if site.logo != null %}
