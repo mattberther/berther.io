@@ -1,28 +1,16 @@
 {
   "name": "matt-berther-website",
-  "author": "Matt Berther <matt@berther.io>",
-  "homepage": "https://matt.berther.io",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mattberther/berther.io.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mattberther/berther.io/issues"
-  },
+  "private": true,
+  "type": "module",
   "engines": {
-    "node": ">= 16.12"
+    "node": ">= 22"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-header": "^2.0.9",
-    "gulp-imagemin": "^8.0.0",
-    "gulp-jshint": "^2.1.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-resume": "^0.4.4",
-    "gulp-rimraf": "^1.0.0",
-    "gulp-uglify": "^3.0.2",
-    "jshint": "^2.13.6"
+    "esbuild": "^0.28.0",
+    "jsonresume-theme-elegant": "^1.16.1"
   }
 }
