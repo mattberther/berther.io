@@ -43,6 +43,10 @@ owner:
   google-verify: CxDTL79fUhDFRymu4PbBvR7kyL4lMUvMstxYH3Zj1eQ
   bing-verify: 64C176A9AD2C4795A89181A62F31EB7F
 
+umami:
+  website_id: 26967149-7ab7-49f7-9795-9b599b389319
+  script_url: https://cloud.umami.is/script.js
+
 google_fonts:
   - name: "Source Sans Pro"
     weight: "200i,300i,400i,600i,700i,900i,200,300,400,600,700,900"
