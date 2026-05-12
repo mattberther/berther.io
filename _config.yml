@@ -27,9 +27,8 @@ plugins:
   - jekyll-sitemap
 
 include: [".htaccess"]
-exclude: ["*.yml", "package.json", "package-lock.json",
-    "LICENSE", "README.md", "assets/site-logo.pxm",
-    "resume.json", "routing-rules.xml", "build.mjs"]
+exclude: ["*.yml", "package.json", "package-lock.json", "LICENSE", "README.md", 
+    "assets/site-logo.pxm", "resume.json", "build.mjs"]
 
 # Site owner
 owner:
