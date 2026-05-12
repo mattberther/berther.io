@@ -18,5 +18,5 @@ Until this morning... When I logged on to my computer, I was presented with this
 
 This screen really pissed me off. The reason I'm so annoyed by this screen and am calling out Apple on this is that my Vista machine has no other Apple software on it. I do not have QuickTime or iTunes on my machine, yet I'm being asked if I want to **update** it. This could be considered increasing your user base by deceptive methods. Shame on you, Apple.
 
-[1]:/uploads/2007/06/apple-software-update.png
-[2]:/uploads/2007/06/apple-software-update_thumb.png
+[1]:/attachments/2007/06/apple-software-update.png
+[2]:/attachments/2007/06/apple-software-update_thumb.png

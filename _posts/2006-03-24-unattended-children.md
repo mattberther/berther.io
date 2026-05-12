@@ -12,5 +12,5 @@ Click on the thumbnail for a full size image.
 
 [![unattended children][2]][1]
 
-[1]:/uploads/2006/03/unattended-children.jpg
-[2]:/uploads/2006/03/unattended-children-thumbnail.jpg
+[1]:/attachments/2006/03/unattended-children.jpg
+[2]:/attachments/2006/03/unattended-children-thumbnail.jpg

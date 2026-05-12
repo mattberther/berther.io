@@ -186,6 +186,6 @@ end
 
 [1]:https://console.developers.google.com
 [2]:/popular
-[analytics]:/uploads/2014/08/analytics_api.png "Turning on Analytics API"
-[view_settings]:/uploads/2014/08/view_settings.png "Finding your Profile ID"
+[analytics]:/attachments/2014/08/analytics_api.png "Turning on Analytics API"
+[view_settings]:/attachments/2014/08/view_settings.png "Finding your Profile ID"
 [3]:/2014/08/11/most-popular-articles-from-google-analytics-api-part-2

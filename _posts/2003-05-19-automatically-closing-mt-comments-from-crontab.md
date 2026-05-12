@@ -18,4 +18,4 @@ Unzip the file, chmod 755, edit the variables at the top to customize it for you
 
 [Download script][1]
 
-[1]:/uploads/2003/05/closecomments.zip
+[1]:/attachments/2003/05/closecomments.zip

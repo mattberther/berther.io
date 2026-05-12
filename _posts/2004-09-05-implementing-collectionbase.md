@@ -142,6 +142,6 @@ We see here that our ReadOnlyPersonCollection is also overriding a few additiona
 
 Of course, .NET 2.0, with the introduction of generics, will render all of this information invalid. All of my CollectionBase implementations will be replaced with `IList<Type>`. :=)
 
-[1]:/uploads/2004/09/CollectionBase.cst
-[2]:/uploads/2004/09/vbcollectionbase.cst
+[1]:/attachments/2004/09/CollectionBase.cst
+[2]:/attachments/2004/09/vbcollectionbase.cst
 [3]:http://leifw.blogspot.com/

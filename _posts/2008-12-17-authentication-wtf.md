@@ -20,5 +20,5 @@ Equifax has also disallowed me from setting up a new account, since I already ha
 
 Epic *FAIL*.
 
-[1]: /uploads/2008/12/wtf.png   
-[2]: /uploads/2008/12/wtf-small.png
+[1]: /attachments/2008/12/wtf.png   
+[2]: /attachments/2008/12/wtf-small.png

@@ -34,4 +34,4 @@ This guide assumes you are using Visual Studio .NET 2003, if you are using 2002,
 
 Enjoy!
 
-[1]:/uploads/2003/11/CSharpAddInterfaceWiz.zip
+[1]:/attachments/2003/11/CSharpAddInterfaceWiz.zip

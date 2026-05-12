@@ -10,4 +10,4 @@ tags: [opinion]
 
 Comments on whether or not the video is real have turned into an interesting discussion at work. I'm anxious to hear your thoughts.
 
-[1]:/uploads/2003/12/loadingthebike.mpeg
+[1]:/attachments/2003/12/loadingthebike.mpeg

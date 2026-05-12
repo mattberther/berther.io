@@ -7,5 +7,5 @@ tags: [management, opinion]
 ---
 Excellent Venn diagram describing the tradeoffs of the classic project management dilemma (author unknown).
 
-![project management dilemma](/uploads/2015/02/project_management.jpg)
+![project management dilemma](/attachments/2015/02/project_management.jpg)
 

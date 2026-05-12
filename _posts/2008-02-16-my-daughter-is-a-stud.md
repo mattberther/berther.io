@@ -18,5 +18,5 @@ Well, earlier today, we went. All I can say is, Sierra is a stud... Originally, 
 
 A little lunch in the lodge, and she was ready to call it a day. She slept pretty much the whole way home.
 
-[1]: /uploads/2008/02/sierra-snowboarding.jpg
-[2]: /uploads/2008/02/sierra-snowboarding-thumbnail.jpg
+[1]: /attachments/2008/02/sierra-snowboarding.jpg
+[2]: /attachments/2008/02/sierra-snowboarding-thumbnail.jpg

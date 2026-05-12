@@ -23,6 +23,6 @@ Perhaps, as I continue to familiarize myself with Avalon and Indigo, Ill add som
 Enjoy, and please feel free to drop a comment with any feedback you may have.
 
 [1]:http://www.codeproject.com/soap/dilbertservice.asp
-[2]:/uploads/2004/04/dailydilbert-longhorn.png
-[3]:/uploads/2004/04/dailydilbert-longhorn-thumbnail.png
-[4]:/uploads/2004/04/longhorn-dailydilbert.zip
+[2]:/attachments/2004/04/dailydilbert-longhorn.png
+[3]:/attachments/2004/04/dailydilbert-longhorn-thumbnail.png
+[4]:/attachments/2004/04/longhorn-dailydilbert.zip

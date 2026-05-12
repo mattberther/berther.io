@@ -12,4 +12,4 @@ You are SO PROUD that you were chosen to be the "Bell Ringer". Your job is to ri
 
 Your whole family, all your friends, and 15 million ESPN viewers see you on Saturday's telecast ringing the team's bell. But, due to the tragically unfortunate placement of the bell, the camera, and your body, your whole family, all of your friends, and 15 million ESPN viewers see [this][1] instead...
 
-[1]:/uploads/2005/11/bellringer.wmv
+[1]:/attachments/2005/11/bellringer.wmv

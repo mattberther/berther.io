@@ -67,5 +67,5 @@ With the above modification to MT-Textile 2.0 beta, you will be able to colorize
 
 [1]:http://voisen.org/archives/projects/000239.php
 [2]:http://www.beautifier.org/
-[3]:/uploads/2003/12/HFile_csharp.pm
+[3]:/attachments/2003/12/HFile_csharp.pm
 [4]:http://www.bradchoate.com/past/001602.php#001602
