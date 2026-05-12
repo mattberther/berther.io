@@ -37,16 +37,10 @@ owner:
   avatar: avatar.png
   email: matt@berther.io
   disqus-shortname: mattberther
-  twitter: mattberther
-  facebook:
   github: mattberther
   stackexchange: https://stackoverflow.com/users/3802812/mattberther
   linkedin: mattberther
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  google:
-    verify: CxDTL79fUhDFRymu4PbBvR7kyL4lMUvMstxYH3Zj1eQ
+  google-verify: CxDTL79fUhDFRymu4PbBvR7kyL4lMUvMstxYH3Zj1eQ
   bing-verify: 64C176A9AD2C4795A89181A62F31EB7F
 
 google_fonts:
