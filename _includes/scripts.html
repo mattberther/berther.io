@@ -1,8 +1,0 @@
-<script src="/assets/js/scripts.js"></script>
-{%- if jekyll.environment == 'production' and site.umami -%}
-  <script defer src="{{ site.umami.script_url }}" data-website-id="{{ site.umami.website_id }}"></script>
-{%- endif %}
-
-{% if page.comments or site.comments %}
-  {% include disqus_comments.html %}
-{% endif %}

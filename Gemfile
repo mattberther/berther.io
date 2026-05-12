@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.4'
-gem 'jekyll-sitemap', '~> 1.4'
+gem "jekyll-theme-chirpy", "~> 7.5"
 gem 'webrick', '~> 1.8'
+
+group :test do
+  gem "html-proofer", "~> 5.0"
+end
 

@@ -1,55 +1,127 @@
-# Site wide configuration
+theme: jekyll-theme-chirpy
+
+lang: en
+
+timezone: America/Boise
 
 title: Matt Berther
-locale: en_US
-description: Musings of an agile development manager and occasional code monkey
-logo: site-logo.png
+tagline: Musings of an agile development manager and occasional code monkey
+description: >-
+  Musings of an agile development manager and occasional code monkey
 url: https://matt.berther.io
 
-# Jekyll configuration
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
+github:
+  username: mattberther
 
-permalink:   pretty
-sass:
-  sass_dir: _sass
-  style: compressed
-  quiet_deps: true
-  silence_deprecations:
-    - import
-
-plugins:
-  - jekyll-sitemap
-
-include: [".htaccess"]
-exclude: ["*.yml", "package.json", "package-lock.json", "LICENSE", "README.md", 
-    "assets/site-logo.pxm", "resume.json", "build.mjs"]
-
-# Site owner
-owner:
+social:
   name: Matt Berther
-  avatar: avatar.png
   email: matt@berther.io
-  disqus-shortname: mattberther
-  github: mattberther
-  stackexchange: https://stackoverflow.com/users/3802812/mattberther
-  linkedin: mattberther
-  google-verify: CxDTL79fUhDFRymu4PbBvR7kyL4lMUvMstxYH3Zj1eQ
-  bing-verify: 64C176A9AD2C4795A89181A62F31EB7F
+  links:
+    - https://github.com/mattberther
+    - https://stackoverflow.com/users/3802812/mattberther
+    - https://www.linkedin.com/in/mattberther
 
-umami:
-  website_id: 26967149-7ab7-49f7-9795-9b599b389319
-  script_url: https://cloud.umami.is/script.js
+webmaster_verifications:
+  google: CxDTL79fUhDFRymu4PbBvR7kyL4lMUvMstxYH3Zj1eQ
+  bing: 64C176A9AD2C4795A89181A62F31EB7F
 
-google_fonts:
-  - name: "Source Sans Pro"
-    weight: "200i,300i,400i,600i,700i,900i,200,300,400,600,700,900"
-    weights: "100,300,400,600"
-  - name: "Source Code Pro"
-    weights: "400,700"
-  - name: "Volkhov"
+analytics:
+  umami:
+    id: 26967149-7ab7-49f7-9795-9b599b389319
+    domain: cloud.umami.is 
+
+theme_mode:
+
+# the avatar on sidebar, support local or CORS resources
+avatar: /assets/img/avatar.png
+
+# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+# It can be overridden by a customized `page.image` in front matter.
+social_preview_image: # string, local or CORS resources
+
+# boolean type, the global switch for TOC in posts.
+toc: true
+
+comments:
+  provider: disqus
+  disqus:
+    shortname: mattberther
+
+assets:
+  self_host:
+    enabled: true
+
+paginate: 10
+
+# ------------ The following options are not recommended to be modified ------------------
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true # Enable comments in posts.
+      toc: true # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /:year/:month/:day/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs # see `site.collections`
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
