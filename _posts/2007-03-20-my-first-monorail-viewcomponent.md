@@ -2,6 +2,8 @@
 title: My first MonoRail ViewComponent
 disqus_identifier: 2007-03-my-first-monorail-viewcomponent
 comments: true
+categories: [Development, .NET]
+tags: [monorail, csharp]
 ---
 
 For those of you who have not heard of or are using MonoRail yet, go take a look at the [project website][1], or even better, go listen to Scott Hanselman's [podcast with the boys from Eleutian Technologies][2] where they discuss MonoRail and the advantages it provides. I'm going to stop short of this turning into another ASP.NET WebForms sucks post. :)

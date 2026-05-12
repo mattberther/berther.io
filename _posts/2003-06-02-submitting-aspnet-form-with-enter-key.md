@@ -2,6 +2,8 @@
 title: Submitting ASP.NET form with ENTER key
 disqus_identifier: 2003-06-submitting-aspnet-form-with-enter-key
 comments: true
+categories: [Development, .NET]
+tags: [aspnet]
 ---
 
 For the last few hours, I've been trying to figure out why my event handler is not being hooked up when I hit the ENTER key to submit my ASP.NET form.

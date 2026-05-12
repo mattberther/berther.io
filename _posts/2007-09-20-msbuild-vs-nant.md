@@ -2,6 +2,8 @@
 title: MSBuild vs. NAnt
 disqus_identifier: 2007-09-msbuild-vs-nant
 comments: true
+categories: [Tools]
+tags: [ci-cd, dotnet, opinion]
 ---
 
 In what is sure to end up as a flame war, Jeremy Miller asks the question: "[is there a good reason to switch to MSBuild?][1]". I want to throw my $0.02 into the mix.</p>

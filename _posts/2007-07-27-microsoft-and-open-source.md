@@ -2,6 +2,8 @@
 title: Microsoft and Open Source
 disqus_identifier: 2007-07-microsoft-and-open-source
 comments: true
+categories: [Methodology, General]
+tags: [opinion, dotnet]
 ---
 
 Microsoft has announced their [Secure Content Downloader][1], which they're touting as "a peer-assisted downloader for downloading select Microsoft CTPs".

@@ -2,6 +2,8 @@
 title: The quickest way to screw up your SQL Server install...
 disqus_identifier: 2003-10-the-quickest-way-to-screw-up-your-sql-server-install
 comments: true
+categories: [Tools]
+tags: [sql, windows]
 ---
 
 is to accidentally run an MSDE install on the same machine.

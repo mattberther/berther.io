@@ -2,6 +2,8 @@
 title: The beauty of the Chain of Responsibility pattern
 disqus_identifier: 2007-04-the-beauty-of-the-chain-of-responsibility-pattern
 comments: true
+categories: [Development, .NET]
+tags: [monorail, csharp, design-patterns]
 ---
 
 As mentioned in a previous post, I've been starting to do more and more work with Castle Project's MonoRail. Most recently, I did some maintenance on a project that I did with a much earlier version of MonoRail.

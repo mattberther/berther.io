@@ -2,6 +2,8 @@
 title: Schema Documentation Generator
 disqus_identifier: 2003-12-schema-documentation-generator
 comments: true
+categories: [Tools]
+tags: [xml]
 ---
 
 [This service][1] can generate an easy-to-read XHTML documentation from an XSD schema.

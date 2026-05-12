@@ -2,6 +2,8 @@
 title: Provider Pattern and Unit Testing
 disqus_identifier: 2005-10-provider-pattern-and-unit-testing
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, design-patterns, dotnet]
 ---
 
 I've recently wrapped up a project using .NET 2.0 and this project manifested the need to have certain pluggable pieces. For these pieces, I chose to go along with the rest of the .NET 2.0 framework and implemented this using the Provider design pattern.

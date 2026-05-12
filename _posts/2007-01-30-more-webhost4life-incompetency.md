@@ -2,6 +2,8 @@
 title: More webhost4life Incompetency
 disqus_identifier: 2007-01-more-webhost4life-incompetency
 comments: true
+categories: [Tools]
+tags: [hosting, opinion]
 ---
 
 People have sent me email wondering why I decided to cancel my webhost4life account. Originally, I felt very happy with the account, however, what I noticed was that service quickly deteriorated. This was quickly realized when I asked them to do a restore of a sharepoint site that I had hosted with them. They pointed out that they did not have any backups. Imagine my incredulousness, especially as I recalled their [guarantee][1].

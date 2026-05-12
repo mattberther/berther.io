@@ -2,6 +2,8 @@
 title: Interesting Trivia
 disqus_identifier: 2007-10-interesting-trivia
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 > Did you know that you can burn 150 calories by banging your head against the wall for an hour?

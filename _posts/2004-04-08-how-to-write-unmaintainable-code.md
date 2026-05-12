@@ -2,6 +2,8 @@
 title: How to write unmaintainable code
 disqus_identifier: 2004-04-how-to-write-unmaintainable-code
 comments: true
+categories: [Development, General]
+tags: [opinion]
 ---
 
 I stumbled across this [gem][1] the other day. Hopefully, you'll find it as funny as I did.

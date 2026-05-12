@@ -2,6 +2,8 @@
 title: Good thoughts for the New Year
 disqus_identifier: 2004-01-good-thoughts-for-the-new-year
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 This was forwarded to me by a friend, and I felt it necessary to share. The message behind this is quite powerful.

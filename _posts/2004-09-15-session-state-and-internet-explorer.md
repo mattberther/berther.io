@@ -2,6 +2,8 @@
 title: Session State and Internet Explorer
 disqus_identifier: 2004-09-session-state-and-internet-explorer
 comments: true
+categories: [Development, Web]
+tags: [aspnet]
 ---
 
 I think we've finally uncovered the root cause of an issue that has been bugging us (no pun intended) for a long time.

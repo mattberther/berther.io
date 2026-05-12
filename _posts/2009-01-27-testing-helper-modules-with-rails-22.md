@@ -2,6 +2,8 @@
 title: Testing Helper Modules with Rails 2.2
 disqus_identifier: 2009-01-testing-helper-modules-with-rails-22
 comments: true
+categories: [Methodology, Testing]
+tags: [rails, ruby, unit-testing]
 ---
 
 I recently found myself in a situation where I wanted to make sure that the current year is always displayed in the copyright statement at the bottom of a Rails application. At first glance, this is easy enough. All that a person needs to do is add the following to their application.html.erb:

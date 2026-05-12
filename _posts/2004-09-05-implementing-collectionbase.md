@@ -2,6 +2,8 @@
 title: Implementing CollectionBase
 disqus_identifier: 2004-09-implementing-collectionbase
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet]
 ---
 
 **Update:** The majority of what is in this article has been deprecated by the introduction of generic collections in the .NET framework. More often than not, you would just create an instance of List<T>, Dictionary<K,V>, etc.

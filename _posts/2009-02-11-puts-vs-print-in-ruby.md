@@ -2,6 +2,8 @@
 title: puts vs print in ruby
 disqus_identifier: 2009-02-puts-vs-print-in-ruby
 comments: true
+categories: [Development, Ruby]
+tags: [ruby]
 ---
 
 I discovered something a bit peculiar about the puts and print methods in Ruby. puts seems to flush immediately, and therefore shows up on $stdout right away. Take the code example below:

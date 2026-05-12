@@ -2,6 +2,8 @@
 title: ASP.NET pluggable module implementation
 disqus_identifier: 2004-10-aspnet-pluggable-module-implementation
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp, design-patterns]
 ---
 
 For an ASP.NET project that I've been working on for quite a while, we wanted to have a pluggable module type of page architecture. We would have one main page (default.aspx) which would have a panel control which could get different controls loaded into it.

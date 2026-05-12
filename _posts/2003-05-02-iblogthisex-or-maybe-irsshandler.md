@@ -2,6 +2,8 @@
 title: IBlogThisEx (or maybe IRssHandler)
 disqus_identifier: 2003-05-iblogthisex-or-maybe-irsshandler
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet]
 ---
 
 [Luke][1] makes some valid points about the interface [Greg][2], [Simon][3] and I have been discussing.

@@ -2,6 +2,8 @@
 title: How to install a component to the VS.NET toolbox
 disqus_identifier: 2004-01-how-to-install-a-component-to-the-vsnet-toolbox
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet, visual-studio]
 ---
 
 I think one of the things that makes a good component even better is that when I install it, it automatically installs itself to my Visual Studio.NET toolbox. For a while now, I've been looking at ways to accomplish this and finally came up with this.

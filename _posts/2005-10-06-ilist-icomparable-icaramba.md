@@ -2,6 +2,8 @@
 title: IList, IComparable, ICaramba!
 disqus_identifier: 2005-10-ilist-icomparable-icaramba
 comments: true
+categories: [Development, General]
+tags: [oop, opinion]
 ---
 
 Micah Martin has a [post][1] over at Uncle Bob's that talks about reasons to step away from the I naming convention for interfaces.

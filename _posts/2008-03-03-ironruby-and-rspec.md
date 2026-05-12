@@ -2,6 +2,8 @@
 title: IronRuby and RSpec
 disqus_identifier: 2008-03-ironruby-and-rspec
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, ruby, dotnet]
 ---
 
 For some time, I've wanted to learn more about RSpec and how it can be used to express desired behavior in your story tests as well as your unit tests. At the SDWest conference today, I took a session presented by [Dave Astels][1] which started with a high-level overview of RSpec. As Dave was really one of the instigators of RSpec, I really felt like I was getting it from the source.

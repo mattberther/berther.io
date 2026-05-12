@@ -2,6 +2,8 @@
 title: TDD can lead to a simpler design
 disqus_identifier: 2005-12-tdd-can-lead-to-a-simpler-design
 comments: true
+categories: [Methodology, Testing]
+tags: [tdd, refactoring]
 ---
 
 A few weeks ago, I was working through an issue with one of the projects Im responsible for. Basically, we have a collection of id/name pairs that needed to be sorted alphabetically by name.

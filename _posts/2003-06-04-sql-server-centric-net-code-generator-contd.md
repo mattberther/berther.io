@@ -2,6 +2,8 @@
 title: SQL Server Centric .NET code generator, cont'd
 disqus_identifier: 2003-06-sql-server-centric-net-code-generator-contd
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, sql]
 ---
 
 Olymars finally made [primetime][1] at Microsoft.com, who is now hosting it (as opposed to Microsoft France).

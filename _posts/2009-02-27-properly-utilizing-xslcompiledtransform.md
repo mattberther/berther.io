@@ -2,6 +2,8 @@
 title: Properly utilizing XslCompiledTransform
 disqus_identifier: 2009-02-properly-utilizing-xslcompiledtransform
 comments: true
+categories: [Development, .NET]
+tags: [csharp, xml, dotnet]
 ---
 
 Not long ago, we noticed some degradation in performance after we upgraded to .NET 2.0 and migrated to the XslCompiledTransform class from the now obsolete XslTransform class. Our implementation was fairly straightforward, although we hid it behind an interface for easy mocking/testing.

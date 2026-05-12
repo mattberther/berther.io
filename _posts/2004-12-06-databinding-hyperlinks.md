@@ -2,6 +2,8 @@
 title: DataBinding HyperLinks
 disqus_identifier: 2004-12-databinding-hyperlinks
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp]
 ---
 
 Sometimes, it may be desirable for you to create dynamic HyperLinks in your markup files. For whatever reason, you may not want to create the link for the hyperlink in code behind. Maybe you want to tweak it later without recompiling.

@@ -2,6 +2,8 @@
 title: Running gulpjs tasks in order
 disqus_identifier: 2014-07-running-gulpjs-tasks-in-order
 comments: true
+categories: [Tools]
+tags: [javascript, ci-cd]
 ---
 
 When I did the redesign of this site, I wanted to also do some things that had been on my mind for a while, including combining and minifying my javascript and css resources. By doing so, I hoped that pages would load even faster than they already did.

@@ -2,6 +2,8 @@
 title: Testing MVP with Rhino.Mocks
 disqus_identifier: 2006-03-testing-mvp-with-rhinomocks
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, mvp, csharp]
 ---
 
 I've been working on a project recently where I've decided to use [Model View Presenter][1] (MVP). The biggest benefit to implementing using MVP is that you end up decoupling your views from your presenters since all communication from the view to the presenter happens via events.

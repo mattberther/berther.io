@@ -2,6 +2,8 @@
 title: Great error messages
 disqus_identifier: 2007-02-great-error-messages
 comments: true
+categories: [Development, General]
+tags: [opinion]
 ---
 
 Lately, it seems like at least once or twice a day, I get a great little error message when I load up google reader. It simply says, "Oops! That wasn't supposed to happen." Isn't that a fantastic, reassuring message? 

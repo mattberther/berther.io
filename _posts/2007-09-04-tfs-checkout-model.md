@@ -2,6 +2,8 @@
 title: TFS Checkout Model
 disqus_identifier: 2007-09-tfs-checkout-model
 comments: true
+categories: [Tools]
+tags: [subversion, opinion]
 ---
 
 We are probably one of the very few organizations in the wild that is actually using TFS for our source control system as well as backlog items, etc. We are really striving for an end-to-end TFS solution.

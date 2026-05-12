@@ -2,6 +2,8 @@
 title: Firefox vs Internet Explorer 7
 disqus_identifier: 2006-10-firefox-vs-internet-explorer-7
 comments: true
+categories: [Tools]
+tags: [review, windows]
 ---
 
 Having just recently installed Vista RC2 as my main operating system on my laptop, I resolved to give Internet Explorer a fair shake to try and win me back as a user with version 7.

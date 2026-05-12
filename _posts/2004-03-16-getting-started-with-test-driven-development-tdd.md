@@ -2,6 +2,8 @@
 title: Getting started with Test Driven Development (TDD)
 disqus_identifier: 2004-03-getting-started-with-test-driven-development-tdd
 comments: true
+categories: [Methodology, Testing]
+tags: [tdd, unit-testing]
 ---
 
 For the last few weeks, Ive been seriously looking into Test Driven Development (TDD) and how it could positively affect my development processes. For the most part, this has been an enlightening experience. Kind of like, why didnt I think of that? 

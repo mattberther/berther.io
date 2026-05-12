@@ -2,6 +2,8 @@
 title: Getting a business online
 disqus_identifier: 2007-03-getting-a-business-online
 comments: true
+categories: [Tools]
+tags: [hosting, opinion]
 ---
 
 With the latest offering from Google going live (Google Apps for Your Domain), I've realized exactly how fast it is to get a business online. I've been using GAfYD for quite a while for the email and calendaring here at mattberther.com, but everything was already registered and so on.

@@ -2,6 +2,8 @@
 title: Myths of Creativity
 disqus_identifier: 2006-01-myths-of-creativity
 comments: true
+categories: [Career]
+tags: [management, opinion]
 ---
 
 Recently, I was pointed to an [article][1] at Fast Company that cites some research that seems to debunk six common myths of creativity.

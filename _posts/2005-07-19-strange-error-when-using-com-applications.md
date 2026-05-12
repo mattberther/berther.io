@@ -2,6 +2,8 @@
 title: Strange error when using COM+ applications
 disqus_identifier: 2005-07-strange-error-when-using-com-applications
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, windows]
 ---
 
 I was working on integrating a COM+ application (service) into my .NET application. The goal was to have this service layer on a different machine and the calling application would use the service over DCOM.

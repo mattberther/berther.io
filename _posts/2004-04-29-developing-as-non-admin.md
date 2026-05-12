@@ -2,6 +2,8 @@
 title: Developing as non-admin
 disqus_identifier: 2004-04-developing-as-non-admin
 comments: true
+categories: [Methodology, General]
+tags: [security, windows]
 ---
 
 It has been almost three months now since I have taken the plunge and removed myself from the administrators group and started doing everything with a less privileged account. I've found that it greatly changes the way you think about writing certain pieces of code.

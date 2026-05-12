@@ -2,6 +2,8 @@
 title: Generating URLs with ActionMailer
 disqus_identifier: 2008-04-generating-urls-with-actionmailer
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby]
 ---
 
 ActionMailer is a very handy class for sending emails from your rails application. However, the problem that typically arises is the sending of links to your site via rails using the url_for method. Acording to the [API documentation][1], this is because the mailer instance does not have any context about the incoming request. The API documentation recommends passing the host to the url_for parameter, like this:

@@ -2,6 +2,8 @@
 title: OSX slowdowns
 disqus_identifier: 2008-01-osx-slowdowns
 comments: true
+categories: [Tools]
+tags: [osx]
 ---
 
 For some time now, my wife has been complaining about slowdowns on her iMac. Occassionally, I would login and try to do something and I found that the only way for me to login would be to completely reboot the machine. The user switching was essentially non-functional and just left the computer completely hung. Other problems she mentioned were that everytime she started Safari, she would get a message that said the Safari had been updated and would she want to allow the new version to access the same keychain items.

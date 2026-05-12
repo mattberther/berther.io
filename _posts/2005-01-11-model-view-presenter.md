@@ -2,6 +2,8 @@
 title: Model View Presenter
 disqus_identifier: 2005-01-model-view-presenter
 comments: true
+categories: [Development, .NET]
+tags: [mvp, design-patterns, csharp]
 ---
 
 Martin Fowler has introduced several new enterprise patterns for his new book. The one that has intrigued me the most so far is [Model View Presenter][1].

@@ -2,6 +2,8 @@
 title: Continuous Deployment to CloudFront Using circleci
 disqus_identifier: 2016-02-25-continuous-deployment-to-cloudfront-using-circleci
 comments: true
+categories: [Tools]
+tags: [ci-cd, aws, jekyll, deployment]
 ---
 
 Historically, I used a dynamic publishing engine to host this site. The engine would reside on a server that I was responsible for maintaining -- both security patches and uptime. Recently though, I made the switch to using the [AWS CloudFront](https://aws.amazon.com/cloudfront/) platform to make this site available on the Internet. Key benefits from this approach include:

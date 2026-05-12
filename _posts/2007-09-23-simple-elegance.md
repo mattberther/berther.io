@@ -2,6 +2,8 @@
 title: Simple Elegance
 disqus_identifier: 2007-09-simple-elegance
 comments: true
+categories: [Development, Ruby]
+tags: [ruby, rails]
 ---
 
 Recently, I've started rekindling my love affair with the Ruby language. One of my favorite idioms is `||=`. How many times do you find yourself writing something like:

@@ -2,6 +2,8 @@
 title: Five Things You Don't Know About Me
 disqus_identifier: 2007-01-five-things-you-dont-know-about-me
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 This meme tag is going around. The idea is that Im supposed to tell you five things that most people do not know about me, and then in an effort to keep it going I'm supposed to tag five more. I was tagged (read: sucked into this) by [Raymond Lewallen][1]. Normally, I dont care much for these types of things, but this one was really rather intriguing and I found myself thinking pretty hard to come up with this list.</p> 

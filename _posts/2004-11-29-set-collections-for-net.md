@@ -2,6 +2,8 @@
 title: Set Collections for .NET
 disqus_identifier: 2004-11-set-collections-for-net
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet, review]
 ---
 
 The collections available in the .NET framework are sufficient for most types of operations you will encounter. However, there is one type that is missing. A Set is a collection that contains no duplicate elements. The Set is not used very often, but when you do need it, you *really* need it.

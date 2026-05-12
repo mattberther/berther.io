@@ -2,6 +2,8 @@
 title: Migrations with Ruby on Rails
 disqus_identifier: 2006-11-migrations-with-ruby-on-rails
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby, sql]
 ---
 
 I've looked through a number of books and websites in the period of time that I've been becoming more familiar with the stroke of genius that is Ruby on Rails. I've noticed that the majority of the books and websites seem to glance over what I think is probably the single coolest feature of Rails.

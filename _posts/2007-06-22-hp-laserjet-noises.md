@@ -2,6 +2,8 @@
 title: HP LaserJet Noises
 disqus_identifier: 2007-06-hp-laserjet-noises
 comments: true
+categories: [Personal]
+tags: [review]
 ---
 
 Not long ago, we bought an [HP Color LaserJet 2605dn][1] printer for our home office. Our experience with this printer has been absolutely fantastic, with one exception. If the printer had been sitting inactive for a while, and you send it a print job the printer would make this horrible squealing noise while printing the first page.

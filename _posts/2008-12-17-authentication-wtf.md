@@ -2,6 +2,8 @@
 title: Authentication WTF
 disqus_identifier: 2008-12-authentication-wtf
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 So there I was earlier tonight... Trying to review my credit reports like I do about this time each year. A visit to annualcreditreport.com and I was on my way... until I got to Equifax's site.

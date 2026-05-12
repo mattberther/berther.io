@@ -2,6 +2,8 @@
 title: ASP.NET breakthrough
 disqus_identifier: 2003-04-aspnet-breakthrough
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp]
 ---
 
 Today I had an breakthrough in designing web applications. I had kind of resigned myself to the fact that ASP.NET was rather inflexible to design via VS.NET.

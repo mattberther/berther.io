@@ -2,6 +2,8 @@
 title: Blasting open source
 disqus_identifier: 2008-04-blasting-open-source
 comments: true
+categories: [Methodology, General]
+tags: [opinion, dotnet]
 ---
 
 In the [latest installment][1] of the Elegant Code Cast, David Starr talks with Darrel Carver, a local .NET developer and member of the Elegant Code group. I found the talk quite fascinating, but do want to pick on Darrel for one of his comments.

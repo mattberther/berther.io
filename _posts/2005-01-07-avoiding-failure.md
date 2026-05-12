@@ -2,6 +2,8 @@
 title: Avoiding Failure
 disqus_identifier: 2005-01-avoiding-failure
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, review]
 ---
 
 Yesterday, the UPS truck delivered my recent purchase of [Code Complete, Second Edition][1].

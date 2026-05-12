@@ -2,6 +2,8 @@
 title: RSpec Top to Bottom
 disqus_identifier: 2007-10-rspec-top-to-bottom
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, ruby]
 ---
 
 I have to thank Tim Haines for turning me on to RSpec not long ago via his [LinkBuddy facebook application][1]. I've been trying to suck in as much information as possible about this intriguing tool. Imagine being able to describe your stories *AND* their corresponding acceptance criteria in code, and then being able to execute those tests to demonstrate that functionality is complete.

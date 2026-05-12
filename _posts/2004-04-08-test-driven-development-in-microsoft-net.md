@@ -2,6 +2,8 @@
 title: Test Driven Development in Microsoft .NET
 disqus_identifier: 2004-04-test-driven-development-in-microsoft-net
 comments: true
+categories: [Methodology, Testing]
+tags: [tdd, review, dotnet]
 ---
 
 Recently, I have been really trying to adopt two of the Extreme Programming (XP) rules. The first being constant refactoring and the second being test driven development (TDD).

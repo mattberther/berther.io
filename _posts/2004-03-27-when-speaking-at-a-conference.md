@@ -2,6 +2,8 @@
 title: When speaking at a conference...
 disqus_identifier: 2004-03-when-speaking-at-a-conference
 comments: true
+categories: [Career]
+tags: [public-speaking, opinion]
 ---
 
 Please keep your opinions about the technology to yourself. Most of the attendees are there to learn about the technologies. Your position as a speaker is to educate those people about the technology, not to use your position as a soapbox to voice your particular issues about a certain technology/company/etc.

@@ -2,6 +2,8 @@
 title: AllowSorting and ViewState
 disqus_identifier: 2005-11-allowsorting-and-viewstate
 comments: true
+categories: [Development, .NET]
+tags: [aspnet]
 ---
 
 Im working through a bug fix round on an ASP.NET project that I've had for a while. One of the issues that we found was that all of the sudden, when turning ViewState off, the Sort functionality stopped working on a particular datagrid that we had. We had to leave ViewState off, because of the sheer amount of data that was being put into the grid was causing timeouts when the page was loading and other issues.

@@ -2,6 +2,8 @@
 title: GradientLabel
 disqus_identifier: 2004-01-gradientlabel
 comments: true
+categories: [Development, .NET]
+tags: [csharp, winforms]
 ---
 
 For a project that I'm working on, I wanted to display a dialog that had different header text. I found a really cool way to make this header stand out.

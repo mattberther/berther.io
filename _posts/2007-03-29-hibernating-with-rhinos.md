@@ -2,6 +2,8 @@
 title: Hibernating with Rhinos
 disqus_identifier: 2007-03-hibernating-with-rhinos
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, dotnet, tdd]
 ---
 
 Oren Eini (more popularly known as Ayende Rahien) has started a series of video casts to introduce his exemplary mocking framework known as Rhino Mocks. Rhino Mocks has recently shipped version 3.0, and I want to congratulate Oren on this milestone.

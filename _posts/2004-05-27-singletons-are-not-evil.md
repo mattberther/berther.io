@@ -2,6 +2,8 @@
 title: Singletons are not evil
 disqus_identifier: 2004-05-singletons-are-not-evil
 comments: true
+categories: [Development, General]
+tags: [design-patterns, opinion]
 ---
 
 Scott Densmore has an interesting [post][1] regarding singletons and why he thinks they are evil. I'd like to go through his points one by one and add my thoughts:

@@ -2,6 +2,8 @@
 title: Ordering your javascript while using RegisterClientScriptBlock
 disqus_identifier: 2005-11-ordering-your-javascript-while-using-registerclientscriptblock
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp, javascript]
 ---
 
 Earlier today I stumbled across an interesting issue while using Page.RegisterClientScriptBlock to register some javascript to be output to the browser. The order of output was very important, because one of the scripts depended on a previous script being registered.

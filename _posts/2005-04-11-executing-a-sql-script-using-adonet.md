@@ -2,6 +2,8 @@
 title: Executing a SQL script using ADO.NET
 disqus_identifier: 2005-04-executing-a-sql-script-using-adonet
 comments: true
+categories: [Development, .NET]
+tags: [csharp, sql]
 ---
 
 Recently, while creating an installer application, I had the need to execute a sql script while my application was being installed. A while back, I [posted a technique][1] that would accomplish this.

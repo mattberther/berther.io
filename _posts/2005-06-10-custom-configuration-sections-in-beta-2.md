@@ -2,6 +2,8 @@
 title: Custom Configuration Sections in Beta 2
 disqus_identifier: 2005-06-custom-configuration-sections-in-beta-2
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, csharp, xml]
 ---
 
 I spent a little time this afternoon delving into Whidbey Beta 2, after finally surfacing from other priorities at work.

@@ -2,6 +2,8 @@
 title: Modifying your web.config file via an installer
 disqus_identifier: 2004-01-modifying-your-webconfig-file-via-an-installer
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp, xml]
 ---
 
 When installing a web application, it is often necessary for items in the web.config file to be modified at runtime (eg: database connection strings).

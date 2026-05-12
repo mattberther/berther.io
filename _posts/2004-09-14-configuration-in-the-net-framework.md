@@ -2,6 +2,8 @@
 title: Configuration in the .NET framework
 disqus_identifier: 2004-09-configuration-in-the-net-framework
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, csharp, design-patterns]
 ---
 
 A lot of people (me included) use the configuration API in the .NET framework (System.Configuration.ConfigurationSettings.AppSettings) to store configuration settings for their applications.

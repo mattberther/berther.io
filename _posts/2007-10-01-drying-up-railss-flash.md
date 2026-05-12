@@ -2,6 +2,8 @@
 title: DRYing up Rails's Flash
 disqus_identifier: 2007-10-drying-up-railss-flash
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby, refactoring]
 ---
 
 When working with a Ruby on Rails application, one of the first things that I lot of people start working with is flash. There are certain conventions that are used to pass specific messages from the controllers to the views. Most often, these messages take the form of notices, warnings, or errors.

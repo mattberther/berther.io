@@ -2,6 +2,8 @@
 title: Some Rails Misconceptions
 disqus_identifier: 2007-10-some-rails-misconceptions
 comments: true
+categories: [Development, Ruby]
+tags: [rails, opinion]
 ---
 
 Rob Conery seemed to stir up quite a firestorm in his post earlier today about [imploding rails][1]. I enjoy reading Rob's posts and really appreciate his contribution to the community, but on this one, I have to disagree with him.

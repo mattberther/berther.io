@@ -2,6 +2,8 @@
 title: MTCodeBeautifier and C# keywords
 disqus_identifier: 2004-05-mtcodebeautifier-and-c-keywords
 comments: true
+categories: [Tools]
+tags: [movabletype, perl]
 ---
 
 When using Sean Voisen's [MTCodeBeautifier][1] to colorize C# code, you may notice that the keywords this and base may not get properly colorized.

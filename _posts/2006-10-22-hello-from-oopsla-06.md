@@ -2,6 +2,8 @@
 title: Hello from OOPSLA 06
 disqus_identifier: 2006-10-hello-from-oopsla-06
 comments: true
+categories: [Career]
+tags: [opinion]
 ---
 
 Last night, we (myself and several people from my company) flew into Portland for the OOPSLA 06 conference.

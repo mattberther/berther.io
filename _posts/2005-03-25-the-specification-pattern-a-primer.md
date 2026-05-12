@@ -2,6 +2,8 @@
 title: "The Specification Pattern: A Primer"
 disqus_identifier: 2005-03-the-specification-pattern-a-primer
 comments: true
+categories: [Development, .NET]
+tags: [csharp, design-patterns]
 ---
 
 The [Specification pattern][1] is a very powerful design pattern which can be used to remove a lot of cruft from a class's interface while decreasing coupling and increasing extensibility. It's primary use is to select a subset of objects based on some criteria, and to refresh the selection at various times.

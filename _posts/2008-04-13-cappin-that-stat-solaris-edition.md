@@ -2,6 +2,8 @@
 title: "Cappin' that Stat: Solaris edition"
 disqus_identifier: 2008-04-cappin-that-stat-solaris-edition
 comments: true
+categories: [Tools]
+tags: [deployment, ruby, perl]
 ---
 
 Some time ago, I saw a [post on err the blog][1] that detailed how to use Capistrano to inject your site's google analytics javascript at deploy time. The major advantage to this is that you dont run up your site stats while developing your site. While developing, it's empty, and when you run a cap deploy, it places the javascript right before the closing body tag. Brilliance, if you ask me ... until you try the posted after_symlink task on a Solaris box.

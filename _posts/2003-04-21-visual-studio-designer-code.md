@@ -2,6 +2,8 @@
 title: Visual Studio designer code
 disqus_identifier: 2003-04-visual-studio-designer-code
 comments: true
+categories: [Tools]
+tags: [visual-studio, dotnet]
 ---
 
 Shawn Van Ness had a great [post][1] a while back about not subscribing to your own events, because of the unnecessary havoc that it can wreak on your code.

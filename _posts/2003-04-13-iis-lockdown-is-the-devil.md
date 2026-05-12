@@ -2,6 +2,8 @@
 title: IIS Lockdown is the devil
 disqus_identifier: 2003-04-iis-lockdown-is-the-devil
 comments: true
+categories: [Tools]
+tags: [hosting, security]
 ---
 
 So, I installed the [Microsoft Baseline Security Analyzer][1].

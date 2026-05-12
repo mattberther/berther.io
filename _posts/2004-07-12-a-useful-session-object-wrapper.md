@@ -2,6 +2,8 @@
 title: A useful Session object wrapper
 disqus_identifier: 2004-07-a-useful-session-object-wrapper
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp, design-patterns]
 ---
 
 There are always two things I do when creating a new ASP.NET project. The first is to create a base class for all of my pages to inherit. This is fairly straightforward, and makes quite a bit of sense in that you can centralize your error handling (overriding OnError), among other things.

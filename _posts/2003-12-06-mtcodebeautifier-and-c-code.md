@@ -2,6 +2,8 @@
 title: MTCodeBeautifier and C# code
 disqus_identifier: 2003-12-mtcodebeautifier-and-c-code
 comments: true
+categories: [Tools]
+tags: [movabletype, perl, csharp]
 ---
 
 I just finished installing Sean Voisen's [MTCodeBeautifier][1] to colorize the code on this site.

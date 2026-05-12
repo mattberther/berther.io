@@ -2,6 +2,8 @@
 title: Random Images in Rails
 disqus_identifier: 2007-11-random-images-in-rails
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby]
 ---
 
 A requirement for a client application that I just recently finished was to display groups of client logos on the screen. The logos themselves would be stored on the filesystem of the web server. What I needed was a way to get a random image to my view in such a way that images would not be duplicated. Having the same logo on the screen twice would not have been ok. This is what I came up with.

@@ -2,6 +2,8 @@
 title: Free Source vs Open Source
 disqus_identifier: 2007-07-free-source-vs-open-source
 comments: true
+categories: [Methodology, General]
+tags: [opinion]
 ---
 
 Very often, I hear people referring to open source software as any software in which the deliverable includes source code. This is not the case. There is a fundamental difference between free source and open source.

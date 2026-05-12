@@ -2,6 +2,8 @@
 title: XmlSerializer and CollectionBase
 disqus_identifier: 2003-04-xmlserializer-and-collectionbase
 comments: true
+categories: [Development, .NET]
+tags: [csharp, xml, dotnet]
 ---
 
 I just want to share some things that I have learned while fighting with getting an XML fragment to deserialize into a CollectionBase derived object. What a nightmare!

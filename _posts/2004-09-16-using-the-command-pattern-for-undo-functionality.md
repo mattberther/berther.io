@@ -2,6 +2,8 @@
 title: Using the Command pattern for undo functionality
 disqus_identifier: 2004-09-using-the-command-pattern-for-undo-functionality
 comments: true
+categories: [Development, .NET]
+tags: [csharp, design-patterns, winforms]
 ---
 
 Command is a very powerful design pattern, whose intent is to encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.

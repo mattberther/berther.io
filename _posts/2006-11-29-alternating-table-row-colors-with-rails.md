@@ -2,6 +2,8 @@
 title: Alternating table row colors with Rails
 disqus_identifier: 2006-11-alternating-table-row-colors-with-rails
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby]
 ---
 
 I was looking for a way to alternate table row colors with Ruby on Rails and stumbled across this gem. All you have to do is use the [cycle method on the TextHelper][1].

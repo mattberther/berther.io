@@ -2,6 +2,8 @@
 title: Who needs Fitnesse?
 disqus_identifier: 2006-10-who-needs-fitnesse
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, opinion]
 ---
 
 We've been diligently using Fitnesse for the past year or so to document and automate our acceptance tests. For the most part, this has been an inefficient process. Let me clarify a little...

@@ -2,6 +2,8 @@
 title: TDD Metrics
 disqus_identifier: 2004-04-tdd-metrics
 comments: true
+categories: [Methodology, Testing]
+tags: [tdd, unit-testing]
 ---
 
 [Matt Hawley][1] has a post that details the first measurements that I've seen regarding the effects of Test Driven Development (TDD).

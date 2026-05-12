@@ -2,6 +2,8 @@
 title: Extenstion methods for expressive code
 disqus_identifier: 2008-03-extenstion-methods-for-expressive-code
 comments: true
+categories: [Development, .NET]
+tags: [csharp, ruby, opinion]
 ---
 
 One of my main likes of the Ruby language is that it very clearly allows you to express programmer intent. I don't want to get into the argument of whether or not Ruby is more beautiful than another language. Suffice it to say that it is just as easy to create ugly code in Ruby as it is in any other language. However, the tendency is towards very clearly expressing intent. This is what constitutes beautiful code to me.

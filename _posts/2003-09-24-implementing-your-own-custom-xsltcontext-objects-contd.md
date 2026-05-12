@@ -2,6 +2,8 @@
 title: Implementing your own custom XsltContext objects, cont'd
 disqus_identifier: 2003-09-implementing-your-own-custom-xsltcontext-objects-contd
 comments: true
+categories: [Development, Data]
+tags: [xml, csharp, dotnet]
 ---
 
 In my [previous post][1], I mentioned that the only changes are prefacing your XPath function with a namespace prefix.

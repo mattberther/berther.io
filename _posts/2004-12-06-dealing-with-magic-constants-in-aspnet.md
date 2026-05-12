@@ -2,6 +2,8 @@
 title: Dealing with magic constants in ASP.NET
 disqus_identifier: 2004-12-dealing-with-magic-constants-in-aspnet
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp, refactoring]
 ---
 
 David has posted a great little tip about [parsing page parameters][1] using ASP.NET. This is a very basic example of the [Pull Up Method][2] refactoring. The important thing to take away from this example is how David has managed to eliminate code duplication using this refactoring.

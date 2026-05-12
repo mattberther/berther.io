@@ -2,6 +2,8 @@
 title: Photoshop CS3 developed using agile techniques
 disqus_identifier: 2007-03-photoshop-cs3-developed-using-agile-techniques
 comments: true
+categories: [Methodology, Agile]
+tags: [agile]
 ---
 
 For those unfamiliar, Adobe Photoshop is the de-facto standard in image editors, and the CS3 release is version 10 of this product, which has needed to be re-tooled to provide support for a whole new processor architecture (a universal binary for Mac OSX).

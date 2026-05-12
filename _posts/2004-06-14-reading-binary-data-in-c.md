@@ -2,6 +2,8 @@
 title: Reading binary data in C#
 disqus_identifier: 2004-06-reading-binary-data-in-c
 comments: true
+categories: [Development, .NET]
+tags: [csharp]
 ---
 
 If you're reading binary data from streams using syntax similar to the following, you'll need to make sure to read [this article][1]. This code is not at all guaranteed to work.

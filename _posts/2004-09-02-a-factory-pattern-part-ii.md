@@ -2,6 +2,8 @@
 title: A Factory Pattern, part II
 disqus_identifier: 2004-09-a-factory-pattern-part-ii
 comments: true
+categories: [Development, .NET]
+tags: [csharp, design-patterns]
 ---
 
 Jay Bazuzi jots down the start of a great idea for a [factory pattern][1] that popped into his head. He mentioned that he didnt know what it's good for.

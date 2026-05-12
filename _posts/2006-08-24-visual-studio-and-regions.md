@@ -2,6 +2,8 @@
 title: Visual Studio and regions
 disqus_identifier: 2006-08-visual-studio-and-regions
 comments: true
+categories: [Tools]
+tags: [visual-studio]
 ---
 
 At work, we like to group methods together by scope, meaning that all private methods are group together, and so on. The best way we've found to handle this is to define regions for each scope level.

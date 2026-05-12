@@ -2,6 +2,8 @@
 title: Certified ScrumMaster
 disqus_identifier: 2006-09-certified-scrummaster
 comments: true
+categories: [Methodology, Agile]
+tags: [scrum, agile]
 ---
 
 Last week, our organization brought in Jeff Sutherland (the father of scrum) to certify numerous people (myself included) as scrum masters. We wanted to do this, so that we could baseline what scrum meant to our organization.

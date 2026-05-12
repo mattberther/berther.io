@@ -2,6 +2,8 @@
 title: Have you seen this ad?
 disqus_identifier: 2003-09-have-you-seen-this-ad
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 The following ad, which actually ran in The Atlanta Journal, has been reported to have received numerous calls:

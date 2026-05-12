@@ -2,6 +2,8 @@
 title: The Morning After
 disqus_identifier: 2008-11-the-morning-after
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 About 10:00 last night, it became apparent that the people of the United States had spoken. They had spoken very clearly that they were ready for the change that Barack Obama was promising. In a very decisive election, Barack Obama has been elected the 44<sup>th</sup> President of the United States.

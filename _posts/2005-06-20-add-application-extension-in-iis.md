@@ -2,6 +2,8 @@
 title: Add Application Extension in IIS
 disqus_identifier: 2005-06-add-application-extension-in-iis
 comments: true
+categories: [Tools]
+tags: [windows, hosting]
 ---
 
 Earlier tonight, I was trying to setup a new file extension for a web application using IIS. The idea was simple enough. Default Website | Home Directory | Configuration | Application Configuration.

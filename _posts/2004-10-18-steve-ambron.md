@@ -2,6 +2,8 @@
 title: Steve Ambron
 disqus_identifier: 2004-10-steve-ambron
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 I got a note today from a very good friend of mine. Steve and I have known each other for almost 14 years now. Several years back, Steve joined the Army and last November, he got called on by our country to serve in Iraq. He spent almost a year over there in the desert in conditions I cant even begin to imagine. 

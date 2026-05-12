@@ -2,6 +2,8 @@
 title: Developing portable ASP.NET apps, part deux
 disqus_identifier: 2006-02-developing-portable-aspnet-apps-part-deux
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, monorail, security]
 ---
 
 Recently, I developed a website for a client using ASP.NET 2.0, along with the fantastic [MonoRail][1] framework. I'll be posting more on MonoRail in the future, but to put it in a nutshell, Monorail is an MVC web framework similar to Ruby on Rails. Its a very productive, intuitive and easily testable way to develop web applications. If you have not seen or used MonoRail, you owe it to yourself to go check it out.

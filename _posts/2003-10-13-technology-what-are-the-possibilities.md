@@ -2,6 +2,8 @@
 title: "Technology: What are the possibilities?"
 disqus_identifier: 2003-10-technology-what-are-the-possibilities
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 I just got finished helping Sage with some problems he encountered with installing MovablePoster. No issues with MovablePoster, thankfully.

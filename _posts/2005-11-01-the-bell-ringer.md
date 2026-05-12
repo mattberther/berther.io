@@ -2,6 +2,8 @@
 title: The Bell Ringer
 disqus_identifier: 2005-11-the-bell-ringer
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 You just came to Texas Tech University as a freshman...

@@ -2,6 +2,8 @@
 title: VS 2005 Web Projects
 disqus_identifier: 2005-10-vs-2005-web-projects
 comments: true
+categories: [Tools]
+tags: [visual-studio, aspnet, ci-cd]
 ---
 
 Scott Guthrie has an article available on MSDN that talks about what the [web project system][1] is and why they did it that way.

@@ -2,6 +2,8 @@
 title: Business Layer Deployment
 disqus_identifier: 2004-09-business-layer-deployment
 comments: true
+categories: [Development, General]
+tags: [architecture, opinion]
 ---
 
 One of the things that I've been thinking about quite a bit lately is what type of deployment model best fits into an n-tier architecture.

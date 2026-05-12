@@ -1,7 +1,9 @@
---- 
+---
 title: Hidden Gems in Code
 disqus_identifier: 2011-01-hidden-gems-in-code
 comments: true
+categories: [Personal]
+tags: [opinion, javascript]
 ---
 
 This gem was spotted in some code that my team was working on today. It made us chuckle anyway. :)

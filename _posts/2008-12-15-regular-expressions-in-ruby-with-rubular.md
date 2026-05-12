@@ -2,6 +2,8 @@
 title: Regular Expressions in Ruby with Rubular
 disqus_identifier: 2008-12-regular-expressions-in-ruby-with-rubular
 comments: true
+categories: [Tools]
+tags: [ruby, review]
 ---
 
 For those that are regex-challenged (like myself), determining exactly what a regex will match can be very much hit or miss. Recently, I stumbled across Rubular, which helps make this a little easier. [Rubular][1] is a Ruby regular expression editor, with a very sexy, ajaxy interface. 

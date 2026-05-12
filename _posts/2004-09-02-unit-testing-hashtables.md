@@ -2,6 +2,8 @@
 title: Unit testing Hashtables
 disqus_identifier: 2004-09-unit-testing-hashtables
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, csharp]
 ---
 
 Consider the following three tests. Without compiling, what would you expect the results to be and why? A GMail invite will be provided to the first right answer, so make sure you provide your email address or some other means of contacting you when commenting.

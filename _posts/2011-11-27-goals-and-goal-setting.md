@@ -2,6 +2,8 @@
 title: Goals and Goal Setting
 disqus_identifier: 2011-11-goals-and-goal-setting
 comments: true
+categories: [Career]
+tags: [management, mentoring]
 ---
 
 **Goals and Goal Setting:**

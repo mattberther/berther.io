@@ -2,6 +2,8 @@
 title: Binding Castle ActiveRecord relationships using select lists
 disqus_identifier: 2007-04-binding-castle-activerecord-relationships-using-select-lists
 comments: true
+categories: [Development, .NET]
+tags: [monorail, csharp]
 ---
 
 Consider the following data class:

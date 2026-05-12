@@ -2,6 +2,8 @@
 title: Evolving Agile Teams
 disqus_identifier: 2007-07-evolving-agile-teams
 comments: true
+categories: [Methodology, Agile]
+tags: [agile, management]
 ---
 
 How do you help an agile software development team become more productive and more "agile"?  

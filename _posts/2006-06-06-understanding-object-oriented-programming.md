@@ -2,6 +2,8 @@
 title: Understanding Object Oriented Programming
 disqus_identifier: 2006-06-understanding-object-oriented-programming
 comments: true
+categories: [Development, General]
+tags: [oop]
 ---
 
 One of my colleagues, Alex Mueller, recently completed a set of presentations to our organization which talked about the tenets of object oriented programming. Most of the people in the room were familiar with the concepts covered, however, I think that it's always good to go back and revisit the fundamentals.

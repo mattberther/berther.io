@@ -2,6 +2,8 @@
 title: Implementing method_missing
 disqus_identifier: 2009-02-implementing-methodmissing
 comments: true
+categories: [Development, Ruby]
+tags: [ruby]
 ---
 
 Earlier, I was working on creating a script that would iterate a set of folders and execute a chunk of code against that file when it was found. The script itself is easy enough to write with straight ruby. For example:

@@ -2,6 +2,8 @@
 title: Edit and Continue in C# 2.0
 disqus_identifier: 2004-10-edit-and-continue-in-c-20
 comments: true
+categories: [Development, .NET]
+tags: [csharp, opinion]
 ---
 
 I'm sure that by now everyone has heard that [Edit and Continue will be a part of Visual C# 2005][1]. It's taken me a while to get my thoughts in order regarding this major announcement.

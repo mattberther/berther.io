@@ -2,6 +2,8 @@
 title: LogRotate on Joyent Accelerators
 disqus_identifier: 2007-10-logrotate-on-joyent-accelerators
 comments: true
+categories: [Tools]
+tags: [hosting, rails]
 ---
 
 Recently, I finished rolling out a new client site on a Joyent Accelerator. The site uses Rails and one thing thats both positive and negative is the amount of information that gets logged. Granted, when RAILS_ENV is production, the amount of data that gets logged is much less than when RAILS_ENV is development. However, even when set to production, there is a significant amount of data which gets logged. The good part of this is that when something goes wrong, it's very easy to pinpoint the problem. The drawback is that these log files can chew up disk space when not managed properly. Enter the logrotate command...

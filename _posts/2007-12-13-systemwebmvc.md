@@ -2,6 +2,8 @@
 title: System.Web.MVC
 disqus_identifier: 2007-12-systemwebmvc
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, monorail, design-patterns]
 ---
 
 I just had the great fortune of being able to listen to Craig Shoemaker talk about System.Web.MVC with Jeffrey Palermo. This was a great talk and I feel that I've really learned a lot. I've created a VM so that I can install VS.NET 2008 and the ASP.NET 3.5 Extensions. I'm excited to start looking into this project.

@@ -2,6 +2,8 @@
 title: Joel on Exceptions
 disqus_identifier: 2003-10-joel-on-exceptions
 comments: true
+categories: [Development, General]
+tags: [opinion]
 ---
 
 So, I think this is the first time I've ever disagreed with anything that Joel Spolsky has said. However, [his take on exceptions][1] is ridiculous, in my opinion.

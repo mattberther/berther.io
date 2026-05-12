@@ -2,6 +2,8 @@
 title: Implementing an ASP.NET Validator
 disqus_identifier: 2004-01-implementing-an-aspnet-validator
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp]
 ---
 
 For a project that I am working on, we are allowing users to enter a URI into ASP.NET TextBox controls. As I was implementing this, I thought that this would be a wonderful idea for a control.

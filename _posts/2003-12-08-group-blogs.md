@@ -2,6 +2,8 @@
 title: Group Blogs
 disqus_identifier: 2003-12-group-blogs
 comments: true
+categories: [Meta]
+tags: [meta]
 ---
 
 Scoble had an [interesting post][1] yesterday about group blogs such as PDC Blogs, .NET Weblogs and Longhorn Blogs.

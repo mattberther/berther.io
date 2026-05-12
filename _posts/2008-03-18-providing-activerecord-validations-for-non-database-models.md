@@ -2,6 +2,8 @@
 title: Providing ActiveRecord validations for non-database models
 disqus_identifier: 2008-03-providing-activerecord-validations-for-non-database-models
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby]
 ---
 
 The validations provided by the Rails framework are very powerful and provide a very easy, no cost way of validating forms prior to submitting them to the database. You might see the validations in a class this way:

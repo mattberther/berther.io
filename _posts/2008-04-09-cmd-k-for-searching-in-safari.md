@@ -2,6 +2,8 @@
 title: CMD-K for searching in Safari
 disqus_identifier: 2008-04-cmd-k-for-searching-in-safari
 comments: true
+categories: [Tools]
+tags: [osx]
 ---
 
 Using Firefox on my daytime PC and Safari on my evening PC (MBP), I've suffered a bit of schizophrenia when it comes to keyboard shortcuts. To get to the Google search box in Safari, I would hit CMD-L (to get to the location bar), and then hit TAB to get to the search box. I very much wanted a CMD-K shortcut, similar to what I use in Firefox.

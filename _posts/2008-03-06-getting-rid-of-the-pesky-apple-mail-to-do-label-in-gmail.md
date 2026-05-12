@@ -2,6 +2,8 @@
 title: Getting rid of the pesky Apple Mail To Do label in gmail
 disqus_identifier: 2008-03-getting-rid-of-the-pesky-apple-mail-to-do-label-in-gmail
 comments: true
+categories: [Tools]
+tags: [osx]
 ---
 
 After having upgraded to Leopard 10.5.2 and enabling IMAP support through Mail.app, I have had a problem with a new label being consistently generated on my gmail account. No matter how many times I deleted it from gmail, Mail.app would happily recreate it every time I launched it.

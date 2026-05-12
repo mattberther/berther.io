@@ -2,6 +2,8 @@
 title: Karvonen Formula
 disqus_identifier: 2004-12-karvonen-formula
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 Earlier today, while at the gym, I was talking with a trainer about how to get the most benefit from my cardio days. He introduced me to the [Karvonen Formula][1], which may be old hat for some of you. For those that havent seen this before, hopefully you'll find it as interesting as I did.

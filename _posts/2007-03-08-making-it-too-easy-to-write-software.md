@@ -2,6 +2,8 @@
 title: Making it too easy to write software
 disqus_identifier: 2007-03-making-it-too-easy-to-write-software
 comments: true
+categories: [Methodology, General]
+tags: [opinion, dotnet]
 ---
 
 This article came through Google Reader not long ago, and initially I skipped past it, but I ended up coming back to it, because I think this message in this post epitomizes why so much of our software ends up in the state that it is.

@@ -2,6 +2,8 @@
 title: Debugging XSLT with VS2005
 disqus_identifier: 2007-10-debugging-xslt-with-vs2005
 comments: true
+categories: [Tools]
+tags: [visual-studio, xml]
 ---
 
 I am probably the last guy to know about this, but just in case...

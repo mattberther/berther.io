@@ -2,6 +2,8 @@
 title: My first XAML application
 disqus_identifier: 2004-04-my-first-xaml-application
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, csharp]
 ---
 
 Typically, when I first start to work with a new language or development technology, I try and stay away from the ubiquitous "Hello World" example. The first application that I created using Longhorn 4051 and XAML is no different. 

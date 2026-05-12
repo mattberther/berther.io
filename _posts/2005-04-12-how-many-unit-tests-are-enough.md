@@ -2,6 +2,8 @@
 title: How many unit tests are enough?
 disqus_identifier: 2005-04-how-many-unit-tests-are-enough
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, tdd]
 ---
 
 This is a question that I think about frequently. When writing unit tests, it can be very easy to come up with a virtually infinite number ways to test code that might cause it to break. A general rule of thumb is that you will have as many lines of code in your unit tests as you do in your project itself (<http://c2.com/cgi/wiki?ProductionCodeVsUnitTestsRatio>). Given this, we need to make sure that we are testing the right things.

@@ -2,6 +2,8 @@
 title: XmlDocument vs XPathNavigator
 disqus_identifier: 2004-06-xmldocument-vs-xpathnavigator
 comments: true
+categories: [Development, Data]
+tags: [xml, csharp, dotnet]
 ---
 
 I have been happily using the XmlDocument object, as it was a natural progression from the MSXML4 object model, which Ive used for years.

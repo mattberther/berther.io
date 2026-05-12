@@ -2,6 +2,8 @@
 title: The No Asshole Rule
 disqus_identifier: 2007-02-the-no-asshole-rule
 comments: true
+categories: [Career]
+tags: [management, review]
 ---
 
 I just finished reading this little gem by Bob Sutton called [The No Asshole Rule: Building a Civilized Workplace and Surviving One That Isn't][1]. This book is a fantastic, quick (under 200 pages) read that helps you understand, counteract and avoid becoming an asshole.

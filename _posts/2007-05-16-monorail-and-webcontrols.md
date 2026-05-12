@@ -2,6 +2,8 @@
 title: MonoRail and WebControls
 disqus_identifier: 2007-05-monorail-and-webcontrols
 comments: true
+categories: [Development, .NET]
+tags: [monorail, javascript, opinion]
 ---
 
 I've been using [Castle's MonoRail][1] for new websites that I've developed for the last couple years or so. I absolutely love the separation of concerns and the testability that this MVC framework brings to me. It's been amazing to watch this project grow under Hammett's leadership over this time. It seems that every time that I start to think about doing something, the framework already supports it. However, not everyone sees the advantages...

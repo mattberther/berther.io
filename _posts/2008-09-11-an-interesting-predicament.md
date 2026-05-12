@@ -2,6 +2,8 @@
 title: An interesting predicament
 disqus_identifier: 2008-09-an-interesting-predicament
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 I'm in a bit of an interesting predicament and am wondering what my legal obligations are. A little background:

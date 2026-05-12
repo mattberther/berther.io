@@ -2,6 +2,8 @@
 title: The three qualities of good code
 disqus_identifier: 2005-04-the-three-qualities-of-good-code
 comments: true
+categories: [Methodology, General]
+tags: [opinion, tdd]
 ---
 
 Not long ago, I stumbled across a gem on the Refactoring list that talks about [code clarity][1]. The piece is by Michael Feathers, of [Working Effectively with Legacy Code][2] fame.

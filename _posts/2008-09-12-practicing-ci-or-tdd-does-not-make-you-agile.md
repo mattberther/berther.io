@@ -2,6 +2,8 @@
 title: Practicing CI or TDD does not make you agile
 disqus_identifier: 2008-09-practicing-ci-or-tdd-does-not-make-you-agile
 comments: true
+categories: [Methodology, Agile]
+tags: [agile, xp, opinion]
 ---
 
 All too often, I hear organizations say that they are agile simply because they adopted continuous integration or test driven development. This is simply not the case. It can be easy for organizations to blur the lines between agile development technologies and extreme programming (XP) techniques for delivering high quality software.

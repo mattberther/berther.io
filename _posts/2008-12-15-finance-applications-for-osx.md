@@ -2,6 +2,8 @@
 title: Finance Applications for OSX
 disqus_identifier: 2008-12-finance-applications-for-osx
 comments: true
+categories: [Tools]
+tags: [osx, review]
 ---
 
 Since having purchased my MacBook Pro last year, I have managed to successfully wean myself off of almost all Windows applications for my home life. The only Windows app I still use (and keep a Parallels VM for) is Microsoft Money. I am absolutely stunned that no one has figured out how to clone Microsoft Money on OSX.

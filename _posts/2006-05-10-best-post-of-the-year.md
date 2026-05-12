@@ -2,6 +2,8 @@
 title: Best post of the year
 disqus_identifier: 2006-05-best-post-of-the-year
 comments: true
+categories: [Personal]
+tags: [life, opinion]
 ---
 
 Tom McMahon has an absolutely epic post entitled '[What I have learned in 15 years][1]'. Tom shares what he has learned about life with a disabled son. This type of post epitomizes what blogging is all about.

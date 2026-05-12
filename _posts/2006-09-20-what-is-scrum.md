@@ -2,6 +2,8 @@
 title: What is Scrum?
 disqus_identifier: 2006-09-what-is-scrum
 comments: true
+categories: [Methodology, Agile]
+tags: [scrum, agile]
 ---
 
 I've been talking a lot lately on this blog about using Scrum for project management. Some feedback that I've been getting is what is this Scrum thing, and how can I learn more about it or implement it.

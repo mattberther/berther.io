@@ -2,6 +2,8 @@
 title: Introduction to Agile
 disqus_identifier: 2005-12-introduction-to-agile
 comments: true
+categories: [Methodology, Agile]
+tags: [agile]
 ---
 
 Last week, our organization brought in [Robert Martin][1] to introduce our company to agile methodologies.

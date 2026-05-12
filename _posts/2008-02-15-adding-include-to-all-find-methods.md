@@ -2,6 +2,8 @@
 title: Adding :include to all find methods
 disqus_identifier: 2008-02-adding-include-to-all-find-methods
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby]
 ---
 
 A project that I have been working on has been making heavy use of joined ActiveRecord models with the belongs_to method. By default, the find method performs a lazy load of the related objects. However, if you use the joined data quite often, it can be very beneficial to include the data in as part of your find clause. For example:

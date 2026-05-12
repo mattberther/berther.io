@@ -2,6 +2,8 @@
 title: This is how life should be
 disqus_identifier: 2006-06-this-is-how-life-should-be
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 This is part of the lyric for the music in the Progressive.Com commercials. Having gotten married a while back, we've put off combining car insurance for a while. However, the time has now come. Lindsay's policy was up for renewal, and so was mine. What better time.

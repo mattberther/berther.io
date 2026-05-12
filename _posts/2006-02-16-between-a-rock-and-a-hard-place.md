@@ -2,6 +2,8 @@
 title: Between a Rock and a Hard Place
 disqus_identifier: 2006-02-between-a-rock-and-a-hard-place
 comments: true
+categories: [Personal]
+tags: [review, life]
 ---
 
 Yesterday, I finished an absolutely fantastic book entitled [Between a Rock and a Hard Place][1], and is the memoir of Aron Ralston. You may remember Aron as the very experienced outdoorsman that got trapped by a boulder while canyoneering in the Utah desert about 3 hours from Moab.

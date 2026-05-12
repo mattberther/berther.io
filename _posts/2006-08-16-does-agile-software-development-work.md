@@ -2,6 +2,8 @@
 title: Does Agile Software development work?
 disqus_identifier: 2006-08-does-agile-software-development-work
 comments: true
+categories: [Methodology, Agile]
+tags: [agile, opinion]
 ---
 
 This was a question our development team was struggling with coming into the new year. I can firmly say that yes, agile development (even when not done completely right) is much better and much more accurate than waterfall development. Let me talk a little about why I feel this.

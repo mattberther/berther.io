@@ -2,6 +2,8 @@
 title: TestDriven.NET 1.0
 disqus_identifier: 2004-11-testdrivennet-10
 comments: true
+categories: [Tools]
+tags: [tdd, unit-testing, visual-studio, review]
 ---
 
 Looks like Jamie finally released [TestDriven.NET][1] version 1.0 today. This is the tool formerly known as NUnitAddin. Jamie has taken this thing *so* much further, now providing integrated support for all major unit testing frameworks, including the forthcoming Team System.

@@ -2,6 +2,8 @@
 title: Deserializing RSS
 disqus_identifier: 2003-05-deserializing-rss
 comments: true
+categories: [Development, .NET]
+tags: [csharp, xml, dotnet]
 ---
 
 I have created a simple object model to define an RSS Feed. This utility should allow you to easily consume an RSS feed into an object structure that can be easily used by your application.

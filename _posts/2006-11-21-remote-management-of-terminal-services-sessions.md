@@ -2,6 +2,8 @@
 title: Remote Management of Terminal Services Sessions
 disqus_identifier: 2006-11-remote-management-of-terminal-services-sessions
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 I could have swore that I blogged these tools a while back, but could not find any record of it, so here goes.

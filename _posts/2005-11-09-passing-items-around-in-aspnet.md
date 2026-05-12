@@ -2,6 +2,8 @@
 title: Passing Items around in ASP.NET
 disqus_identifier: 2005-11-passing-items-around-in-aspnet
 comments: true
+categories: [Development, .NET]
+tags: [aspnet]
 ---
 
 Wow, something as simple as keeping an item around between requests has proven to be an incredibly tedious task in ASP.NET.

@@ -2,6 +2,8 @@
 title: An auto complete combo box implementation
 disqus_identifier: 2003-04-an-auto-complete-combo-box-implementation
 comments: true
+categories: [Development, .NET]
+tags: [csharp, winforms]
 ---
 
 Continuing on my previously stated goal of giving back to the development community from which I have received so much, I have submitted another article to [codeproject.com][1].

@@ -2,6 +2,8 @@
 title: Advertising and RSS
 disqus_identifier: 2003-09-advertising-and-rss
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 I am really disappointed that advertising is finding its way into RSS, although Im kind of surprised that its taken this long.

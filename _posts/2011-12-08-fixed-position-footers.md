@@ -2,6 +2,8 @@
 title: Fixed Position Footers
 disqus_identifier: 2011-12-fixed-position-footers
 comments: true
+categories: [Development, Web]
+tags: [javascript]
 ---
 
 Posting mostly for my own reference...

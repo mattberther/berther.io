@@ -2,6 +2,8 @@
 title: Duplication Checker (Simian)
 disqus_identifier: 2004-01-duplication-checker-simian
 comments: true
+categories: [Tools]
+tags: [review]
 ---
 
 Earlier this week, I came across a really cool tool for checking and detecting duplicated code throughout a group of files.

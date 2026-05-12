@@ -2,6 +2,8 @@
 title: Tracking hours using SCRUM
 disqus_identifier: 2007-02-tracking-hours-using-scrum
 comments: true
+categories: [Methodology, Agile]
+tags: [scrum, estimation, agile]
 ---
 
 It has occurred to me recently that business folks in an agile development shop are very anxious to put hours to tasks. Business folks need this data to estimate completion of a certain feature set. However, the data for this comes from the development team. I certainly see why the business needs to have this, but I would propose that what is being asked for is different than what is actually needed.

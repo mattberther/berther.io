@@ -2,6 +2,8 @@
 title: Digital Ocean, Dokku, and SSL/TLS
 disqus_identifier: 2014-08-13-digital-ocean-dokku-and-ssltls
 comments: true
+categories: [Tools]
+tags: [hosting, deployment, docker]
 ---
 
 ### Background

@@ -2,6 +2,8 @@
 title: Uploading files to a database using Rails
 disqus_identifier: 2007-10-uploading-files-to-a-database-using-rails
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby, sql]
 ---
 
 Not long ago, I needed a way for users to upload files and store them in a database. The platform for the application was Ruby on Rails, and I wanted to share my experience here.

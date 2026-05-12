@@ -2,6 +2,8 @@
 title: Learners will inherit the Earth
 disqus_identifier: 2003-12-learners-will-inherit-the-earth
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 >"In times of change learners inherit the earth while the learned find themselves beautifully equipped to work in a world that no longer exists."

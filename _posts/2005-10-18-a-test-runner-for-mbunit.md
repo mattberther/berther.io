@@ -2,6 +2,8 @@
 title: A Test Runner for mbUnit
 disqus_identifier: 2005-10-a-test-runner-for-mbunit
 comments: true
+categories: [Tools]
+tags: [unit-testing, dotnet, csharp]
 ---
 
 Andrew Stopford, the new leader of the mbUnit team, is wondering why people seem to [overlook mbUnit][1]. My personal thought on this is that until recently, it was unclear how to download and install mbUnit. Previously, you only got mbUnit by installing a VS.NET addin, which might have scared people away.

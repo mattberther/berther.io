@@ -2,6 +2,8 @@
 title: A WinForms HyperLink control
 disqus_identifier: 2005-07-a-winforms-hyperlink-control
 comments: true
+categories: [Development, .NET]
+tags: [csharp, winforms]
 ---
 
 For a little project Im working on, I wanted to simulate a HyperLink control on a webform. I came up with the following control, which you may find useful.

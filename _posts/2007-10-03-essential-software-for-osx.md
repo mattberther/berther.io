@@ -2,6 +2,8 @@
 title: Essential Software for OSX
 disqus_identifier: 2007-10-essential-software-for-osx
 comments: true
+categories: [Tools]
+tags: [osx, review]
 ---
 
 Last week, I ended up getting an absolutely gorgeous 17in [MacBook Pro][1]. As is typical from Apple, the out of box and setup process was absolutely perfect. The aesthetics of this computer are absolutely stunning. I spent the extra few dollars to get the 1920x1200 display, which was so worth it. Within 5 minutes, I had the machine booted up and connected to the internet.

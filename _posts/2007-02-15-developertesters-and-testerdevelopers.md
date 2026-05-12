@@ -2,6 +2,8 @@
 title: Developer/Testers and Tester/Developers
 disqus_identifier: 2007-02-developertesters-and-testerdevelopers
 comments: true
+categories: [Methodology, Agile]
+tags: [agile, unit-testing]
 ---
 
 Jeffrey Palermo posted some [links][1] to [articles][2] that dig further into a discussion about developer/testers and tester/developers.

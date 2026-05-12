@@ -2,6 +2,8 @@
 title: Using Firefox in VS.NET
 disqus_identifier: 2006-02-using-firefox-in-vsnet
 comments: true
+categories: [Tools]
+tags: [visual-studio]
 ---
 
 I've been searching for this for quite some time, and have finally figured out how to make VS.NET 2005 launch Firefox as the browser when I click F5 to debug.

@@ -2,6 +2,8 @@
 title: Creating a FormsAuthentication compatible MD5 hash
 disqus_identifier: 2005-03-creating-a-formsauthentication-compatible-md5-hash
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp, security]
 ---
 
 A very common question that Ive seen come up in the ASP.NET newsgroups is how to make an MD5 hash that is compatible with FormsAuthentication.HashPasswordForStoringInConfigFile.

@@ -2,6 +2,8 @@
 title: When to catch exceptions
 disqus_identifier: 2004-08-when-to-catch-exceptions
 comments: true
+categories: [Development, General]
+tags: [csharp, opinion]
 ---
 
 Ian Griffiths has a great [article][1] talking about the appropriate times to catch an exception.

@@ -2,6 +2,8 @@
 title: Technical Debt
 disqus_identifier: 2005-10-technical-debt
 comments: true
+categories: [Methodology, General]
+tags: [refactoring, opinion]
 ---
 
 Its been a few years since I've been introduced to the concept of [Technical Debt][1]. There's been some attention to this idea in the blogsphere again lately.

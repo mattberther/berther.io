@@ -2,6 +2,8 @@
 title: The best spam comment yet
 disqus_identifier: 2007-09-the-best-spam-comment-yet
 comments: true
+categories: [Meta]
+tags: [meta]
 ---
 
 I moderate all comments posted to this site to protect readers from inappropriate content. One of the best spam comments I've seen came through my email box earlier.

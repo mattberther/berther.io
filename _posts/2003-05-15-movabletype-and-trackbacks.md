@@ -2,6 +2,8 @@
 title: MovableType and Trackbacks
 disqus_identifier: 2003-05-movabletype-and-trackbacks
 comments: true
+categories: [Tools]
+tags: [movabletype, perl]
 ---
 
 For some reason, MovableType does not auto-rebuild an individual entry when a trackback request comes in. I was finding this frustrating, because the latest information was not always available.

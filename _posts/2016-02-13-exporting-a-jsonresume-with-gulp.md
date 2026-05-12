@@ -2,6 +2,8 @@
 title: Exporting a JSON Resume with gulp
 disqus_identifier: 2016-02-13-exporting-a-jsonresume-with-gulp
 comments: true
+categories: [Tools]
+tags: [javascript, jekyll]
 ---
 
 Ive received questions from readers wondering about the résumé link on my page. I created the résumé using [JSON Resume](http://jsonresume.org) with the hope that it would make it easier to keep it up-to-date. I also love the idea of an open standard for résumés. So far, I have been very happy with the project and I am very grateful to the awesome team behind JSON Resume.

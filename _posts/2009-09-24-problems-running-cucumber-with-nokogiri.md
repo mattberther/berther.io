@@ -2,6 +2,8 @@
 title: Problems running cucumber with nokogiri
 disqus_identifier: 2009-09-problems-running-cucumber-with-nokogiri
 comments: true
+categories: [Development, Ruby]
+tags: [ruby, osx]
 ---
 
 I installed cucumber last night and began trying to get some of the scenarios to work. One thing that kept plaguing me was the error message that kept coming up about using an old version of libxml2:

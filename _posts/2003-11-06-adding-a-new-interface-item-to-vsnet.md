@@ -2,6 +2,8 @@
 title: Adding a new interface item to VS.NET
 disqus_identifier: 2003-11-adding-a-new-interface-item-to-vsnet
 comments: true
+categories: [Tools]
+tags: [visual-studio, dotnet, csharp]
 ---
 
 One of the things that has bothered me for quite some time about Visual Studio .NET was the inability to be able to create a new interface file via the Add New Items wizard.

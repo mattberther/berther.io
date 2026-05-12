@@ -2,6 +2,8 @@
 title: XmlSerializer
 disqus_identifier: 2003-09-xmlserializer
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, xml]
 ---
 
 Today I stumbled across a post from Douglas Purdy that talked about [diagnostic switches for the XmlSerializer][1].

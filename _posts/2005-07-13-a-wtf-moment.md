@@ -2,6 +2,8 @@
 title: A WTF moment
 disqus_identifier: 2005-07-a-wtf-moment
 comments: true
+categories: [Development, .NET]
+tags: [csharp, opinion]
 ---
 
 Stumbled across this chunk of code while tracking down a bug... Although this had nothing to do with the bug, it did leave my scratching my head saying WTF... Variable names have been changed to protect the guilty... :)

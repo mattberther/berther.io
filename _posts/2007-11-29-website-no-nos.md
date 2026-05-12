@@ -2,6 +2,8 @@
 title: Website no-nos
 disqus_identifier: 2007-11-website-no-nos
 comments: true
+categories: [Development, Web]
+tags: [opinion]
 ---
 
 Note to self and other website designers: when building your website, please make sure that you don't refuse access to a site based on the absence of a piece of software. I'm attempting to register with https://bluehealthcarebank.esignfinancial.com to activate an account and because the javascript for the page checks whether or not I have Adobe Acrobat Reader installed I am unable to proceed with my registration. I mean, come on...

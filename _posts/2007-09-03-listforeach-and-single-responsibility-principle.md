@@ -2,6 +2,8 @@
 title: List.ForEach and Single Responsibility Principle
 disqus_identifier: 2007-09-listforeach-and-single-responsibility-principle
 comments: true
+categories: [Development, .NET]
+tags: [csharp, refactoring, oop]
 ---
 
 Mladen discusses the [performance of List&lt;T&gt;.ForEach][1] vs foreach and finds that the earlier is more performant than other methods of iterating collections. The comments are rather interesting and most focus on the readability/maintainability of one versus the other. The primary argument is that you should prefer maintainability/readability over performance. I completely agree with this.

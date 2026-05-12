@@ -2,6 +2,8 @@
 title: Education is important...
 disqus_identifier: 2005-10-education-is-important
 comments: true
+categories: [Career]
+tags: [opinion, mentoring]
 ---
 
 School is not. I dont like the idea of schools telling you *what* to think, rather than teaching a person *how* to think.

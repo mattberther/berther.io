@@ -2,6 +2,8 @@
 title: Determining your Active Directory DN
 disqus_identifier: 2006-12-determining-your-active-directory-dn
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 This little piece of wscript works wonders when you're attempting to determine where you live in the active directory.

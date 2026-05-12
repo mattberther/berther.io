@@ -2,6 +2,8 @@
 title: Just writing unit tests is not good enough
 disqus_identifier: 2008-03-just-writing-unit-tests-is-not-good-enough
 comments: true
+categories: [Methodology, Testing]
+tags: [tdd, unit-testing, opinion]
 ---
 
 I've been absorbed in some of the testing sessions, specifically RSpec, while down here at SDWest. What has become crystal clear to me over the past few days is that simply writing unit tests is not good enough. Even with the best of intentions things come up. Schedules get crunched and tests won't get written. They *might* get picked up later, but chances are that they usually wont. The only way to ensure that the tests are written is to absolutely write the test **before** writing the production code.

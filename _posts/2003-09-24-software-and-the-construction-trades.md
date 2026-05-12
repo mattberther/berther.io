@@ -2,6 +2,8 @@
 title: Software and the construction trades
 disqus_identifier: 2003-09-software-and-the-construction-trades
 comments: true
+categories: [Methodology, General]
+tags: [architecture, design-patterns]
 ---
 
 Joel Spolsky linked to this article about how the building industry cant build anything on schedule or on budget either.

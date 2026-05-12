@@ -2,6 +2,8 @@
 title: System.Xml limitations
 disqus_identifier: 2006-04-systemxml-limitations
 comments: true
+categories: [Development, .NET]
+tags: [xml, csharp, opinion]
 ---
 
 Why, oh why, arent the System.Xml classes easier to work with? Why is everything tied to the XmlDocument?

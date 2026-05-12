@@ -2,6 +2,8 @@
 title: Improving .NET Application Performance and Scalability
 disqus_identifier: 2004-04-improving-net-application-performance-and-scalability
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, architecture]
 ---
 
 The Patterns and Practices group has come through with another gem.

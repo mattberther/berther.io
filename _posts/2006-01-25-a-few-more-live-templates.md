@@ -2,6 +2,8 @@
 title: A few more live templates
 disqus_identifier: 2006-01-a-few-more-live-templates
 comments: true
+categories: [Tools]
+tags: [tdd, visual-studio, csharp]
 ---
 
 A few weeks ago, I talked about [TDD bliss][1] and showed some live templates that I had created for Resharper to relieve some of the more mundane parts of writing unit tests.

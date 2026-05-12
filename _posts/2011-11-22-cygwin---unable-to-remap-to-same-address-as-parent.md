@@ -2,6 +2,8 @@
 title: Cygwin - unable to remap to same address as parent
 disqus_identifier: 2011-11-cygwin
 comments: true
+categories: [Tools]
+tags: [windows, ruby]
 ---
 
 I find the windows command prompt somewhat limiting and have never really been able to make the leap to Powershell. Personally, I like to use a Cygwin shell for command line work. I am comfortable in a unix shell with previous Linux and Mac experience. I'm not an expert by any means, but I can get by. 

@@ -2,6 +2,8 @@
 title: "Photoshop Tip: How to create watermark text"
 disqus_identifier: 2005-09-photoshop-tip-how-to-create-watermark-text
 comments: true
+categories: [Tools]
+tags: [review]
 ---
 
 I've used the following technique in Adobe Photoshop CS2 to create the watermarks on images I distribute.

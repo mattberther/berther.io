@@ -2,6 +2,8 @@
 title: WebResource.axd and clustering issues
 disqus_identifier: 2007-01-webresourceaxd-and-clustering-issues
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, hosting]
 ---
 
 Earlier today, we tried deploying an application to our clustered test environment. The application had gone through a fairly rigorous amount of testing and had passed with flying colors.

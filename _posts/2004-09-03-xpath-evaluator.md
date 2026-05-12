@@ -2,6 +2,8 @@
 title: XPath Evaluator
 disqus_identifier: 2004-09-xpath-evaluator
 comments: true
+categories: [Tools]
+tags: [xml, review]
 ---
 
 Earlier today, I had a need for an XPath evaluator. I had an enormous XML document that I wanted to execute an XPath query against.

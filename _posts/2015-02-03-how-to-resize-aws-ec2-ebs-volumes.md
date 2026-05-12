@@ -2,6 +2,8 @@
 title: "How to Resize AWS EC2 EBS Volumes"
 disqus_identifier: 2015-02-03-how-to-resize-aws-ec2-ebs-volumes
 comments: true
+categories: [Tools]
+tags: [aws, hosting]
 ---
 It is impossible to resize an EBS volume. However, by creating a copy of the volume that is either larger or smaller, you can simulate a resize. Doing this with EBS volumes can be challenging, especially when they are mounted as the root device on an EC2 instance. This post is intended to provide step-by-step directions on how to either expand or shrink the size of an EBS volume.
 

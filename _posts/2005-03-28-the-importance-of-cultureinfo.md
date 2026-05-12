@@ -2,6 +2,8 @@
 title: The importance of CultureInfo
 disqus_identifier: 2005-03-the-importance-of-cultureinfo
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet]
 ---
 
 The latest issue of the MSDN magazine offers a wonderful article by Michael Kaplan entitled "[Make the .NET World a Friendlier Place With the CultureInfo class][1]". In this article Michael shows the many possible uses of this class, as well as how to choose the correct one.

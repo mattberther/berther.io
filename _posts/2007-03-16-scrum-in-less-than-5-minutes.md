@@ -2,6 +2,8 @@
 title: Scrum in less than 5 minutes
 disqus_identifier: 2007-03-scrum-in-less-than-5-minutes
 comments: true
+categories: [Methodology, Agile]
+tags: [scrum, agile]
 ---
 
 The CHAOS Report released by the Standish Group in 1995 states that of all the IT projects only 16% are successful, with success being defined as on time and on budget. 53% of IT projects are either late or over budget, and amazingly 31% of all IT projects started are never even finished.

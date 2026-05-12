@@ -2,6 +2,8 @@
 title: "Chuck Norris: The Programmer"
 disqus_identifier: 2009-06-chuck-norris-the-programmer
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 Saw this from [codesqueeze][1] earlier today... Hilarious stuff. :)

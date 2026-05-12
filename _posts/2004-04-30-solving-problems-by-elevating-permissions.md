@@ -2,6 +2,8 @@
 title: Solving problems by elevating permissions
 disqus_identifier: 2004-04-solving-problems-by-elevating-permissions
 comments: true
+categories: [Methodology, General]
+tags: [security, opinion, windows]
 ---
 
 I've recently been participating in several .NET newsgroups, and I cringe everytime I see a posts asking for help where the answer involves elevating permissions. 

@@ -2,6 +2,8 @@
 title: NTFS Junction Points
 disqus_identifier: 2004-02-ntfs-junction-points
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 [Charles][1] and [John][2] are talking about junction points, which are an NTFS feature let you create directory aliases.

@@ -2,6 +2,8 @@
 title: Clean Code
 disqus_identifier: 2006-02-clean-code
 comments: true
+categories: [Methodology, General]
+tags: [refactoring, opinion]
 ---
 
 I've long placed very high value on writing exceptionally clean code. The latest article ([pdf][1]) from Uncle Bob talks about the steps that it takes to take a "[big ball of mud][2]" and turning into something that is very easy to extend and maintain.

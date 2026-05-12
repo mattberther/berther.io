@@ -2,6 +2,8 @@
 title: 15 Styles of Distorted Thinking
 disqus_identifier: 2014-07-15-styles-of-distorted-thinking
 comments: true
+categories: [Personal]
+tags: [life, opinion]
 ---
 
 I encountered this list some time ago and thought it would be great to repost here as a reminder of how sometimes our thinking can be distorted. 

@@ -2,6 +2,8 @@
 title: An Effective ScrumMaster...
 disqus_identifier: 2007-05-an-effective-scrummaster
 comments: true
+categories: [Methodology, Agile]
+tags: [scrum]
 ---
 
 ...removes any roadblocks that are mentioned by the team. This is done so that the team has an optimal working environment to get their tasks done.

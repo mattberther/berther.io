@@ -2,6 +2,8 @@
 title: The SwappableFile
 disqus_identifier: 2010-01-the-swappablefile
 comments: true
+categories: [Development, .NET]
+tags: [csharp, unit-testing]
 ---
 
 I was doing some testing on a javascript abstraction that we created earlier. In order to test that the validation was being properly called, I wanted to drop in a new target javascript and then use WatiN to execute and validate the various calls to that javascript.

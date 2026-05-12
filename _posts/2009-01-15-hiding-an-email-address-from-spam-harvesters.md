@@ -2,6 +2,8 @@
 title: Hiding an email address from spam harvesters
 disqus_identifier: 2009-01-hiding-an-email-address-from-spam-harvesters
 comments: true
+categories: [Development, Web]
+tags: [javascript]
 ---
 
 Using a little css trickery, you can completely hide your email address from spam harvesters. The drawback to this approach is that it will only work on sites that read left-to-right as it uses CSS to reverse the direction of text.

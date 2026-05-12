@@ -2,6 +2,8 @@
 title: .NET does not promote good code organization
 disqus_identifier: 2006-05-net-does-not-promote-good-code-organization
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, opinion]
 ---
 
 There... I said it!

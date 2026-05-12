@@ -2,6 +2,8 @@
 title: NullSoft Install System
 disqus_identifier: 2004-01-nullsoft-install-system
 comments: true
+categories: [Tools]
+tags: [windows, review]
 ---
 
 A few days ago, I stumbled across [NSIS][1], which is a tool that allows you to create installers for Microsoft Windows. It's released under an open source license and is completely free to use.

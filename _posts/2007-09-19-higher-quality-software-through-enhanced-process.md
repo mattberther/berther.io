@@ -2,6 +2,8 @@
 title: Higher Quality Software through Enhanced Process
 disqus_identifier: 2007-09-higher-quality-software-through-enhanced-process
 comments: true
+categories: [Methodology, Agile]
+tags: [agile, scrum, xp]
 ---
 
 Software quality is a very subjective term and means many different things to many different people. Consistently, a part of the definition of software quality includes whether or not the software was delivered on time, and whether or not the software was delivered on budget. The evolution of software development processes has resulted in software that is much more consistently delivered both on time as well as on budget.

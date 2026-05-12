@@ -2,6 +2,8 @@
 title: RegSvr32.exe on Vista
 disqus_identifier: 2007-01-regsvr32exe-on-vista
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 Calling regsvr32.exe against a COM dll will give you a 0x80004005 error from DllRegisterServer. As it turns out, the UAC in Vista was what was causing this.

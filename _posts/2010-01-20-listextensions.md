@@ -2,6 +2,8 @@
 title: ListExtensions
 disqus_identifier: 2010-01-listextensions
 comments: true
+categories: [Development, .NET]
+tags: [csharp]
 ---
 
 I prefer to use the abstract `IList<T>` interface in my public APIs, rather than passing around concrete `List<T>` implementations. However, the one thing I've always missed was the awesome .ForEach syntax which was available on the `List<T>` implementation.

@@ -2,6 +2,8 @@
 title: Time Management
 disqus_identifier: 2003-04-time-management
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 This is one of the better thoughts Ive seen in a long time.

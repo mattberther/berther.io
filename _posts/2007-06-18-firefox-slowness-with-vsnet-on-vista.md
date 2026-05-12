@@ -2,6 +2,8 @@
 title: Firefox Slowness with VS.NET on Vista
 disqus_identifier: 2007-06-firefox-slowness-with-vsnet-on-vista
 comments: true
+categories: [Tools]
+tags: [windows, visual-studio]
 ---
 
 Dan Wahlin is my hero... Ever since I've installed Vista, I've noticed that using Firefox to debug my VS.NET 2005 solutions was painfully slow (like 10-15 seconds per page). I've never bothered to take the time to figure out what was causing it. Instead, I'd just fire up Internet Explorer and go about running the application.

@@ -2,6 +2,8 @@
 title: Teachers vs Educators
 disqus_identifier: 2003-04-teachers-vs-educators
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 According to a news report, a certain private school in Washington was recently faced with a unique problem. A number of 12-year-old girls were beginning to use lipstick and would make up their faces in the bathroom. That was fine, but after they put on their lipstick they would press their lips against the mirror, leaving dozens of little lip prints. 

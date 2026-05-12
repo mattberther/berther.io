@@ -2,6 +2,8 @@
 title: XPathNavigator and OuterXml
 disqus_identifier: 2005-09-xpathnavigator-and-outerxml
 comments: true
+categories: [Development, Data]
+tags: [xml, csharp, dotnet]
 ---
 
 A very simple .NET 2.0 (beta 2) application...

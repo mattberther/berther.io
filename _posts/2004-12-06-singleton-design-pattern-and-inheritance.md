@@ -2,6 +2,8 @@
 title: Singleton Design Pattern and Inheritance
 disqus_identifier: 2004-12-singleton-design-pattern-and-inheritance
 comments: true
+categories: [Development, .NET]
+tags: [csharp, design-patterns]
 ---
 
 Implementing the singleton pattern when you are using a single class is trivial using C#. The following chunk of code will accomplish that in a thread-safe manner.

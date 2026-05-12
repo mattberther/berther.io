@@ -2,6 +2,8 @@
 title: It's OK to say no
 disqus_identifier: 2004-08-its-ok-to-say-no
 comments: true
+categories: [Career]
+tags: [management, opinion]
 ---
 
 Christopher Hawkins has another great article online talking about how [professionalism means saying "No" sometimes][1].

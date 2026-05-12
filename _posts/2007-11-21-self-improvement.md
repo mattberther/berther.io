@@ -2,6 +2,8 @@
 title: Self Improvement
 disqus_identifier: 2007-11-self-improvement
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 > "When an archer misses the mark, he turns and looks for the fault within himself. Failure to hit the bull's-eye is never the fault of the target. To improve your aim -- improve yourself."

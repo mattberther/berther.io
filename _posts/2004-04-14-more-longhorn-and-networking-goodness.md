@@ -2,6 +2,8 @@
 title: More Longhorn and Networking goodness
 disqus_identifier: 2004-04-more-longhorn-and-networking-goodness
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 Several months ago, I figured out how to get the internet connection working properly through Longhorn.

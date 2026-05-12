@@ -2,6 +2,8 @@
 title: Tracking down bugs
 disqus_identifier: 2004-02-tracking-down-bugs
 comments: true
+categories: [Methodology, General]
+tags: [opinion]
 ---
 
 Chris Pratley has a gem of a post today discussing how Microsoft is [dealing with bugs][1]. His post is an excellent foray into why bugs are so hard to track down and the steps they are taking to resolve them.

@@ -2,6 +2,8 @@
 title: Introducing Agile to a legacy project
 disqus_identifier: 2005-04-introducing-agile-to-a-legacy-project
 comments: true
+categories: [Methodology, Agile]
+tags: [agile, refactoring]
 ---
 
 Brian Marick has a [stellar post][1] that contains his talking points for bringing Agile into a legacy code base that really needs some cleaning up.

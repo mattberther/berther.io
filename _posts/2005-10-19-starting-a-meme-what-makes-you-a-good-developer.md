@@ -2,6 +2,8 @@
 title: "Starting a Meme: What makes you a good developer?"
 disqus_identifier: 2005-10-starting-a-meme-what-makes-you-a-good-developer
 comments: true
+categories: [Career]
+tags: [opinion]
 ---
 
 Recently, a friend asked me a very interesting question: "What 3 to 5 attributes do you possess *as a person* that make you good at your job?"

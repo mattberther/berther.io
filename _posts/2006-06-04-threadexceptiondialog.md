@@ -2,6 +2,8 @@
 title: ThreadExceptionDialog
 disqus_identifier: 2006-06-threadexceptiondialog
 comments: true
+categories: [Development, .NET]
+tags: [csharp, winforms]
 ---
 
 For quite some time I've been looking for a way to get a nice exception dialog worked into several applications that I've developed. I saw that the .NET framework had a real nice one that did not bombarded the user with tons of useless information (such as a stack trace) although it was available if needed.

@@ -2,6 +2,8 @@
 title: "Curious error with :memory_store"
 disqus_identifier: 2008-02-curious-error-with-memorystore
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby]
 ---
 
 For the longest time I had been stumbling on errors when trying to log in to my Rails site in development mode. Production worked flawlessly, but for whatever reason, development did not. Isnt that a different thing?

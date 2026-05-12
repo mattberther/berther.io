@@ -2,6 +2,8 @@
 title: OOPSLA versus traditional conferences
 disqus_identifier: 2006-10-oopsla-versus-traditional-conferences
 comments: true
+categories: [Career]
+tags: [opinion]
 ---
 
 I have been to several flavors of VSLive among other development conferences. This is the first OOPSLA conference I've ever been to.

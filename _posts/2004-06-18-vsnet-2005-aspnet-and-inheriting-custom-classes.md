@@ -2,6 +2,8 @@
 title: VS.NET 2005, ASP.NET and inheriting custom classes
 disqus_identifier: 2004-06-vsnet-2005-aspnet-and-inheriting-custom-classes
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp]
 ---
 
 One of the first things that I typically do when creating a new ASP.NET application is to create a base class which all of the pages in the application will derive from. Doing this allows me to handle some common tasks, such as error handling, in a centralized location.

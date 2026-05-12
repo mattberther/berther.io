@@ -2,6 +2,8 @@
 title: Comment Rot
 disqus_identifier: 2004-05-comment-rot
 comments: true
+categories: [Methodology, General]
+tags: [opinion]
 ---
 
 Eric Lippert has a great post about [comment rot][1]. Eric found a way to very eloquently state something I have been trying to say for a very long time.

@@ -2,6 +2,8 @@
 title: Creating a Service Layer with an STA COM Component
 disqus_identifier: 2007-03-creating-a-service-layer-with-an-sta-com-component
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp, dotnet]
 ---
 
 When you interop with a COM component, you may need to use the AspCompat attribute if the component has to run on a thread initialized into a single threaded apartment (STA). The question comes up: how do we know if the component needs to run in an STA?

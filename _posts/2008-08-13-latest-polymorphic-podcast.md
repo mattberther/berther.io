@@ -2,6 +2,8 @@
 title: Latest Polymorphic Podcast
 disqus_identifier: 2008-08-latest-polymorphic-podcast
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 Am I the only one that was bothered by Craig Shoemaker's [interview with Craig Newmark][1] (craigslist.org)? I was very put off my Mr. Newmark using almost 10 minutes of a 22 minute podcast to stump for Barack Obama. For this podcast, I was interested in learning more about the scaling model for craigslist and what made it a success. Unfortunately, this discussion seemed to get lost in the politics.

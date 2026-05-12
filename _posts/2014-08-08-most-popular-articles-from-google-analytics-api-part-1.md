@@ -2,6 +2,8 @@
 title: Most Popular articles from Google Analytics API, Part 1
 disqus_identifier: 2014-08-08-most-popular-articles-from-google-analytics-api-part-1
 comments: true
+categories: [Development, Ruby]
+tags: [ruby]
 ---
 
 Adding a page that lists the most popular articles from your website using data from Google Analytics is a relatively straightforward process. Recently, I added [this feature][2] to this site. This article intends to walk you through how to set up your application to access data from the Google API.

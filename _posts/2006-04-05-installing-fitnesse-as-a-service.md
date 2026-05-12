@@ -2,6 +2,8 @@
 title: Installing FitNesse as a Service
 disqus_identifier: 2006-04-installing-fitnesse-as-a-service
 comments: true
+categories: [Tools]
+tags: [unit-testing, windows]
 ---
 
 We've recently taken to [FitNesse][1] to drive our acceptance tests.

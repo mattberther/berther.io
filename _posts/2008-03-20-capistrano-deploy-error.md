@@ -2,6 +2,8 @@
 title: Capistrano Deploy Error
 disqus_identifier: 2008-03-capistrano-deploy-error
 comments: true
+categories: [Tools]
+tags: [deployment, ruby]
 ---
 
 I was running a deployment using Capistrano earlier and came across a strange error. The error said:

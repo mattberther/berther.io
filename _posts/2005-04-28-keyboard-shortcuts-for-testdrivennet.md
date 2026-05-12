@@ -2,6 +2,8 @@
 title: Keyboard Shortcuts for TestDriven.NET
 disqus_identifier: 2005-04-keyboard-shortcuts-for-testdrivennet
 comments: true
+categories: [Tools]
+tags: [visual-studio, unit-testing]
 ---
 
 A frustration that I've had for quite some time with [TestDriven.NET][1] is the apparent lack of keyboard bindings. Right-click/Run Tests just seems like such a nuisance.

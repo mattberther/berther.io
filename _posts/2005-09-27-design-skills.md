@@ -2,6 +2,8 @@
 title: Design Skills
 disqus_identifier: 2005-09-design-skills
 comments: true
+categories: [Development, General]
+tags: [architecture]
 ---
 
 [Five design skills every programmer should have][1]... How many do you have? Is it unreasonable to expect someone to have them all?

@@ -2,6 +2,8 @@
 title: Extension to IBlogThis
 disqus_identifier: 2003-04-extension-to-iblogthis
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet]
 ---
 
 [Greg Reinacker][1] and [Simon Fell][2] are proposing a new interface to extend IBlogThis...

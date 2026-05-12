@@ -2,6 +2,8 @@
 title: IIS7 and static files
 disqus_identifier: 2009-07-iis7-and-static-files
 comments: true
+categories: [Tools]
+tags: [windows, hosting]
 ---
 
 So, the other day I was trying to debug a problem with one of our web applications. I had gone through the steps of making the appropriate changes to my IIS configuration for this application, so that it utilized the Classic .NET App Pool and everything seemed to be running properly. That is, until I noticed that some javascript files and some images were not rendering properly.

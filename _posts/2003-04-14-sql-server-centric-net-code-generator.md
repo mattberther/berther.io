@@ -2,6 +2,8 @@
 title: SQL Server Centric .NET code generator
 disqus_identifier: 2003-04-sql-server-centric-net-code-generator
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, sql, review]
 ---
 
 So, earlier this evening, a friend points me at this utility called OlyMars.

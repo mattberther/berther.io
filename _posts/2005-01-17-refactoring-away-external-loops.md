@@ -2,6 +2,8 @@
 title: Refactoring away external loops
 disqus_identifier: 2005-01-refactoring-away-external-loops
 comments: true
+categories: [Methodology, General]
+tags: [refactoring, csharp]
 ---
 
 Via [Peter Provost][1], I found Brian Button's fantastic "TDD Deep Dive" series, which is a great introduction to TDD and refactoring.

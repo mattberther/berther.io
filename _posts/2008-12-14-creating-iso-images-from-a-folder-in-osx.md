@@ -2,6 +2,8 @@
 title: Creating ISO images from a folder in OSX
 disqus_identifier: 2008-12-creating-iso-images-from-a-folder-in-osx
 comments: true
+categories: [Tools]
+tags: [osx]
 ---
 
 Yet one other thing I love about OSX is that .iso is a first-class citizen. I'm able to mount/burn iso files without installing any other software (yes, I'm looking at you Windows).

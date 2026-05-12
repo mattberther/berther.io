@@ -2,6 +2,8 @@
 title: My Programming Manifesto
 disqus_identifier: 2006-10-my-programming-manifesto
 comments: true
+categories: [Methodology, General]
+tags: [opinion, unit-testing]
 ---
 
 Once in a while, an absolutely brilliant post comes along. This is the type of post that you just cant add anything to, and the kind that you end up referring to and re-reading a few times to make sure you get every last nugget of information. This doesnt happen often, but when it does, its absolutely amazing. Jeremy Miller just posted one of these.

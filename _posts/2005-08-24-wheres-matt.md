@@ -2,6 +2,8 @@
 title: Where's Matt?
 disqus_identifier: 2005-08-wheres-matt
 comments: true
+categories: [Meta]
+tags: [meta, life]
 ---
 
 I realized yesterday that it has been several weeks since I posted anything of real substance to this weblog. I dont want to make excuses, but I figured that I better write something to let people know what's going on. As it stands, it will be until at least September 12th until I write something again.

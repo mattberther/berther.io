@@ -2,6 +2,8 @@
 title: Serializing an IDictionary object
 disqus_identifier: 2004-06-serializing-an-idictionary-object
 comments: true
+categories: [Development, .NET]
+tags: [csharp, xml]
 ---
 
 As of late, I really try to stay away from the XmlSerializer object, as I have found its limitations to be quite hindering in a lot of things I try to do.

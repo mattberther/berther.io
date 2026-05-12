@@ -2,6 +2,8 @@
 title: No more stored procedures...YAY!
 disqus_identifier: 2005-06-no-more-stored-proceduresyay
 comments: true
+categories: [Development, .NET]
+tags: [sql, csharp, opinion]
 ---
 
 During a recent upgrade to an application Ive been working, all but one of the stored procedures was removed.

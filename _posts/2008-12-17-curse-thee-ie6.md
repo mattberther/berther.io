@@ -2,6 +2,8 @@
 title: Curse thee, IE6
 disqus_identifier: 2008-12-curse-thee-ie6
 comments: true
+categories: [Development, Web]
+tags: [javascript, aspnet]
 ---
 
 I work in an environment, where, unfortunately we are somewhat constrained as to which browsers we support. Our target market has a very slow update cycle and our products are not necessarily the kind where the loss of use would force an IT upgrade. Therefore, our ASPNET applications must continue to support IE6.

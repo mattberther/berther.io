@@ -2,6 +2,8 @@
 title: Most Popular articles from Google Analytics API, Part 2
 disqus_identifier: 2014-08-11-most-popular-articles-from-google-analytics-api-part-2
 comments: true
+categories: [Development, Ruby]
+tags: [ruby]
 ---
 
 In [part one][1] of this series, we set up the Google API and created a simple class that interacts with the API to return the most popular articles from Google Analytics. We can make a few enhancements to the class from the previous series to make things a little better. These enhancements include:

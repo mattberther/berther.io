@@ -2,6 +2,8 @@
 title: Simian and CruiseControl.NET
 disqus_identifier: 2006-03-simian-and-cruisecontrolnet
 comments: true
+categories: [Tools]
+tags: [ci-cd, dotnet]
 ---
 
 I've been using [Simian][1] for quite a while to analyze code and help me find areas that could use refactoring. However, only recently  have I introduced Simian into my continuous integration process here at home. I had quite a time getting builds to work after doing this.

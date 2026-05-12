@@ -2,6 +2,8 @@
 title: Javascript Includes
 disqus_identifier: 2007-02-javascript-includes
 comments: true
+categories: [Development, Web]
+tags: [javascript]
 ---
 
 Posting mostly for my own reference...

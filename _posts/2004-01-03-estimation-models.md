@@ -2,6 +2,8 @@
 title: Estimation Models
 disqus_identifier: 2004-01-estimation-models
 comments: true
+categories: [Methodology, Agile]
+tags: [estimation]
 ---
 
 Steve Maine has another excellent post online about [estimation models][1], using "perfect engineering" (PE) hours as the baseline. A PE hour is what you have when you are in the zone, with no outside distractions (ie: meetings, email, IM, etc).

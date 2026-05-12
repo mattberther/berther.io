@@ -2,6 +2,8 @@
 title: XmlResolver Goodness
 disqus_identifier: 2004-05-xmlresolver-goodness
 comments: true
+categories: [Development, .NET]
+tags: [csharp, xml]
 ---
 
 Today I was looking through the best way to transform some XML documents using XSLTs from a database instead of from a file system.

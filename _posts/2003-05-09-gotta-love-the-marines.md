@@ -2,6 +2,8 @@
 title: Gotta love the Marines
 disqus_identifier: 2003-05-gotta-love-the-marines
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 This is a portion of National Public Radio (NPR) interview between a female broadcaster and US Marine Corps General Reinwald who was about to sponsor a Boy Scout Troop visiting his military installation.

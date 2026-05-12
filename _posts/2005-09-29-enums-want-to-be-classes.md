@@ -2,6 +2,8 @@
 title: Enums want to be classes...
 disqus_identifier: 2005-09-enums-want-to-be-classes
 comments: true
+categories: [Development, General]
+tags: [oop, refactoring]
 ---
 
 Michael Feathers has a [post][1] that talks about the exact reasons why I *hate* enums.

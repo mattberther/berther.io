@@ -2,6 +2,8 @@
 title: Simple Sharing in Windows XP
 disqus_identifier: 2003-12-simple-sharing-in-windows-xp
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 Robert McLaws [posts][1] about how to disable the simple sharing dialog in Windows XP.

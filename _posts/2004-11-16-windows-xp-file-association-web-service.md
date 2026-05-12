@@ -2,6 +2,8 @@
 title: Windows XP File Association Web Service
 disqus_identifier: 2004-11-windows-xp-file-association-web-service
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 Via [Darrell Norton][1] comes one of the best tips ever:

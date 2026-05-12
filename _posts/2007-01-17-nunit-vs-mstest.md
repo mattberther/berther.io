@@ -2,6 +2,8 @@
 title: NUnit vs. MSTest
 disqus_identifier: 2007-01-nunit-vs-mstest
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, dotnet, opinion]
 ---
 
 Bil Simser recently [asked this question][1] of Scott Bellware, a Microsoft MVP:

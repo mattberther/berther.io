@@ -2,6 +2,8 @@
 title: UI for long running requests
 disqus_identifier: 2006-01-ui-for-long-running-requests
 comments: true
+categories: [Development, Web]
+tags: [javascript]
 ---
 
 We have an application that given certain inputs can take quite a while to run. The previous solution that we had in place to let the user know what was going on was a popup window that went away after the page completed loading.

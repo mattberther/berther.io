@@ -2,6 +2,8 @@
 title: My daughter is a stud...
 disqus_identifier: 2008-02-my-daughter-is-a-stud
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 [![sierra snowboarding][2]][1]

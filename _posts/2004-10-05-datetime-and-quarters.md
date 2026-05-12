@@ -2,6 +2,8 @@
 title: DateTime and Quarters
 disqus_identifier: 2004-10-datetime-and-quarters
 comments: true
+categories: [Development, .NET]
+tags: [csharp]
 ---
 
 This has been driving me absolutely up the wall. I'm trying to calculate the fiscal year quarter for a specific date...

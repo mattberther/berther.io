@@ -2,6 +2,8 @@
 title: Effective Coaching
 disqus_identifier: 2006-02-effective-coaching
 comments: true
+categories: [Career]
+tags: [mentoring, management]
 ---
 
 Recently I was asked to give a small talk about what I think it takes to coach effectively, and want to share those thoughts here. 

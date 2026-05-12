@@ -2,6 +2,8 @@
 title: Hurricanes
 disqus_identifier: 2005-05-hurricanes
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 While spending last week in Las Vegas for VSLive!, we made a stop by [Jimmy Buffett's Margaritaville]. Being a parrothead, this was quite a cool experience for me. During our visit there, I had a Tropical Hurricane, which although good was not quite like the Hurricanes that I've managed to whip up here.

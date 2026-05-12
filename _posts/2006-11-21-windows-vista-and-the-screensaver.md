@@ -2,6 +2,8 @@
 title: Windows Vista and the screensaver
 disqus_identifier: 2006-11-windows-vista-and-the-screensaver
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 I had installed Windows Vista RC2 a while back, and just recently (over the weekend) installed the RTM version of Vista on my work laptop (a Dell D820).

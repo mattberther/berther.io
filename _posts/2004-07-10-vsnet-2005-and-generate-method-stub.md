@@ -2,6 +2,8 @@
 title: VS.NET 2005 and Generate Method Stub
 disqus_identifier: 2004-07-vsnet-2005-and-generate-method-stub
 comments: true
+categories: [Tools]
+tags: [visual-studio, refactoring]
 ---
 
 Visual Studio.NET 2005 introduces several handy refactorings, including Extract Interface and Extract Method.

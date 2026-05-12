@@ -2,6 +2,8 @@
 title: Microsoft Updates vs. Other OS Updates
 disqus_identifier: 2007-09-microsoft-updates-vs-other-os-updates
 comments: true
+categories: [Tools]
+tags: [windows, opinion]
 ---
 
 Is it a fair assessment to state that organizations that utilize platforms other than Microsoft Windows are much quicker to install security related operating system patches?

@@ -2,6 +2,8 @@
 title: Chrome extension for instapaper
 disqus_identifier: 2012-09-chrome-extension-for-instapaper
 comments: true
+categories: [Development, Web]
+tags: [javascript]
 ---
 
 I use instapaper.com as my read later service. I have installed the Chrome add-on to allow me to quickly tag an article to read later. Also, I have configured it as my read later service in Tweetbot, which allows me to quickly send articles to it for later reading.

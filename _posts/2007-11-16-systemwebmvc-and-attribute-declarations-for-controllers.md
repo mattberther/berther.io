@@ -2,6 +2,8 @@
 title: System.Web.MVC and attribute declarations for controllers
 disqus_identifier: 2007-11-systemwebmvc-and-attribute-declarations-for-controllers
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, opinion]
 ---
 
 I've managed to take a look at some of the ASP.NET MVC sample code available on the web. This looks really good, and I am quite excited to see some bits that I can reference to start working this into my own project.

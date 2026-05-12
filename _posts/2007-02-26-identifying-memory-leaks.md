@@ -2,6 +2,8 @@
 title: Identifying Memory Leaks
 disqus_identifier: 2007-02-identifying-memory-leaks
 comments: true
+categories: [Development, .NET]
+tags: [dotnet]
 ---
 
 I found a great article on the MSDN website that discussed how to [identify and prevent memory leaks in managed code][1]. There's certainly a wealth of information available there, including how to use perfmon to actually find what *type* of leak you have, before you start going further.

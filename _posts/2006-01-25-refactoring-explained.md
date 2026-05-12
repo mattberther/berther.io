@@ -2,6 +2,8 @@
 title: "Refactoring: Explained"
 disqus_identifier: 2006-01-refactoring-explained
 comments: true
+categories: [Methodology, General]
+tags: [refactoring, csharp, design-patterns]
 ---
 
 Yesterday, at work, we had a very lively discussion about refactoring. I took a few things away from that discussion and thought I would address these in this particular entry.

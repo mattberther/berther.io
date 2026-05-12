@@ -2,6 +2,8 @@
 title: RoR vs Microsoft
 disqus_identifier: 2007-06-ror-vs-microsoft
 comments: true
+categories: [Development, Ruby]
+tags: [rails, opinion]
 ---
 
 After listening to the recent Hanselminutes podcast with Martin Fowler and David Heinemen Hanson, it dawned on what the difference between the two camps really was.

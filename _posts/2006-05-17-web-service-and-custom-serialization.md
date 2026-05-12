@@ -2,6 +2,8 @@
 title: Web service and custom serialization
 disqus_identifier: 2006-05-web-service-and-custom-serialization
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, xml, csharp]
 ---
 
 Why is it that it seems to be so difficult (if not impossible) to utilize the ISerializable interface when using web services?

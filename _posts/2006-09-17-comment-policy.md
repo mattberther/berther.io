@@ -2,6 +2,8 @@
 title: Comment Policy
 disqus_identifier: 2006-09-comment-policy
 comments: true
+categories: [Meta]
+tags: [meta]
 ---
 
 I received an email from a visitor to my site the other day. He was from webhost4life.com and was responding to [my post][1] in where I praised his company.

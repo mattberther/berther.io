@@ -2,6 +2,8 @@
 title: Drop all stored procedures
 disqus_identifier: 2004-12-drop-all-stored-procedures
 comments: true
+categories: [Development, Data]
+tags: [sql]
 ---
 
 Ever want to drop all of the stored procedures in a database? I typically use this technique to do database updates (drop them all, and then recreate them) to make sure that I dont have any left over procedures and so I dont have to maintain different scripts for creating and updating my databases.

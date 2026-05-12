@@ -2,6 +2,8 @@
 title: GoF Design Patterns, Second Edition
 disqus_identifier: 2006-10-gof-design-patterns-second-edition
 comments: true
+categories: [Development, General]
+tags: [design-patterns, review]
 ---
 
 Last night, we were at a tribute to John Vlissides, who passed away last year after a long struggle with complications caused by a brain tumour. At the tribute were Ralph Johnson and Erich Gamma. Richard Helm videotaped his tribute and sent it in a few days before. Most of you will recognize these names as the remaining three of the Gang of Four.

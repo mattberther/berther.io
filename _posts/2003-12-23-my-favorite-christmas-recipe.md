@@ -2,6 +2,8 @@
 title: My favorite Christmas recipe
 disqus_identifier: 2003-12-my-favorite-christmas-recipe
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 A few weeks ago, Vince posted his [egg nog drink recipe][1].

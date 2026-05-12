@@ -2,6 +2,8 @@
 title: Programmers As Bees
 disqus_identifier: 2003-04-programmers-as-bees
 comments: true
+categories: [Career]
+tags: [management]
 ---
 
 If you're company works with software developers, you may want to read this [article][1]. It may just save your company.

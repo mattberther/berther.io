@@ -2,6 +2,8 @@
 title: CruiseControl.NET
 disqus_identifier: 2003-05-cruisecontrolnet
 comments: true
+categories: [Tools]
+tags: [ci-cd, dotnet, review]
 ---
 
 I found a very cool open source continuous integration server for C#. [CruiseControl.NET][1] is by [ThoughtWorks][2] (Martin Fowler's company).

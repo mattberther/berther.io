@@ -2,6 +2,8 @@
 title: The Software Behind the Site
 disqus_identifier: 2011-12-the-software-behind-the-site
 comments: true
+categories: [Meta]
+tags: [meta, wordpress, hosting]
 ---
 
 Several times over the past months, I've received questions about the software and setup that I use to run the mattberther.com blog and related pages. Since the site recently underwent a dramatic change in tooling, I want to detail what I chose and why.

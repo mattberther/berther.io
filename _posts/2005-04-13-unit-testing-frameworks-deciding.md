@@ -2,6 +2,8 @@
 title: "Unit Testing Frameworks: Deciding"
 disqus_identifier: 2005-04-unit-testing-frameworks-deciding
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, dotnet, review]
 ---
 
 As we start migrating towards a more agile environment at work, I want to bring forward a unit testing framework that we could standardize on. The way I see it there are four unit testing frameworks available for the .NET framework right now. These are [NUnit][1], [MbUnit][2], [csUnit][3] and [Zanebug][4].

@@ -2,6 +2,8 @@
 title: Removing xsd and xsi namespaces from XmlSerializer output
 disqus_identifier: 2005-03-removing-xsd-and-xsi-namespaces-from-xmlserializer-output
 comments: true
+categories: [Development, .NET]
+tags: [csharp, xml]
 ---
 
 One question that I see come up quite a bit is how to remove the xsd and xsi namespaces from the XmlSerializer output.

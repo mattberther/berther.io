@@ -2,6 +2,8 @@
 title: Blogging can be difficult
 disqus_identifier: 2003-05-blogging-can-be-difficult
 comments: true
+categories: [Meta]
+tags: [meta]
 ---
 
 Its been just over a month since my first post and as I reflect back on the month that has passed, I've come to the conclusion that blogging at times can be difficult.

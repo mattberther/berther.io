@@ -2,6 +2,8 @@
 title: Joining domain via VPN with Windows Vista
 disqus_identifier: 2006-10-joining-domain-via-vpn-with-windows-vista
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 After being infected with a crappy piece of spyware, I took the plunge and repaved my machine with RC2 of Windows Vista. As it turns out, that may have been a futile exercise, since rumour has it that Vista will RTM on the 25th of October. But, I digress...

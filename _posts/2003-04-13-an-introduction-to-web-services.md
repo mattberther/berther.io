@@ -2,6 +2,8 @@
 title: An introduction to web services
 disqus_identifier: 2003-04-an-introduction-to-web-services
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, xml, announcement]
 ---
 
 One of my goals for the new year was to contribute more to the development community. One way that I determined I could contribute was to author articles to provide insight on how to accomplish certain tasks.

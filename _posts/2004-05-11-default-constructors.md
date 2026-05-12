@@ -2,6 +2,8 @@
 title: Default Constructors
 disqus_identifier: 2004-05-default-constructors
 comments: true
+categories: [Development, .NET]
+tags: [csharp]
 ---
 
 I stumbled across an interesting thing this morning with C# and default constructors.

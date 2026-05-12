@@ -2,6 +2,8 @@
 title: Has it really been five years?
 disqus_identifier: 2008-03-has-it-really-been-five-years
 comments: true
+categories: [Meta]
+tags: [meta, announcement]
 ---
 
 Five years ago today, I launched this blog as a way to work on my writing skills as well as give back a little to the community that I've learned so much from. It's been a very fun and interesting ride. I've much enjoyed being able to provide technical information to my audience.

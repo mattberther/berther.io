@@ -2,6 +2,8 @@
 title: Removing duplicate messages from Outlook
 disqus_identifier: 2012-09-removing-duplicate-messages-from-outlook
 comments: true
+categories: [Development, .NET]
+tags: [csharp]
 ---
 
 I recently learned that Outlook for Mac had been uploading multiple copies of the same message to the Exchange server. At final count, I had approximately 280,000 email messages sitting in my "Archive" folder on the server. As you can imagine, this caused tremendous download times for resynchronizing my folders.

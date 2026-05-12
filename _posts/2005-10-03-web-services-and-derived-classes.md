@@ -2,6 +2,8 @@
 title: Web services and derived classes
 disqus_identifier: 2005-10-web-services-and-derived-classes
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp, xml]
 ---
 
 When doing this in an ASP.NET 2.0 (and I imagine ASP.NET 1.1 functions similarly)

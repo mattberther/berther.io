@@ -2,6 +2,8 @@
 title: An Elite Athlete
 disqus_identifier: 2003-04-an-elite-athlete
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 >It's a big night for Mike. He's at work tonight. As I mentioned his clothing is wet, partially from dew, partially from perspiration. He and his four co-workers, Dan, Larry, Pete and Maurice are working on a rooftop at the corner of Jamia St. and Khulafa St. across from Omar Bin Yasir.

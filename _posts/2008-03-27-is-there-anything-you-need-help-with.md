@@ -2,6 +2,8 @@
 title: Is there anything you need help with?
 disqus_identifier: 2008-03-is-there-anything-you-need-help-with
 comments: true
+categories: [Methodology, Agile]
+tags: [scrum, management]
 ---
 
 A daily scrum meeting involves asking each participant of the scrum team three questions:

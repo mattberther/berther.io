@@ -2,6 +2,8 @@
 title: "AJaX: The latest buzzword"
 disqus_identifier: 2005-03-ajax-the-latest-buzzword
 comments: true
+categories: [Development, Web]
+tags: [javascript, xml, aspnet, opinion]
 ---
 
 The latest buzzword du jour is [AJaX][1] (Asynchronous Javascript and Xml). I've been reading a lot of posts lately that sound like this concept is brand new and will be singlehandedly responsible for migrating applications from the desktop to the browser.

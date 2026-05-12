@@ -2,6 +2,8 @@
 title: Additional items for IBlogIt
 disqus_identifier: 2003-04-additional-items-for-iblogit
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet]
 ---
 
 Greg brings up some [valid points][1]. A few ideas I have are detailed below.

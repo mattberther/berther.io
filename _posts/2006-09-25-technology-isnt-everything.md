@@ -2,6 +2,8 @@
 title: Technology isn't everything
 disqus_identifier: 2006-09-technology-isnt-everything
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 This came through my email box the other day, and I found it funny enough to share... Sometimes, technology isnt everything. :)

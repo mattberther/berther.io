@@ -2,6 +2,8 @@
 title: Developing portable ASP.NET apps
 disqus_identifier: 2006-01-developing-portable-aspnet-apps
 comments: true
+categories: [Development, .NET]
+tags: [aspnet]
 ---
 
 We develop ASP.NET applications in our environment that may or may not be run on a clustered environment. As part of this clustered environment, we have session state set to SqlServer in the web.config file.

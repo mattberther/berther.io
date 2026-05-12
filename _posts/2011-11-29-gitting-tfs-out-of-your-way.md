@@ -2,6 +2,8 @@
 title: ! '"Gitting" TFS out of your way'
 disqus_identifier: 2011-11-gitting-tfs-out-of-your-way
 comments: true
+categories: [Tools]
+tags: [git, visual-studio]
 ---
 
 More and more, I have developed a passion for the Git source control system. I love how Git stays out of my way, until I need to use it. Git offers a very easy way to test things out, whilst utilizing the benefits of source control. In the traditional, connected model of source control, experimentation proves to be somewhat difficult because you don't want to corrupt your main development line. Branching and merging with most other systems is a nightmare at best. With Git, branches are very cheap and merging is virtually painless. 

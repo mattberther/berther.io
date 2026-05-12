@@ -2,6 +2,8 @@
 title: Political use of social media
 disqus_identifier: 2007-01-political-use-of-social-media
 comments: true
+categories: [Meta]
+tags: [meta, opinion]
 ---
 
 Robert Scoble [posted a question][1] to Barack Obama regarding whether or not he has met with any bloggers yet. I find this very interesting in a number of ways, including the fact that bloggers helped keep the media honest during the last election season. It's interesting to see how the candidates will engage the bloggers to help push their political agendas.

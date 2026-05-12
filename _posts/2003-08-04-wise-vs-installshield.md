@@ -2,6 +2,8 @@
 title: WISE vs InstallShield
 disqus_identifier: 2003-08-wise-vs-installshield
 comments: true
+categories: [Tools]
+tags: [dotnet, review]
 ---
 
 So, Im the proud owner of InstallShield Express at home, which I use for side projects. All in all, I have been very impressed with this little application. Comparatively speaking, Id say the price is fair for it's functionality. It does everything I need to do.

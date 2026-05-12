@@ -2,6 +2,8 @@
 title: Cheese Head Award
 disqus_identifier: 2006-08-cheese-head-award
 comments: true
+categories: [Career]
+tags: [management]
 ---
 
 Every single one of us has written cheesy code at one time or the other in our life. Our team, in good-natured fun, has decided to "reward" the person that commits a piece of cheese to our Subversion repository.

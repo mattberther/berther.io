@@ -2,6 +2,8 @@
 title: Anti-social geeks
 disqus_identifier: 2008-03-anti-social-geeks
 comments: true
+categories: [Career]
+tags: [opinion]
 ---
 
 I arrived yesterday in Santa Clara for the SDWest conference. This being my first time to the Silicon Valley, it came as quite a big deal to drive down Great American Parkway, past the McAfee campus, past the Yahoo campus, past Netgear and WebEx. A lot of big names in the tech industry make their home here.

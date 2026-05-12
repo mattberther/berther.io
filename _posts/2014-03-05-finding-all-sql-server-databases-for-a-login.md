@@ -2,6 +2,8 @@
 title: Finding all SQL Server databases for a login
 disqus_identifier: 2014-03-finding-all-sql-server-databases-for-a-login
 comments: true
+categories: [Development, Data]
+tags: [sql]
 ---
 
 Earlier today, I had a need to deactivate a SQL Server login. Before I did that, I wanted to find out which databases the user was allowed to access. Rather than opening each of the 35 databases on the SQL Server in SSMS and looking to see whether or not the login was a user in the database, I wanted to create a query that would do this all in one fell swoop for me.

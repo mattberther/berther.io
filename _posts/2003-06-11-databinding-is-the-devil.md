@@ -2,6 +2,8 @@
 title: Databinding is the devil
 disqus_identifier: 2003-06-databinding-is-the-devil
 comments: true
+categories: [Development, .NET]
+tags: [winforms, csharp, dotnet]
 ---
 
 So, I've completely rewritten a project that i'm working on... The reason, you ask? Data binding is the devil...

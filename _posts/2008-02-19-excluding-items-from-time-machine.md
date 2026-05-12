@@ -2,6 +2,8 @@
 title: Excluding items from Time Machine
 disqus_identifier: 2008-02-excluding-items-from-time-machine
 comments: true
+categories: [Tools]
+tags: [osx]
 ---
 
 Leopard's new backup system has made it virtually inexcusable for users to not have automated backup systems in place for their Mac. It can not get any easier to do this: plug in a USB/Firewire drive and slide the switch to On in Time Machine.

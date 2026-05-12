@@ -2,6 +2,8 @@
 title: Replacing Notepad in Windows Vista
 disqus_identifier: 2006-11-replacing-notepad-in-windows-vista
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 After installing the Vista RTM, I wanted to replace Notepad with [Notepad2][1], as I find this to be a much more powerful editor. It's much more geared towards programmers, with built-in syntax highlighting. Best of all, it's free.

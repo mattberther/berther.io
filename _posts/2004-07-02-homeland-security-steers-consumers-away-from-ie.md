@@ -2,6 +2,8 @@
 title: Homeland Security steers consumers away from IE
 disqus_identifier: 2004-07-homeland-security-steers-consumers-away-from-ie
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 This article on [Yahoo! News][1] is sure to cause quite a bit of controversy. 

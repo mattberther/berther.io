@@ -2,6 +2,8 @@
 title: Running a SQL script via an Installer
 disqus_identifier: 2004-03-running-a-sql-script-via-an-installer
 comments: true
+categories: [Development, .NET]
+tags: [csharp, sql]
 ---
 
 A lot of times, when installing an application, it will be necessary to run some SQL scripts to prepare the application for first use.

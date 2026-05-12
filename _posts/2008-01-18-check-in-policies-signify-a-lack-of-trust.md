@@ -2,6 +2,8 @@
 title: Check-in policies signify a lack of trust
 disqus_identifier: 2008-01-check-in-policies-signify-a-lack-of-trust
 comments: true
+categories: [Methodology, Agile]
+tags: [agile, management, opinion]
 ---
 
 If a software development organization needs to put check-in policies in place, then there are some other fundamental problems that are going on within the organization. Check-in policies are just simply a way to mask the symptoms. Let me clarify by citing some common check-in policies and why I think they hide other problems.

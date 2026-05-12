@@ -2,6 +2,8 @@
 title: An effective Scrum master...
 disqus_identifier: 2006-09-an-effective-scrum-master
 comments: true
+categories: [Methodology, Agile]
+tags: [scrum, agile]
 ---
 
 1. Helps the Scrum team to understand that it is self managed. It is the Scrum master's job to ease this transition.

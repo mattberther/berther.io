@@ -2,6 +2,8 @@
 title: ListControl/Tab Pages and data binding
 disqus_identifier: 2003-09-listcontroltab-pages-and-data-binding
 comments: true
+categories: [Development, .NET]
+tags: [csharp, winforms]
 ---
 
 I've been helping a user on [codeproject.com][1] to try and get my [autocomplete combo box][2] code running in tab pages for him (using data binding).

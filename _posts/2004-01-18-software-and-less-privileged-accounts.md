@@ -2,6 +2,8 @@
 title: Software and less privileged accounts
 disqus_identifier: 2004-01-software-and-less-privileged-accounts
 comments: true
+categories: [Methodology, General]
+tags: [security, windows]
 ---
 
 After reducing my main account to a less privileged account, I've noticed that the XSLT configuration in the MovablePoster plugin ceases to function properly. This is because this stylesheet is stored in Program Files, which is a folder not normally granted write access by a standard user of the machine. For a temporary workaround, you can grant write access to Post.xslt for the Users group. Please be assured that this will be resolved in the next version of the plugin.

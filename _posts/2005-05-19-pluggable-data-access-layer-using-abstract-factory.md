@@ -2,6 +2,8 @@
 title: Pluggable Data Access Layer using Abstract Factory
 disqus_identifier: 2005-05-pluggable-data-access-layer-using-abstract-factory
 comments: true
+categories: [Development, .NET]
+tags: [csharp, design-patterns, architecture]
 ---
 
 Recently, I made some changes to an application that I have been working on. The requirement was to support different data stores. As written, the application only supported MS SQL Server. I had hoped to allow this application to run on top of an Oracle database or even a pile of xml sitting on the file system.

@@ -2,6 +2,8 @@
 title: MVP in ASP.NET
 disqus_identifier: 2006-09-mvp-in-aspnet
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, mvp, design-patterns]
 ---
 
 Bill Pierce has been putting together what looks to be a fantastic framework for building ASP.NET applications using Fowler's [Supervising Presenter][1] pattern, using some neat features of the Castle IoC Container (aka Windsor).

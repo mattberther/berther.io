@@ -2,6 +2,8 @@
 title: foreach and performance
 disqus_identifier: 2004-04-foreach-and-performance
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet]
 ---
 
 One statement that I have heard incessantly is that foreach over an array is slower than `for (int i = 0; i < array.Length; i++)`.

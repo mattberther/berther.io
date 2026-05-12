@@ -2,6 +2,8 @@
 title: It's Not Just Standing Up
 disqus_identifier: 2006-08-its-not-just-standing-up
 comments: true
+categories: [Methodology, Agile]
+tags: [scrum, agile]
 ---
 
 Recently, I came across this gem from Martin Fowler's site called "[It's Not Just Standing Up: Patterns for Daily Stand-up Meetings][1]". If your stands up are starting to hit a rut, you will definitely want to read this article.

@@ -2,6 +2,8 @@
 title: Rails applications and 500 errors
 disqus_identifier: 2008-03-rails-applications-and-500-errors
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby]
 ---
 
 The default scaffolding generated for a model has the capability of throwing a number of exceptions, resulting in a 500 level response status being sent to the client. The largest cause of these exceptions is the default behavior of ActiveRecord::Base.find. If find can't locate a record that matches the user-supplied identified, then the method throws an ActiveRecord::RecordException. Take a look at the default code generated for a controller utilizing a User model.

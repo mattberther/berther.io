@@ -2,6 +2,8 @@
 title: Ruby on Rails
 disqus_identifier: 2006-09-ruby-on-rails
 comments: true
+categories: [Development, Ruby]
+tags: [ruby, rails, opinion]
 ---
 
 Recently, I've become very intrigued with Ruby on Rails and how it can be used to *VERY* quickly develop very nice web applications.

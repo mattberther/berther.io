@@ -2,6 +2,8 @@
 title: A generic plugin loader
 disqus_identifier: 2006-11-a-generic-plugin-loader
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet, design-patterns]
 ---
 
 I dont know how many times I end up writing code that iterates over a set of .dll files and looks for classes that implement a given interface.

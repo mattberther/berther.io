@@ -2,6 +2,8 @@
 title: Thin Blue Flame
 disqus_identifier: 2007-08-thin-blue-flame
 comments: true
+categories: [Personal]
+tags: [review, life]
 ---
 
 I really have a wide taste in music and can listen to most anything for at least a little bit. For the most part though, I've always enjoyed music in the hard rock genre more than other genres. That changed not long ago, after I was introduced to [Josh Ritter][1]. 

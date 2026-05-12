@@ -2,6 +2,8 @@
 title: Validating HABTM relationships with Rails 3.x
 disqus_identifier: 2012-09-validating-habtm-relationships-with-rails-3x
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby, unit-testing]
 ---
 
 There comes a time as you build up a rails application that you end up using the has_and_belongs_to_many (HABTM) macro. This macro is an easy way to create a many-to-many relationship between two of your ActiveRecord models.

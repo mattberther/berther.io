@@ -2,6 +2,8 @@
 title: The Provider Design Pattern in .NET 1.1
 disqus_identifier: 2004-04-the-provider-design-pattern-in-net-11
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, design-patterns]
 ---
 
 I had the pleasure of seeing [Rob Howard][1] speak at VSLive! in San Francisco about a month back, and really enjoyed his presentation. His knowledge of the materials he presented was absolutely amazing. Since then, I've made it a point to read anything he puts out, as the information provided is invaluable.

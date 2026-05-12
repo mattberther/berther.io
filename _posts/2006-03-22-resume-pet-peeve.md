@@ -2,6 +2,8 @@
 title: Resume Pet Peeve
 disqus_identifier: 2006-03-resume-pet-peeve
 comments: true
+categories: [Career]
+tags: [hiring, opinion]
 ---
 
 My company, Healthwise, is going through a tremendous growth and we are looking at almost doubling our development staff. Part of my responsibilities for my new role as Software Engineering Manager include culling resumes to determine who makes it to the phone screening.

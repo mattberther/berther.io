@@ -2,6 +2,8 @@
 title: How to design a good API
 disqus_identifier: 2006-10-how-to-design-a-good-api
 comments: true
+categories: [Development, General]
+tags: [architecture, oop]
 ---
 
 Earlier today, I had the great privilege to listen to Joshua Bloch's invited talk here at OOPSLA. For those not familiar with Joshua, he is a Chief Java Architect at Google, formerly a Distinguished Engineer at Sun Microsystems, where he led the design and implementation of numerous Java platform features.

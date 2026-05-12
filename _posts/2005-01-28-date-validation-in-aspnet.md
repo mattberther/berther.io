@@ -2,6 +2,8 @@
 title: Date Validation in ASP.NET
 disqus_identifier: 2005-01-date-validation-in-aspnet
 comments: true
+categories: [Development, .NET]
+tags: [aspnet]
 ---
 
 Ever have the need for a user to enter a date into a textbox, but not sure how to validate that they actually did?

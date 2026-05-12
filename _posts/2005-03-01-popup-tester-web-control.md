@@ -2,6 +2,8 @@
 title: Popup Tester Web Control
 disqus_identifier: 2005-03-popup-tester-web-control
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, csharp, javascript]
 ---
 
 A realization that I came to in the recent past was the lack of usability around a lot of web applications. Take for example Outlook Web Access (OWA). A fundamental piece of this appplication is the ability to use popups. For the past 6 months or so, I have not been able to use our OWA installation, because everytime I clicked on Reply, the window just went away.

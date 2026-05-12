@@ -2,6 +2,8 @@
 title: My Paperless Office Dream
 disqus_identifier: 2007-11-my-paperless-office-dream
 comments: true
+categories: [Tools]
+tags: [osx, review]
 ---
 
 ... is a little closer to reality. My new [Fujitsu ScanSnap S510M][1] showed up, and I've spent some time getting through my file cabinets and clearing out a bunch of clutter. So far, I've managed to scan and shred about 18 inches of paper. My workflow at this time uses [DevonThink Pro Office][2], which offers a seamless integration with the ScanSnap. I load the document into the ScanSnap, push a button, and a few seconds later, I have a fully searchable PDF in my DevonThink database. 

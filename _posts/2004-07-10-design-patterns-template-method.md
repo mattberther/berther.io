@@ -2,6 +2,8 @@
 title: "Design Patterns: Template Method"
 disqus_identifier: 2004-07-design-patterns-template-method
 comments: true
+categories: [Development, .NET]
+tags: [csharp, design-patterns]
 ---
 
 Let's take a look at how we can refactor an existing chunk of code to take advantage of the Template Method design pattern. This pattern's intent is to provide a skeleton of an algorithm in a method, deferring some steps to subclasses.

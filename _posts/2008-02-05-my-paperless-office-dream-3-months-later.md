@@ -2,6 +2,8 @@
 title: My Paperless Office Dream, 3 Months Later
 disqus_identifier: 2008-02-my-paperless-office-dream-3-months-later
 comments: true
+categories: [Tools]
+tags: [osx, review]
 ---
 
 A little over three months ago, I shared with my readers [my purchase of the Fujitsu ScanSnap S510M][1]. By the time I got through my initial stack of paper, I ended up scanning and shredding almost three feet of paper. Now, I pretty much open my mail over the trash can. If its something I want to keep, I run it through the ScanSnap and shred it after it's completed. The amount of paper clutter in my life has been cut down tremendously. 

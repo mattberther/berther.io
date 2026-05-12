@@ -2,6 +2,8 @@
 title: Injection Attacks 101
 disqus_identifier: 2004-08-injection-attacks-101
 comments: true
+categories: [Security]
+tags: [security]
 ---
 
 Bertrand Le Roy has an excellent [introduction to injection attacks][1]. 

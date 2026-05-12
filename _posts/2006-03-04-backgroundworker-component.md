@@ -2,6 +2,8 @@
 title: BackgroundWorker component
 disqus_identifier: 2006-03-backgroundworker-component
 comments: true
+categories: [Development, .NET]
+tags: [csharp, winforms]
 ---
 
 More and more, Im spending time in .NET 2.0 and more and more Im finding *really* cool things. The latest one I found was the BackgroundWorker component. This is probably old hat to most of you, but I was really impressed to see this. From the MSDN documentation:

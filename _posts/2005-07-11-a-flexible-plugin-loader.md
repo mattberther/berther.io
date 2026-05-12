@@ -2,6 +2,8 @@
 title: A flexible plugin loader
 disqus_identifier: 2005-07-a-flexible-plugin-loader
 comments: true
+categories: [Development, .NET]
+tags: [csharp, dotnet, design-patterns]
 ---
 
 Ever added plugin capabilities to your application? Are you tired of writing the same discovery and loading code over and over? I am too, and came up with this fun little class:

@@ -2,6 +2,8 @@
 title: Investigating RSpactor
 disqus_identifier: 2008-04-investigating-rspactor
 comments: true
+categories: [Tools]
+tags: [unit-testing, ruby, osx]
 ---
 
 [RSpactor][1] is a command line tool for OSX Leopard that does basically the same thing as autotest, which is to re-run your specs any time one of your application files changes.

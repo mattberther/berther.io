@@ -2,6 +2,8 @@
 title: The ASP.NET Page Lifecycle
 disqus_identifier: 2007-07-the-aspnet-page-lifecycle
 comments: true
+categories: [Development, .NET]
+tags: [aspnet, monorail, opinion]
 ---
 
 Alex Mueller posted an article the other day that talks about the [ASP.NET page life cycle][1] and focuses specifically on occasions where OnPreRender may or may not be called.

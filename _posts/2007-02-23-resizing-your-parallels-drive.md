@@ -2,6 +2,8 @@
 title: Resizing your Parallels Drive
 disqus_identifier: 2007-02-resizing-your-parallels-drive
 comments: true
+categories: [Tools]
+tags: [osx]
 ---
 
 [Parallels Desktop][1] is a fantastic virtualization package for Mac OSX. Features like Coherence and Bootcamp integration are certainly giving established players in the virtualization market a run for their money (VMWare and MS Virtual PC).

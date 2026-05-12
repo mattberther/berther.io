@@ -2,6 +2,8 @@
 title: Generic ShowDialog Command
 disqus_identifier: 2006-03-generic-showdialog-command
 comments: true
+categories: [Development, .NET]
+tags: [csharp, winforms, design-patterns]
 ---
 
 Recently, Ive been working on a WinForms application, built on top of the .NET 2.0 framework. Ive been able to dabble with generics in the past, but only recently am starting to realize how powerful they can be in creating a loosely coupled system.

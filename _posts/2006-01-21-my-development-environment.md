@@ -2,6 +2,8 @@
 title: My Development Environment
 disqus_identifier: 2006-01-my-development-environment
 comments: true
+categories: [Tools]
+tags: [windows, subversion]
 ---
 
 For the past two years, I've been doing all of my development work inside Virtual PC images, and have found that this suits me very well. I like the keeping my development environment isolated from the other, more mundane functions of my PC (such as Outlook). I've been storing all of my virtual machines on an 160gb external USB drive, which again has been working quite well. The drive spins fast enough (7200rpm) and has a large enough cache that I dont really notice a difference between running my IDE on the host PC.

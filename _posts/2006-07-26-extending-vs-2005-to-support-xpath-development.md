@@ -2,6 +2,8 @@
 title: Extending VS 2005 to support XPath development
 disqus_identifier: 2006-07-extending-vs-2005-to-support-xpath-development
 comments: true
+categories: [Tools]
+tags: [visual-studio, xml]
 ---
 
 I'm pretty surprised that I haven't seen more fuss about [XPathMania][1], which is a fantastic tool put together by DonXml Demsak.

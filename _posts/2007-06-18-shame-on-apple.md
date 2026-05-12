@@ -2,6 +2,8 @@
 title: Shame on Apple
 disqus_identifier: 2007-06-shame-on-apple
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 As most people know, I absolutely adore Apple and the work that's been coming out of there as it relates to the iPhone and (gasp) HTML/Javascript as a web development platform.

@@ -2,6 +2,8 @@
 title: Pushing large git repos with SSH
 disqus_identifier: 2013-12-pushing-large-git-repos-with-ssh
 comments: true
+categories: [Tools]
+tags: [git]
 ---
 
 For various reasons, we have a **MASSIVE** (14gb) git repository that we work with. We have a clone of this repository out in the cloud behind an SSH server. Recently, when I would attempt to push the repository, I would end up with failures while compressing the objects.

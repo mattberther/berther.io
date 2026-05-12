@@ -2,6 +2,8 @@
 title: The humour of programmers
 disqus_identifier: 2007-06-the-humour-of-programmers
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 A partial stack trace of Resharper build 351 on Visual Studio 2005:

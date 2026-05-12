@@ -2,6 +2,8 @@
 title: Implementing your own custom XsltContext objects
 disqus_identifier: 2003-09-implementing-your-own-custom-xsltcontext-objects
 comments: true
+categories: [Development, Data]
+tags: [xml, csharp, dotnet]
 ---
 
 Today I was trying to execute a programmatic XPath query against a document with a query that contained the current() function.

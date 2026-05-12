@@ -2,6 +2,8 @@
 title: Website usability gripes
 disqus_identifier: 2003-07-website-usability-gripes
 comments: true
+categories: [Development, Web]
+tags: [opinion]
 ---
 
 One of the absolute biggest gripes that I have with websites seems to have turned into a hot "feature".

@@ -2,6 +2,8 @@
 title: The relentless pace of scrum
 disqus_identifier: 2007-07-the-relentless-pace-of-scrum
 comments: true
+categories: [Methodology, Agile]
+tags: [scrum, agile, management]
 ---
 
 Teams working under a scrum model very often talk about the relentless pace of scrum. There&nbsp;seems to be a constant pressure on getting new work done. So much so, that a lot of teams feel that there is no time allowed for personal development/technology investigations or even refactoring of the systems the team is responsible for.

@@ -2,6 +2,8 @@
 title: No one individual is greater than the team
 disqus_identifier: 2005-11-no-one-individual-is-greater-than-the-team
 comments: true
+categories: [Career]
+tags: [management, opinion]
 ---
 
 No one individual is greater than the team. This idea was brought home by some things that happened in the NFL this weekend.

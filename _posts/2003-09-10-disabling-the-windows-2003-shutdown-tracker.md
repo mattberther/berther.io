@@ -2,6 +2,8 @@
 title: Disabling the Windows 2003 Shutdown tracker
 disqus_identifier: 2003-09-disabling-the-windows-2003-shutdown-tracker
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 My only annoyance with Windows 2003 is now resolved with these simple steps:

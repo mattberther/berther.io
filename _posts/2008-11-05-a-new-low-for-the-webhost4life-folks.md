@@ -2,6 +2,8 @@
 title: A new low for the webhost4life folks
 disqus_identifier: 2008-11-a-new-low-for-the-webhost4life-folks
 comments: true
+categories: [Tools]
+tags: [hosting, opinion]
 ---
 
 Several years ago, I posted about [webhost4life][1] and what I considered a good act of customer service by their organization. Reading through the comments, you can see that that post has turned into a sounding board for webhost4life grumblers. 

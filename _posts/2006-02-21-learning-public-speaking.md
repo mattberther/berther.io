@@ -2,6 +2,8 @@
 title: Learning Public Speaking
 disqus_identifier: 2006-02-learning-public-speaking
 comments: true
+categories: [Career]
+tags: [public-speaking, mentoring]
 ---
 
 I think that most developers by nature are very introverted people that would rather chew their arm off than speak in front of a group of people. I was absolutely one of those developers, however with the recent changes that have bumped me into a managerial role Im finding more and more that public speaking skills are an absolute necessity to effectively execute in this position.

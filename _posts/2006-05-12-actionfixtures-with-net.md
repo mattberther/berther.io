@@ -2,6 +2,8 @@
 title: ActionFixtures with .NET
 disqus_identifier: 2006-05-actionfixtures-with-net
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, dotnet]
 ---
 
 Recently, I've gotten very interested in FitNesse and how it can be used to enhance the quality of both legacy and new applications. I purchased and have been reading the Fit bible ([Fit for Developing Software : Framework for Integrated Tests][1]). This is an absolutely amazing book and really helps to understand the immense capabilities of Fit.

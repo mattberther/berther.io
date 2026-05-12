@@ -2,6 +2,8 @@
 title: Enabling ActiveDesktop on Windows XP
 disqus_identifier: 2006-08-enabling-activedesktop-on-windows-xp
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 I love having an empty desktop without any clutter from icons. It seems that every time I repave my box I end up having to scour the web for information on how to make this happen, so Im mostly posting this for my reference.

@@ -2,6 +2,8 @@
 title: Building Service Layer Recommendations
 disqus_identifier: 2005-07-building-service-layer-recommendations
 comments: true
+categories: [Development, .NET]
+tags: [dotnet, architecture]
 ---
 
 I'm currently working on a project that's goal will be to provide direction to our team as to what technology we want to use to create a service layer for our applications.

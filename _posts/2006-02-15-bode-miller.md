@@ -2,6 +2,8 @@
 title: Bode Miller
 disqus_identifier: 2006-02-bode-miller
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 It is not very often that I find myself hoping that someone loses in anything that they are competing in. I cant remember ever actually hoping that an athlete from the United States loses in the Olympics.

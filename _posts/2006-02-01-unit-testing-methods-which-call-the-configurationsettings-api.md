@@ -2,6 +2,8 @@
 title: Unit testing methods which call the ConfigurationSettings API
 disqus_identifier: 2006-02-unit-testing-methods-which-call-the-configurationsettings-api
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, csharp, dotnet]
 ---
 
 In the project discussed in the previous post, I have a configuration class that can be instantiated directly and populated with configuration information.

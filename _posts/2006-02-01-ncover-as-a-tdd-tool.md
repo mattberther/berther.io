@@ -2,6 +2,8 @@
 title: NCover as a TDD tool
 disqus_identifier: 2006-02-ncover-as-a-tdd-tool
 comments: true
+categories: [Methodology, Testing]
+tags: [tdd, unit-testing, dotnet]
 ---
 
 During a recent project, I made a very committed effort to implement this project using strict TDD practices. I ended up with a simpler design than originally expected based on those tests, which makes me think that the process worked very well. I let the tests fuel the design.

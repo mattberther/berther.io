@@ -2,6 +2,8 @@
 title: Clearing your VS.NET start page
 disqus_identifier: 2004-06-clearing-your-vsnet-start-page
 comments: true
+categories: [Tools]
+tags: [visual-studio, windows]
 ---
 
 Earlier today, I was looking for a way to remove items from my VS.NET start page, yet still retain the projects on disk. The solution I found was to delete the registry key `HKCU\Software\Microsoft\VisualStudio\7.1\ProjectMRUList`. 

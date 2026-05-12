@@ -2,6 +2,8 @@
 title: Developing application installations
 disqus_identifier: 2004-04-developing-application-installations
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 During the past few weeks, I've learned way more about InstallShield than I ever wanted to know.

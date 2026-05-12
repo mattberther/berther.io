@@ -2,6 +2,8 @@
 title: Disabling the system beep
 disqus_identifier: 2005-06-disabling-the-system-beep
 comments: true
+categories: [Tools]
+tags: [windows]
 ---
 
 This came through an an email thread this afternoon and I thought Id share this with the rest of you.

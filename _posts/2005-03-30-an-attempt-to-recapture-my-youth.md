@@ -2,6 +2,8 @@
 title: An attempt to recapture my youth
 disqus_identifier: 2005-03-an-attempt-to-recapture-my-youth
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 Early on in my teens, I was introduced to Motley Crue. Some of their early songs made quite an impression on me and that style of music was a significant part of my teenage years. Tonight, in an attempt to try and recapture days gone by, I went to see the Motley Crue show as it rolled through Boise, Idaho. I was not really sure what to expect... Although once the lights went down and the circus tent became visible, I knew what I was in for.

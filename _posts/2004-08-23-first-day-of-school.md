@@ -2,6 +2,8 @@
 title: First Day of School
 disqus_identifier: 2004-08-first-day-of-school
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 You know, it just seems like yesterday when my daughter, Sierra, was born. That was August 16, 1999. This morning, five years later, I had the opportunity to walk Sierra into her very first kindergarten class.

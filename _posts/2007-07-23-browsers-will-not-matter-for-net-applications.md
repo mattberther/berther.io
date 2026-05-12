@@ -2,6 +2,8 @@
 title: Browsers will not matter for Net applications
 disqus_identifier: 2007-07-browsers-will-not-matter-for-net-applications
 comments: true
+categories: [Development, Web]
+tags: [opinion]
 ---
 
 As part of one of my COM classes at school, I need to write a 2500 word research paper. The thesis of this paper is that the process of writing functional software has become much easier with the advent of sophisticated tools which are intended to make the software engineer's life easier. I've been doing a significant amount of research at the University library and stumbled across an article from the June 10, 1996 issue of PC Week. The article was entitled, "Software slips out of the primordial ooze (the evolution of software development)".

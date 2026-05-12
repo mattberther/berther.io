@@ -2,6 +2,8 @@
 title: The 5 pitfalls of estimating a software project
 disqus_identifier: 2004-06-the-5-pitfalls-of-estimating-a-software-project
 comments: true
+categories: [Methodology, Agile]
+tags: [estimation, xp]
 ---
 
 Christopher Hawkins has a great piece about the [5 pitfalls of estimating a software project][1]. I wonder how many of his issues would be mitigated by implementing an XP methodology.

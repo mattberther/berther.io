@@ -2,6 +2,8 @@
 title: Sometimes the problem is in your tests
 disqus_identifier: 2009-02-sometimes-the-problem-is-in-your-tests
 comments: true
+categories: [Methodology, Testing]
+tags: [unit-testing, ruby, rails]
 ---
 
 I was TDDing a new website that I've been working on last night and got caught in the interesting predicament where the tests failed, but the production code worked. For the life of me, I could not figure out why my test was failing. It turns out, I missed a tiny little piece of documentation on how [shoulda][1] works.

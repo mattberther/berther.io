@@ -2,6 +2,8 @@
 title: Rheingold looks into American Phone Culture
 disqus_identifier: 2003-12-rheingold-looks-into-american-phone-culture
 comments: true
+categories: [Personal]
+tags: [opinion]
 ---
 
 >Howard Rheingold asks "[why aren't Americans using phone texting][1]?"

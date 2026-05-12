@@ -2,6 +2,8 @@
 title: Automatically closing MT comments from crontab
 disqus_identifier: 2003-05-automatically-closing-mt-comments-from-crontab
 comments: true
+categories: [Tools]
+tags: [movabletype, perl]
 ---
 
 I have been looking around the net for something to automatically close my comments on my MovableType blog after a predetermined amount of time. Nobody really cares about or follows comments on a 3 month old post.

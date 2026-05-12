@@ -2,6 +2,8 @@
 title: My fishing trip
 disqus_identifier: 2003-10-my-fishing-trip
 comments: true
+categories: [Personal]
+tags: [life]
 ---
 
 I ran into an old friend from high school a few weeks ago, and we talked about going fishing some weekend.

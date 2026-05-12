@@ -2,6 +2,8 @@
 title: WebHost4Life
 disqus_identifier: 2004-12-webhost4life
 comments: true
+categories: [Tools]
+tags: [hosting, review]
 ---
 
 You know, there is a [lot][1] [of][2] [grumbling][3] in the blogsphere about [webhost4life][4]. I wanted to relay an experience that I had with them today; an experience which resulted in them keeping me as a client.

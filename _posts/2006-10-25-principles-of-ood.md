@@ -2,6 +2,8 @@
 title: Principles of OOD
 disqus_identifier: 2006-10-principles-of-ood
 comments: true
+categories: [Development, General]
+tags: [oop, design-patterns]
 ---
 
 Yesterday, I was able to take in Robert ("Uncle Bob") Martin's talk at the OOPSLA Educator's Symposium. He allowed the audience to choose the topic. Choices were 'Clean Code' and 'Principles of OOD'. The audience ended up choosing 'Principles of OOD'.

@@ -2,6 +2,8 @@
 title: How I use Leopard Spaces
 disqus_identifier: 2008-03-how-i-use-leopard-spaces
 comments: true
+categories: [Tools]
+tags: [osx]
 ---
 
 OSX 10.5 (Leopard) introduced one feature that has fundamentally enhanced my productivity more than any other tool or feature before. Spaces, for those unfamiliar, are virtual desktops for your computer. The key problem with the initial implementation of Spaces was that the desktops were designed to be centered on the application, rather than on tasks, which is my preference.

@@ -2,6 +2,8 @@
 title: "Code: TextRotator"
 disqus_identifier: 2003-12-code-textrotator
 comments: true
+categories: [Development, .NET]
+tags: [csharp, winforms]
 ---
 
 Recently, I had a need for a label to rotate through text, showing each item for a specific amount of time. Surprisingly enough, this was not very hard to create.

@@ -2,6 +2,8 @@
 title: Need an SSL certificate to develop with?
 disqus_identifier: 2004-11-need-an-ssl-certificate-to-develop-with
 comments: true
+categories: [Tools]
+tags: [windows, hosting]
 ---
 
 There may be times when you encounter an issue that only manifests itself in an SSL environment. We just had one of these recently. When this happens, it helps to have a certificate that you can install on your development machine. Once you have that certificate installed, you can debug your application through an SSL layer.

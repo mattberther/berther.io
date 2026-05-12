@@ -2,6 +2,8 @@
 title: Ruby strings and is_int?
 disqus_identifier: 2008-04-ruby-strings-and-isint
 comments: true
+categories: [Development, Ruby]
+tags: [rails, ruby]
 ---
 
 Lately, I've found myself needing to do some parameter checking to ensure that appropriate data makes it back to my models when doing finds. Using the will_paginate plugin allows me to very easily do paging on my model data. I simply have to provide the page to the options hash.

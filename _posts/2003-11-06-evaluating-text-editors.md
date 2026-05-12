@@ -2,6 +2,8 @@
 title: Evaluating text editors
 disqus_identifier: 2003-11-evaluating-text-editors
 comments: true
+categories: [Tools]
+tags: [review]
 ---
 
 More and more things are turning me against the VS .NET IDE. So, for the last few days, Ive started to evaluate text editors.

@@ -2,6 +2,8 @@
 title: Getting Real
 disqus_identifier: 2006-11-getting-real
 comments: true
+categories: [Methodology, Agile]
+tags: [agile, review]
 ---
 
 37signals.com, the makers of popular collaboration and personal organization software, BaseCamp and BackPack have made their [Getting Real][1] book available for free online. You can still buy a PDF or paperback version if you so desire.
